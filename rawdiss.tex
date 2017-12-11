@@ -1,0 +1,116 @@
+%% need file ksudiss.sty and report.sty
+%% remove leqno to get equation numbers on the right side!
+%%\documentstyle[leqno,12pt]{ksudiss}
+\documentclass[12pt,leqno]{ksudiss}
+\usepackage{verbatim,epsfig,amstext,amsmath,amssymb,float,afterpage,graphicx,graphics, epstopdf}
+
+\title{Super Awesome MARATHON Thesis}
+\author{Tyler Hague}
+\namedegreedate{Tyler Hague}
+\pages{}
+\advisor{MK MP }
+
+\degrees{B.S., Abilene Christian University, 2012\\
+     M.S/ Ph.D.,  Kent State University, TBD}
+%\figurespagefalse  % need to put % in front of \ to get figure index
+%\tablespagefalse   % need to put % in front of \ to get table index
+\newcommand{\cdate}{November, 2016}  %month, year need to be changed
+\makeindex   % - uncomment if index needed
+%% these are some local definition - use only if needed
+
+\newcommand{\Notequiv}{/\kern-.6em\hbox{$\equiv$}}
+\newcommand{\Ceals}{\rm I\kern-.5emC}
+\newcommand{\nsubset}{/\kern-.6em\hbox{$\subset$}}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\nin}{\backslash \kern-.5em\in}
+\newcommand{\Index}[1]{#1\index{#1}}
+%\newcommand{\dedx}{\mbox{$\langle dE/dx \rangle$}\index{dedx@$dE/dx$}}
+\newcommand{\pt}{p_{\rm T}}
+\newcommand{\mt}{m_{\rm T}}
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+\newcommand{\beqn}{\begin{equation}}
+\newcommand{\eeqn}{\end{equation}}
+%% end of local definitions
+
+
+%----------------------------------------------------------------------------
+
+
+\begin{document}
+
+\restylefloat{table}
+\restylefloat{figure}
+
+%\abstract
+%\input{abstract_colloq.tex}
+
+
+%---------------------------------------------------------------------------
+\abstract
+\input{abstract.tex}
+
+\frontmatter 
+\submitdate{March 2015}
+
+
+%----------------------------------------------------------------------------
+
+
+\prefacesection{Acknowledgments}
+\input{acknowledgements.tex}
+
+%----------------------------------------------------------------------------
+
+
+\startthesis
+%\psdraft
+\chapter{\bf{Introduction}}             % Chapter  1
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{chap1-intro/main.tex}
+
+\chapter{\bf{The Experiment}}    % Chapter  2
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{chap2-exp/main.tex}
+
+\chapter{\bf{Analysis}}    % Chapter  3
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{chap3-analysis/main.tex}
+
+\chapter{\bf{Results}}    % Chapter  4
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{chap4-results/main.tex}
+
+%----------------------------------------------------------------------------
+
+
+\appendix
+\chapter{Title of Appendix A}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{app1/sections.tex}
+
+%----------------------------------------------------------------------------
+
+
+%\input{diss.bbl}
+\begin{thebibliography}{100}
+\input{bibliography.tex}
+\end{thebibliography}
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+
+%\input{rawdiss.ind}
+
+\end{document}
