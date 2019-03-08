@@ -15,12 +15,15 @@
 \contentsline {section}{\numberline {2.2}The Apparatus}{6}
 \contentsline {subsection}{\numberline {2.2.1}Hall A HRS Spectrometers}{6}
 \contentsline {subsection}{\numberline {2.2.2}CEBAF Accelerator}{6}
-\contentsline {subsection}{\numberline {2.2.3}Raster}{6}
-\contentsline {chapter}{\numberline {3}\bf {Analysis}}{8}
-\contentsline {section}{\numberline {3.1}Calibration}{8}
-\contentsline {subsection}{\numberline {3.1.1}Raster Calibration}{8}
-\contentsline {section}{\numberline {3.2}Analysis}{8}
-\contentsline {subsection}{\numberline {3.2.1}Particle Identification}{8}
-\contentsline {chapter}{\numberline {4}\bf {Results}}{10}
-\contentsline {chapter}{\numberline {A}Title of Appendix A}{11}
-\contentsline {chapter}{References}{12}
+\contentsline {section}{\numberline {2.3}Beamline Components}{6}
+\contentsline {subsection}{\numberline {2.3.1}Beam Position Monitors}{6}
+\contentsline {subsection}{\numberline {2.3.2}Raster}{7}
+\contentsline {subsection}{\numberline {2.3.3}Beam Current Monitors}{7}
+\contentsline {chapter}{\numberline {3}\bf {Analysis}}{9}
+\contentsline {section}{\numberline {3.1}Calibration}{9}
+\contentsline {subsection}{\numberline {3.1.1}Raster Calibration}{9}
+\contentsline {section}{\numberline {3.2}Analysis}{9}
+\contentsline {subsection}{\numberline {3.2.1}Particle Identification}{9}
+\contentsline {chapter}{\numberline {4}\bf {Results}}{11}
+\contentsline {chapter}{\numberline {A}Title of Appendix A}{12}
+\contentsline {chapter}{References}{13}
