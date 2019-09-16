@@ -2,13 +2,13 @@
 %% remove leqno to get equation numbers on the right side!
 %%\documentstyle[leqno,12pt]{ksudiss}
 \documentclass[12pt,leqno]{ksudiss}
-\usepackage{verbatim,epsfig,amstext,amsmath,amssymb,float,afterpage,graphicx,graphics, epstopdf, gensymb,tabulary}
+\usepackage{verbatim,epsfig,amstext,amsmath,amssymb,float,afterpage,graphicx,graphics, epstopdf, gensymb,tabulary,nicefrac}
 
 \title{Super Awesome MARATHON Thesis}
 \author{Tyler Hague}
 \namedegreedate{Tyler Hague}
 \pages{}
-\advisor{MK MP }
+\advisor{MK MP}
 
 \degrees{B.S., Abilene Christian University, 2012\\
      M.S/ Ph.D.,  Kent State University, TBD}
@@ -68,11 +68,23 @@
 \startthesis
 %\psdraft
 
-\chapter{\bf{Introduction}}             % Chapter  1
+\chapter{\bf{Introduction}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{Intro/main.tex}
+
+\chapter{\bf{Electron Scattering and Nuclear Structure}}             % Chapter  1
 \setcounter{figure}{0}
 \setcounter{table}{0}
 \setcounter{equation}{0}
 \input{chap1-intro/main.tex}
+
+\chapter{\bf{The EMC Effect}}             % Chapter  1
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+\input{EMC/main.tex}
 
 \chapter{\bf{The Experiment}}    % Chapter  2
 \setcounter{figure}{0}

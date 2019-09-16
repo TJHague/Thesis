@@ -16,9 +16,15 @@ The BPMs are calibrated using a Harp fork. The Harp consists of three wires that
 	\label{fig:rasterpic}
 \end{figure}
 
-The raster is a beamline apparatus in Hall A for spreading the beam onto the target, rather than being at a single point. This is done to prevent localized heating of the target. The raster consists of four dipole magnets, two for steering in the x-direction and two for steering in the y-direction.
+When the beam enters Hall A it has very little spread, all of the electrons will strike the target in one small location. For solid targets, this poses no problem. However, for gas targets with thin cell walls localized heating can run the risk of a cell rupture. The raster exists in the beamline to mitigate this risk. The raster is a set of four dipole magnets: two for steering horizontally (x) and two for steering vertically (y).
 
-Each raster magnet is powered by a triangle wave of different frequencies to minimize harmonics. The horizontal rasters are set to 24.5 kHz and the vertical rasters are set to 25 kHz. When running properly, the x-direction magnets will be synced and the y-direction magnets will be synced. This syncing ensures that the magnets are always working together to create the desired beam spread.
+The magnet pairs that work in the same direction are synced, which ensures that they maximize the beam spread and do not work against each other. Each raster magnet is powered by a triangle wave of different frequencies to minimize harmonics. The horizontal rasters are set to 24.5 kHz and the vertical rasters are set to 25 kHz \cite{rast_current}. The triangle wave ensures that equal time is spent at all points in the rastered area. Figure \ref{fig:exrast} shows a typical raster spectrum as recorded by the High Resolution Spectrometer (HRS).
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{./chap2-exp/fig/ex_rast.eps}
+	\caption{An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}
+	\label{fig:exrast}
+\end{figure}
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{./chap2-exp/fig/raster_sync.png}
@@ -26,4 +32,8 @@ Each raster magnet is powered by a triangle wave of different frequencies to min
 	\label{fig:raster}
 \end{figure}
 
-\subsection{Beam Current Monitors}
+\subsection{Beam Current Monitor}
+
+The Hall A Beam Current Monitor (BCM) is comprised of an Unser monitor and two RF cavities. The Unser provides an absolute reference for the RF cavities. The calibration of the Unser drifts quite quickly, so it is used to calibrate the RF cavities but cannot be used for long-term monitoring.
+
+Each RF cavity is tuned to the frequency of the beam (1.497 GHz). The resonance then produces a voltage proportional to the beam current. The signals are then split to be either sampled or integrated. The sampled signal outputs the RMS of the voltage over a 1 second period. This is equivalent to the average beam current for that second. The signal that is integrated is first sent to an RMS-to-DC converter which is then fed to a Voltage-to-Frequency converter. This signal is then sent to a scalar that accumulates over a run. The final scalar value is proportional to the total accumulated charge in the run.
