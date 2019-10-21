@@ -1,54 +1,145 @@
-\contentsline {chapter}{List of Figures}{vi}% 
-\contentsline {chapter}{List of Tables}{viii}% 
-\contentsline {chapter}{Acknowledgments}{ix}% 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{TABLE OF CONTENTS}{iv}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{LIST OF FIGURES}{vii}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{LIST OF TABLES}{ix}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ACKNOWLEDGMENTS}{x}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\bf {Introduction}}{1}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}\bf {Electron Scattering and Nuclear Structure}}{2}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}History}{2}% 
-\contentsline {section}{\numberline {2.2}Electron Scattering}{3}% 
-\contentsline {subsection}{\numberline {2.2.1}Deep Inelastic Scattering Cross Section}{4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Electron Scattering}{2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Deep Inelastic Scattering Cross Section}{3}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Bjorken Scaling}{6}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Nuclear Structure Functions}{7}% 
-\contentsline {section}{\numberline {2.5}$R=\sigma _L/\sigma _T$}{10}% 
-\contentsline {section}{\numberline {2.6}$F_2^n/F_2^p$}{11}% 
-\contentsline {section}{\numberline {2.7}EMC Ratios}{12}% 
-\contentsline {chapter}{\numberline {3}\bf {The EMC Effect}}{13}% 
-\contentsline {section}{\numberline {3.1}History}{13}% 
-\contentsline {chapter}{\numberline {4}\bf {The Experiment}}{14}% 
-\contentsline {section}{\numberline {4.1}The Measurement}{14}% 
-\contentsline {subsection}{\numberline {4.1.1}What are we measuring}{14}% 
-\contentsline {subsection}{\numberline {4.1.2}How are we measuring it}{14}% 
-\contentsline {subsection}{\numberline {4.1.3}Run Plan}{14}% 
-\contentsline {section}{\numberline {4.2}The Apparatus}{14}% 
-\contentsline {subsection}{\numberline {4.2.1}Hall A HRS Spectrometers}{14}% 
-\contentsline {subsection}{\numberline {4.2.2}CEBAF Accelerator}{14}% 
-\contentsline {section}{\numberline {4.3}The Hall A High Resolution Spectrometer}{14}% 
-\contentsline {subsection}{\numberline {4.3.1}Detectors}{14}% 
-\contentsline {subsubsection}{Vertical Drift Chambers}{15}% 
-\contentsline {subsubsection}{Scintillator Planes}{15}% 
-\contentsline {subsubsection}{Gas Cherenkov}{15}% 
-\contentsline {subsubsection}{Leaded Glass Calorimeters}{16}% 
-\contentsline {section}{\numberline {4.4}Beamline Components}{17}% 
-\contentsline {subsection}{\numberline {4.4.1}Beam Position Monitors}{17}% 
-\contentsline {subsection}{\numberline {4.4.2}Raster}{18}% 
-\contentsline {subsection}{\numberline {4.4.3}Beam Current Monitor}{18}% 
-\contentsline {section}{\numberline {4.5}Tritium Target System}{21}% 
-\contentsline {subsection}{\numberline {4.5.1}Cell Design}{21}% 
-\contentsline {subsection}{\numberline {4.5.2}Target Chamber and Ladder}{21}% 
-\contentsline {chapter}{\numberline {5}\bf {Analysis}}{23}% 
-\contentsline {section}{\numberline {5.1}Yield Calculation}{23}% 
-\contentsline {section}{\numberline {5.2}Calibration}{23}% 
-\contentsline {subsection}{\numberline {5.2.1}Raster Calibration}{23}% 
-\contentsline {section}{\numberline {5.3}Analysis}{32}% 
-\contentsline {subsection}{\numberline {5.3.1}Corrections}{32}% 
-\contentsline {subsubsection}{Target Boiling}{32}% 
-\contentsline {subsubsection}{Target Endcap Contamination}{34}% 
-\contentsline {subsubsection}{Charge Symmetric Background Subtraction}{35}% 
-\contentsline {subsubsection}{Computer Deadtime Correction}{35}% 
-\contentsline {subsubsection}{Radiative Corrections}{37}% 
-\contentsline {subsubsection}{Isoscalar Corrections}{37}% 
-\contentsline {subsubsection}{Bin Centering Corrections}{37}% 
-\contentsline {subsubsection}{Coulomb Corrections}{37}% 
-\contentsline {subsection}{\numberline {5.3.2}Particle Identification}{37}% 
-\contentsline {chapter}{\numberline {6}\bf {Results}}{38}% 
-\contentsline {chapter}{\numberline {A}Title of Appendix A}{39}% 
-\contentsline {chapter}{References}{40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}$R=\sigma _L/\sigma _T$}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}$F_2^n/F_2^p$}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\bf {The EMC Effect}}{12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}History}{12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Further Results}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Structure Regions}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Shadowing}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Anti-shadowing}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}EMC Effect}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Fermi Motion}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Theories}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Nuclear Structure}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Nucleon Models}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pion Enhancement}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Nucleon Modification}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Quark Bags}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mean Field Enhancement}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Short Range Correlations}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Discerning between Mean Field Enhancement and SRCs}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\bf {The Experiment}}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}The Measurement}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}What are we measuring}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}How are we measuring it}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Run Plan}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}The Apparatus}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Hall A HRS Spectrometers}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}CEBAF Accelerator}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}The Hall A High Resolution Spectrometer}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Detectors}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Vertical Drift Chambers}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Scintillator Planes}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gas Cherenkov}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Leaded Glass Calorimeters}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Beamline Components}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Beam Position Monitors}{21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Raster}{21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Beam Current Monitor}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Tritium Target System}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Cell Design}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Target Chamber and Ladder}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\bf {Analysis}}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Yield Calculation}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Calibration}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Raster Calibration}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Analysis}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Corrections}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Target Boiling}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Target Endcap Contamination}{29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Charge Symmetric Background Subtraction}{29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Computer Deadtime Correction}{29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Radiative Corrections}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Isoscalar Corrections}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bin Centering Corrections}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Coulomb Corrections}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Particle Identification}{30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\bf {Results}}{32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{45}% 

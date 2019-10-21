@@ -1,0 +1,90 @@
+The purpose of the RHIC facility is to provide an environment where various experiments, such as STAR, may probe the fundamental interactions of the constituents of nuclear matter.  In the standard model, hadronic matter is composed of massive quarks which interact through the exchange of massless gluons.  
+
+\section{The Color Interaction}
+
+Quarks are spin 1/2 fermions with electromagnetic charge +2/3 or -1/3.  In addition, they have \textit{flavor} and \textit{color} degrees of freedom.  Gluons also have color, and it is this degree of freedom that corresponds to the strong nuclear force.  The dominant theory to describe this interaction is \textit{Quantum ChromoDynamics} (QCD), where \textit{chromo} refers to the color interaction.
+
+Unlike gravity, electromagnetism, and the weak nuclear force, the coupling constant for the color force increases as the separation between quarks grows.  In fact, it can be shown through detailed simulation on a discreet lattice of space-time (\textit{lattice QCD}) that the effective interaction is approximately linear with the separation.  \cite{Wong:94}  It is easily shown that this behavior makes \textit{deconfinement} of single quarks impossible under normal conditions.  As two quarks are separated, it becomes energetically more favorable to form a quark-antiquark pair from the vacuum than to increase the separation of the original quarks.  Under normal pressures and densities, quarks are thought to only exist as color singlets such as 3-(anti)quark states called (anti)\textit{baryons} and quark-antiquark states called \textit{mesons}.
+
+\section{Deconfinement}
+
+To fully calculate the effect of the strong nuclear force requires the summation of an infinite number of integrals, each containing a different power of the coupling constant, $\alpha_s$.  These sums are impossible to calculate to a good approximation when $\alpha_s$ is not small.  Since the QCD coupling between two quarks decreases with decreasing distance, however, one may discard higher terms in $\alpha_s$ at very short distances.  This regime of very low coupling strength is called \textit{asymptotic freedom} and corresponds to high momentum transfers.  \textit{Perturbative QCD} describes the physics where the truncation of the full sum is a good approximation.  Unfortunately, however, the coupling in nucleons -- the only stable states of matter available to the experimentalist -- is not small enough to permit a perturbative treatment.
+
+One very simple way of dealing with the nonperturbative nature of a colored system is the \textit{MIT Bag Model}.  This model consists of quarks and massless gluons in a ``bag''.  Inside the bag, the quarks are massless.  Outside, they are infinitely massive, thus the bag provides a boundary for the quarks.  The kinetic pressure from the quarks thus contained is balanced by a phenomenological \textit{bag constant}, which represents an external pressure on the bag.  The bag constant is a neat way of accounting for all the nonperturbative effects.
+
+In this simple model, one sees that the contained quarks could break free of the bag if either their energy increased (kinetic pressure) or more quarks were present in the bag (Pauli pressure).  Eventually, the internal pressure would exceed the bag pressure, and the quarks would be deconfined.
+
+\section{Chiral Symmetry}
+
+The bare or \textit{current} masses, i.e. those which appear explicitly in the QCD Lagrangian, of the three lightest quarks are small compared to the mass of the lightest baryon ($m_{u} \simeq 4 \,\rm{MeV/c^{2}},\, m_{d} \simeq 7 \,\rm{MeV/c^{2}},\, m_{s} \simeq 150 \,\rm{MeV/c^{2}}\, \ll \, m_{p} \simeq 1 \,\rm{GeV/c^{2}}$).  Chiral symmetry corresponds to the conservation of helicity in a system.  We can say that chiral symmetry is explicitly broken by the mass term in the Lagrangian, but that it is still an approximate symmetry because the masses are small compared to baryons.  If we let the current masses vanish, then chiral symmetry is restored to the Lagrangian.  This is an SU(3)$_{L}\times$SU(3)$_{R}$ symmetry because the now-massless quarks must have definite helicity, and the left- and right-handed quarks transform independently under flavor rotation.  
+
+Even assuming zero mass for the light quarks, though, one runs into problems at low energies.  \cite{Gottfried:84}  Consider the vacuum at low temperature.  Even a vacuum totally devoid of matter will have fluctuations whereby a quark-antiquark pair may be created, so long as that creation does not violate the uncertainty principle.  If such a $q\bar{q}$ pair is to be formed from the vacuum at a separation r, the quark and antiquark must have a relative momentum (and kinetic energy) of about 1/r.  (Here we use natural units and apply the momentum-position foruulation of the uncertaintly principle.)  At small r, the potential from the color field has a Coulomb form $-4\pi \alpha_s/r$, where $\alpha_s$ goes roughly as $1/ln(\frac{1}{r})$.  We should define what is meant by small at this point.  The characteristic momentum scale of QCD is $\Lambda_{qcd} \simeq 200$ MeV.  This corresponds to a length scale $r_0$ of about 1 fm ($\hbar c \simeq 197$ MeV fm = 1 in natural units).  We see that the potential energy will be overshadowed by the kinetic energy due to the logarithmic factor, and so the total energy is positive for very low r.  At larger r, the potential is approximately proportional to r, and so the total energy there is also positive.  At some point, near $r_0$, the energy is minimized and can be shown to be negative through detailed calculation.
+
+In summary, the empty vacuum is not the most energetically favorable configuration.  It is preferred to have $q\bar{q}$ pairs created at a distance $r_0$ than to have a complete void.  The QCD ``vacuum'', then, actually refers to a random distribution of color charge pairs.  Another way this is often stated is that the expectation value of the quark condensate, $<\bar{q}q>$ is nonzero.  One can now examine how this affects chirality.  If a left-handed test quark is placed in the vacuum, it may annihilate with a left-handed antiquark that was produced in tandem with a right-handed quark, its partner as described above.  What will remain is the right-handed quark, and it appears as if a quark changed its helicity.  This implies a mass, and so we encounter \textit{dynamical chiral symmetry breaking}.  Even if the light quarks did not have explicit masses appearing in the Lagrangian, they acquire a dynamical contribution to the mass that spontaneously breaks chiral symmetry.  This results in a \textit{constituent} mass of about 360 MeV for up and down quarks, and 540 MeV for strange quarks.  
+
+At higher temperatures, however, the kinetic energy of these quark-antiquark pairs is increased.  There will be a critical temperature where the total energy of the pair is always positive, and the existence of the pair will not be energetically favorable.  This restores chiral symmetry as the $<\bar{q}q>$ disappears.
+
+\section{Quark-Gluon Plasma}
+
+The term Quark-Gluon Plasma (QGP) refers to a phase of deconfined quarks and gluons.  This can be accomplished at very high baryon density, temperature, or both.  The phase diagram of nuclear matter is shown in Figure \ref{fig:phaseDiagram}.  The temperature, T, is shown on the vertical axis, and the baryon chemical potential, $\mu_B$, is shown on the horizontal axis.  The latter reflects the net baryon density of the system.
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/phaseDiagram}
+\caption{Phase diagram of nuclear matter}
+\label{fig:phaseDiagram}
+\end{figure}
+
+The phase transition to deconfined quarks and gluons is expected to be accompanied by a restoration of chiral symmetry.  This can be seen in the simple qualitative argument above for the high temperature, low baryon density region.  The QGP would be a perturbative QCD system, and color charges would be free to move through it.  \cite{Geiger:92}
+
+In an Au-Au collision at RHIC energies ($\snn = 200$ GeV), it is theorized that gluon interactions would dominate at early times because the gluon mean free path is shorter.  A gluon-rich QGP may form in the hot, dense interaction region.  We can see the evolution of the collision in Figure \ref{fig:evolution}.  The QGP could reach a chemical equilibrium between the different quark flavors, but this is not required.  After some time, the plasma cools to a hadron gas.  As the gas expands and cools, the chemical balance of the particles is effectively fixed because inelastic collisions stop.  This is referred to as \textit{chemical freeze-out}, and is thought to occur about 160 - 170 MeV.  At some later time, the particles separate to the point where they no longer interact even elastically, and the system is said to undergo \textit{thermal freeze-out}.  This is around 120 MeV.
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/evolution}
+\caption{Space-time evolution of a heavy ion collision.}
+\label{fig:evolution}
+\end{figure}
+
+\section{Probing the QGP}
+
+The mysteries of the early state of the collision (before chemical and thermal freeze-out) are well hidden from the experimentalist.  The most basic tools available, such as total yields and momentum spectra, provide a snapshot of the system at freeze-out.  In order to gain insight into the nature of the system before that time, we must use more subtle probes. \cite{Harris:98}  Such probes almost always involve the study of high momentum particles, because the early stage of the collision is dominated by hard scattering of quarks and gluons.  STAR is equipped to study high $\pt$ photons and charged particles.  Jets and leading particles are of particular interest because they may be sensitive to differences in energy loss between excited hadronic matter and a QGP.  The size and duration of the early state may be inferred from Hanbury-Brown and Twiss (HBT) interferometry.  This technique originated in astrophysics but is can be applied to heavy ion collisions by measuring the correlation between like particles.  
+
+The chemical freeze-out conditions may be determined by examining the strangeness content of the final state particles.  The relative strangeness content of these particles reflects the degree of chemical equilibration that occurred in the early stage.  Similarly, the conditions at thermal freeze-out can be characterized by the bulk properties of the spectra (common velocity, thermal parameters, etc.).
+
+\section{Strangeness}
+
+Strangeness enhancement has long been heralded as a signal for QGP production.  \cite{Rafelski:82}  Clearly, the valence strangeness content of normal nuclear matter is zero.  When normal nuclear matter is collided at high energy, there are processes which produce particles carrying valence strangeness quarks.  Pions, being the lightest mesons, are produced copiously in such collisions.  This leads the way to reactions such as $\pio + p \rightarrow \kp + \Lambda$.  This \textit{associated production} occurs only for $\kp$ because it receives its valence $u$ quark from the initial particle states.  $\km$ is not made in such a reaction, because its valence $\bar{d}$ antiquark is not found in the initial state.  \cite{Wang:01a}  The other source of strange particles in a hadronic collision is \textit{pair production}, where, for example, $\kpm$ pairs are produced.  We shall focus on the charged Kaons for this discussion, because they are the lightest (and thus most easily produced) strange hadrons and carry the majority of the strangeness content of the system.  The charged Kaons, in particular, are directly observed in the STAR TPC, unlike the $\kos$ and $\kol$.
+
+We see, then, that there are two mechanisms for creating strange particles in a nuclear collision that do not require QGP formation.  The relative abundance of strange particles, however, may be greatly enhanced if the source is a QGP.  Clearly, in a deconfined medium, it will only be necessary to create $s\bar{s}$ pairs instead of pairs of hadrons; the energy deficit for the former is smaller.  Also, the restoration of chiral symmetry will reduce the effective masses of the quark to their ``bare'' masses, making $s\bar{s}$ production even more likely.
+
+The degree of relative strangeness production is influenced by two factors, temperature and baryon density.  If the temperature of the system is high, there is more energy available for producing the heavier pairs of strange particles.  Increasing baryon density can also increase relative strangeness abundance.  As the density of $u$ and $d$ quarks is high, Fermi exclusion requires that new $u$ and $d$ quarks be formed at higher energy levels than the ground state.  This makes it energetically favorable to produce ground state $s$ quarks instead.
+
+In heavy ion collisions, we see that these two factors conflict.  Higher collision energies mean a higher temperature for the produced particles.  On the other hand, it has been observed that higher collision energies result in a decrease of net baryon content as the baryon number from the incoming nuclei is boosted farther away from midrapidity.  The net effect of this balance is that the maximum degree of strangeness enhancement is reached in some moderate range of temperature and baryon density.  A concrete measurement of strangeness enhancement in the final state is the Wrobleski factor defined by
+\begin{equation}
+\lambda_s \equiv \frac{2<s\bar{s}>}{<u\bar{u}> + <d\bar{d}>}
+\label{eqn:lambdaS}
+\end{equation}
+
+. Figure \ref{fig:lambdaS} shows a plot of the T - $\mu_B$ plane with curves of constant $\lambda_s$.  \cite{BraunMunzinger:02}  Also shown is the chemical freeze-out curve at $<E>/<N> = 1$ GeV.  No matter what energy density the system may have attained at earlier time, this curve should describe it reasonably well as it cools and inelastic scattering halts.  Notice that the maximum Wrobleski factor along the freeze-out curve is at moderate temperature and baryon density.  At the highest baryon density or temperature, the relative strangeness content is less than maximum.  We shall see this clearly in the Kaon to Pion ratio as presented in Chapter 5.
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/lambdaS}
+\caption{Lines of constant Wrobleski factor $\lambda_s$ (for definition see text) in the T -- $\mu_B$ plane (thin solid lines) together with the freeze-out curve (thick solid line)}
+\label{fig:lambdaS}
+\end{figure}
+
+\section{Nuclear Modification}
+
+One purpose of colliding relativistic heavy ions is to create a high energy density over an extended region of space.  While such collisions accomplish this goal very well, the dynamics of nucleus-nucleus (AA) collisions are much more complex than nucleon-nucleon (NN) collisions.  One can expect modification of particle momentum spectra and bulk dynamics that goes beyond a simple superposition of NN collisions.  Mixed in with these nuclear effects is the promise of signals of QGP formation.
+
+In the case that a QGP is formed, partons which undergo hard scattering in the initial collision (and would fragment into high momentum hadrons) are subject to energy loss in the colored plasma.  Both inelastic (bremsstrahlung) radiative energy loss and elastic scattering would contribute, but it is believed that the former dominates.  \cite{Thomas:92}  Furthermore, hard scattered gluons would lose more energy than hard scattered quarks in a colored medium due their higher color charge.  This partonic energy loss would manifest itself as a suppression of \textit{leading hadrons} in the final spectra, relative to a collision where no QGP was formed (like NN).  Leading hadrons are high momentum final state particles, which carry a significant portion of the momentum from a hard-scattered parton.
+
+As mentioned above, an AA collision has complex dynamics that may hide the partonic energy loss signature of QGP formation.  One such effect is \textit{nuclear shadowing}.  This refers to the modification of parton distribution functions within nucleons that are contained in a nucleus.  Such a change in the parton momentum distribution will clearly change the hadronic momentum spectra to some degree.  Also important is the \textit{Cronin effect} \cite{Cronin:75}, a term which usually refers to the broadening of the momentum spectra due to initial state (elastic) rescattering.  This broadening of the spectra causes an enhancement relative to NN at lower $\pt$ and a suppression at higher $\pt$.  These factors must be considered carefully in the interpretation of high $\pt$ hadron suppression in AA data.
+
+\section{Summary}
+
+One of the main motivations of the experiments at the RHIC facility is the observation and subsequent study of a new state of nuclear matter, the QGP.  The study of this new state would significantly improve our understanding of QCD and the standard model of fundamental particles.  The measurement of charged Kaons from decay topology provides the potential for examining various signatures of such a plasma, including strangeness content and high $\pt$ hadron suppression.
+
+

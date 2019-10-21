@@ -1,0 +1,20 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Layout of the shower block. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{17}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The Hall A raster consists of four dipole magnets on the beamline}}{18}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{20}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The X and Y raster pairs are each synced to produce the maximum kick. The X and Y directions are uncorrelated so that the beam travels uniformly over the target.}}{21}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{26}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{28}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plot to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{30}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Two "bad" calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{31}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two "bad" calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{32}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Beam heating effects are manifested as a multiplicative correction to the target density}}{34}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Target density corrections cause a multiplicative enhancement to the yield}}{35}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Charge symmetric background correction}}{37}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Deadtime per kinematic}}{38}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }

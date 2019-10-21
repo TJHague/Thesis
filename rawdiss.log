@@ -1,23 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  12 SEP 2019 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  21 OCT 2019 10:25
 entering extended mode
 **./rawdiss.tex
 (rawdiss.tex
 LaTeX2e <2018-12-01>
 (ksudiss.cls
-KSU Ph.D. Dissertation Macros, Version 2, October 6,1993
-This is the single advisor version, 
-converted to LaTeX2e by Ben Norman (16 Jan 2003)
+Document Class: ksudiss 2019/08/27 v4.0 LaTeX document class for doctoral disse
+rtations in the College of Arts and Sciences at Kent State University
+
+ksudiss: Use option 'bound' to make left/inner margins 1.5in (instead of 1in). 
+Use option 'signed' to produce with a Signature Page suitable for signing. All 
+options for the standard LaTeX class 'report' work as they should.
+
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
-
-LaTeX Warning: You have requested document class `ksudiss',
-               but the document class provides `report'.
-
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\leqno.clo"
-File: leqno.clo 2016/12/29 v1.2b Standard LaTeX option (left equation numbers)
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -31,23 +28,71 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks14
-\verbatim@line=\toks15
-\verbatim@in@stream=\read1
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\epsfig.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count91
+\calc@Cskip=\skip45
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/carlisle\remreset.sty"
+
+Package remreset Warning: The remreset package is obsolete:
+(remreset)                \@removefomresset is defined.
+
+)
+\halfinch=\skip46
+\@membersboxwd=\skip47
+\@chairboxwd=\skip48
+\@maxwd=\skip49
+\@raise=\skip50
+\@skip=\skip51
+\@tinyskip=\skip52
+\@doubleskip=\skip53
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\epsfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -62,93 +107,69 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 )
-\epsfxsize=\dimen105
-\epsfysize=\dimen106
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen107
+\@emptytoks=\toks16
+\ex@=\dimen117
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip43
-
-For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen108
+\pmbraise@=\dimen118
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen109
+\big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
-\tag@help=\toks18
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
-\andhelp@=\toks19
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks20
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks21
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks19
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count101
-\float@exts=\toks22
-\float@box=\box29
-\@float@everytoks=\toks23
-\@floatcapt=\box30
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\afterpage.sty"
-Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks24
-\AP@partial=\box31
-\AP@footins=\box32
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -184,10 +205,6 @@ Package ifluatex Info: LuaTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -208,157 +225,517 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen116
-\ar@mcellbox=\box33
-\extrarowheight=\dimen117
-\NC@list=\toks25
-\extratabsurround=\skip46
-\backup@length=\skip47
-\ar@cellbox=\box34
+\col@sep=\dimen126
+\ar@mcellbox=\box29
+\extrarowheight=\dimen127
+\NC@list=\toks21
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box30
 )
-\TY@count=\count102
-\TY@linewidth=\dimen118
-\tymin=\dimen119
-\tymax=\dimen120
-\TY@tablewidth=\dimen121
+\TY@count=\count107
+\TY@linewidth=\dimen128
+\tymin=\dimen129
+\tymax=\dimen130
+\TY@tablewidth=\dimen131
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip48
-\L@UnitsRaiseTextstyle=\skip49
-\L@UnitsRaiseScriptstyle=\skip50
+\L@UnitsRaiseDisplaystyle=\skip59
+\L@UnitsRaiseTextstyle=\skip60
+\L@UnitsRaiseScriptstyle=\skip61
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-\@indexfile=\write3
-\openout3 = `rawdiss.idx'.
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count108
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count109
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count110
+\c@listtotal=\count111
+\c@listcount=\count112
+\c@liststart=\count113
+\c@liststop=\count114
+\c@citecount=\count115
+\c@citetotal=\count116
+\c@multicitecount=\count117
+\c@multicitetotal=\count118
+\c@instcount=\count119
+\c@maxnames=\count120
+\c@minnames=\count121
+\c@maxitems=\count122
+\c@minitems=\count123
+\c@citecounter=\count124
+\c@maxcitecounter=\count125
+\c@savedcitecounter=\count126
+\c@uniquelist=\count127
+\c@uniquename=\count128
+\c@refsection=\count129
+\c@refsegment=\count130
+\c@maxextratitle=\count131
+\c@maxextratitleyear=\count132
+\c@maxextraname=\count133
+\c@maxextradate=\count134
+\c@maxextraalpha=\count135
+\c@abbrvpenalty=\count136
+\c@highnamepenalty=\count137
+\c@lownamepenalty=\count138
+\c@maxparens=\count139
+\c@parenlevel=\count140
+\blx@tempcnta=\count141
+\blx@tempcntb=\count142
+\blx@tempcntc=\count143
+\blx@maxsection=\count144
+\blx@maxsegment@0=\count145
+\blx@notetype=\count146
+\blx@parenlevel@text=\count147
+\blx@parenlevel@foot=\count148
+\blx@sectionciteorder@0=\count149
+\blx@entrysetcounter=\count150
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\blx@langwohyphens=\language76
+\c@mincomprange=\count151
+\c@maxcomprange=\count152
+\c@mincompwidth=\count153
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chem-angew.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count154
+\c@savedafterword=\count155
+\c@annotator=\count156
+\c@savedannotator=\count157
+\c@author=\count158
+\c@savedauthor=\count159
+\c@bookauthor=\count160
+\c@savedbookauthor=\count161
+\c@commentator=\count162
+\c@savedcommentator=\count163
+\c@editor=\count164
+\c@savededitor=\count165
+\c@editora=\count166
+\c@savededitora=\count167
+\c@editorb=\count168
+\c@savededitorb=\count169
+\c@editorc=\count170
+\c@savededitorc=\count171
+\c@foreword=\count172
+\c@savedforeword=\count173
+\c@holder=\count174
+\c@savedholder=\count175
+\c@introduction=\count176
+\c@savedintroduction=\count177
+\c@namea=\count178
+\c@savednamea=\count179
+\c@nameb=\count180
+\c@savednameb=\count181
+\c@namec=\count182
+\c@savednamec=\count183
+\c@translator=\count184
+\c@savedtranslator=\count185
+\c@shortauthor=\count186
+\c@savedshortauthor=\count187
+\c@shorteditor=\count188
+\c@savedshorteditor=\count189
+\c@labelname=\count190
+\c@savedlabelname=\count191
+\c@institution=\count192
+\c@savedinstitution=\count193
+\c@lista=\count194
+\c@savedlista=\count195
+\c@listb=\count196
+\c@savedlistb=\count197
+\c@listc=\count198
+\c@savedlistc=\count199
+\c@listd=\count266
+\c@savedlistd=\count267
+\c@liste=\count268
+\c@savedliste=\count269
+\c@listf=\count270
+\c@savedlistf=\count271
+\c@location=\count272
+\c@savedlocation=\count273
+\c@organization=\count274
+\c@savedorganization=\count275
+\c@origlocation=\count276
+\c@savedoriglocation=\count277
+\c@origpublisher=\count278
+\c@savedorigpublisher=\count279
+\c@publisher=\count280
+\c@savedpublisher=\count281
+\c@language=\count282
+\c@savedlanguage=\count283
+\c@origlanguage=\count284
+\c@savedoriglanguage=\count285
+\c@pageref=\count286
+\c@savedpageref=\count287
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+\locallabelnumberwidth=\skip76
+\locallabelalphawidth=\skip77
+\localshorthandwidth=\skip78
+\localshortjournalwidth=\skip79
+\localshortserieswidth=\skip80
+\localshorttitlewidth=\skip81
+\localshortauthorwidth=\skip82
+\localshorteditorwidth=\skip83
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
 
 
-Writing index file rawdiss.idx
-(rawdiss.aux)
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+\c@textcitecount=\count288
+\c@textcitetotal=\count289
+\c@textcitemaxnames=\count290
+\c@biburlbigbreakpenalty=\count291
+\c@biburlbreakpenalty=\count292
+\c@biburlnumpenalty=\count293
+\c@biburlucpenalty=\count294
+\c@biburllcpenalty=\count295
+\biburlbigskip=\muskip12
+\biburlnumskip=\muskip13
+\biburlucskip=\muskip14
+\biburllcskip=\muskip15
+\c@smartand=\count296
+)
+Package biblatex Info: Trying to load bibliography style 'chem-angew'...
+Package biblatex Info: ... file 'chem-angew.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex-chem\chem-angew.bbx"
+File: chem-angew.bbx 2019/08/24 v1.1x biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric-comp.bbx"
+File: numeric-comp.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric.bbx"
+File: numeric.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count297
+\c@bbx:relatedtotal=\count298
+))))
+Package biblatex Info: Trying to load citation style 'chem-angew'...
+Package biblatex Info: ... file 'chem-angew.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex-chem\chem-angew.cbx"
+File: chem-angew.cbx 2019/08/24 v1.1x biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count299
+\c@cbx@tempcntb=\count300
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\supercite'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
+File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+\@quotelevel=\count301
+\@quotereset=\count302
+ (rawdiss.aux)
 \openout1 = `rawdiss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
- ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen122
-\scratchbox=\box35
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen123
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks27
-)
-LaTeX Info: Redefining \celsius on input line 42.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count303
+\scratchdimen=\dimen132
+\scratchbox=\box31
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen133
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Info: Redefining \celsius on input line 139.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 139
+.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 42.
-Package gensymb Info: Using \Omega for \ohm on input line 42.
+LaTeX Info: Redefining \ohm on input line 139.
+Package gensymb Info: Using \Omega for \ohm on input line 139.
 
 Package gensymb Warning: Not defining \micro.
 
-\@float@every@table=\toks28
-\@float@every@figure=\toks29
-(abstract.tex
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `rawdiss-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'rawdiss.bbl' found.
+(rawdiss.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'rast_current':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 139.
+Package biblatex Info: Reference segment=0 on input line 139.
+ (abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 145--1
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) [1
+
+{C:/Users/tjhag/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 153.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
+ [2
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [1
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(144.54pt, 578.16pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=578.16pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=35.27pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-{C:/Users/tjhag/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] [2] (ra
-wdiss.toc
-[3
+ [3
 
-])
+] (rawdiss.toc
+[4
+
+
+] [5])
 \tf@toc=\write4
 \openout4 = `rawdiss.toc'.
 
- [4] [5] (rawdiss.lof [6
+ [6] (rawdiss.lof [7
 
 ])
 \tf@lof=\write5
 \openout5 = `rawdiss.lof'.
 
- [7] (rawdiss.lot)
+ [8] (rawdiss.lot)
 \tf@lot=\write6
 \openout6 = `rawdiss.lot'.
 
- [8
+ [9
 
 ] (acknowledgements.tex)
-[9
+[10
 
 ]
-Chapter 1.
+CHAPTER 1.
 (Intro/main.tex) [1
 
-]
-Chapter 2.
-(chap1-intro/main.tex (chap1-intro/history.tex) [2
-
-] (chap1-intro/e_scat.tex
-[3] [4]) (chap1-intro/bj_scale.tex [5] [6]) (chap1-intro/f2.tex [7] [8]
-Overfull \hbox (4.8015pt too wide) in paragraph at lines 76--77
-[]\OT1/cmr/bx/n/12 INSERT PLOT FROM TALKS SHOW-ING NACHT-MANN IN-EQUAL-
- []
-
-) (chap1-intro/r.tex [9] [10]) (chap1-intro/f2r.tex [11]) (chap1-intro/emc.tex)
-) [12]
-Chapter 3.
-(EMC/main.tex (EMC/history.tex)) [13
 
 ]
-Chapter 4.
-(chap2-exp/main.tex (chap2-exp/HRS.tex [14
+CHAPTER 2.
+(scattering/main.tex (scattering/history.tex) (scattering/e_scat.tex [2
 
-] [15]
-<./chap2-exp/fig/shower_layout.png, id=92, 901.86937pt x 562.35094pt>
+]
+[3]
+<./scattering/fig/feyn_dis.png, id=49, 649.67719pt x 596.98032pt>
+File: ./scattering/fig/feyn_dis.png Graphic file (type png)
+<use ./scattering/fig/feyn_dis.png>
+Package pdftex.def Info: ./scattering/fig/feyn_dis.png  used on input line 29.
+(pdftex.def)             Requested size: 234.8775pt x 215.82365pt.
+ [4 <./scattering/fig/feyn_dis.png>] [5]) (scattering/bj_scale.tex [6]
+<./scattering/fig/no_q2_dep.png, id=64, 400.49625pt x 248.42813pt>
+File: ./scattering/fig/no_q2_dep.png Graphic file (type png)
+<use ./scattering/fig/no_q2_dep.png>
+Package pdftex.def Info: ./scattering/fig/no_q2_dep.png  used on input line 34.
+
+(pdftex.def)             Requested size: 352.31625pt x 218.55298pt.
+)
+(scattering/f2.tex [7 <./scattering/fig/no_q2_dep.png>] [8]) (scattering/r.tex
+[9]) (scattering/f2r.tex [10])) [11]
+CHAPTER 3.
+(EMC/main.tex (EMC/history.tex [12
+
+] [13]) (EMC/regions.tex [14])
+(EMC/theories.tex [15] [16])) [17]
+CHAPTER 4.
+(chap2-exp/main.tex (chap2-exp/HRS.tex [18
+
+]
+<./chap2-exp/fig/shower_layout.png, id=105, 901.86937pt x 562.35094pt>
 File: ./chap2-exp/fig/shower_layout.png Graphic file (type png)
 <use ./chap2-exp/fig/shower_layout.png>
 Package pdftex.def Info: ./chap2-exp/fig/shower_layout.png  used on input line 
 36.
-(pdftex.def)             Requested size: 433.62pt x 270.38016pt.
-) (chap2-exp/raster.tex
-[16 <./chap2-exp/fig/shower_layout.png>]
-<./chap2-exp/fig/raster_pic.jpg, id=96, 2021.5525pt x 424.58624pt>
+(pdftex.def)             Requested size: 469.75502pt x 292.91327pt.
+) (chap2-exp/raster.tex [19]
+[20 <./chap2-exp/fig/shower_layout.png>]
+<./chap2-exp/fig/raster_pic.jpg, id=112, 2021.5525pt x 424.58624pt>
 File: ./chap2-exp/fig/raster_pic.jpg Graphic file (type jpg)
 <use ./chap2-exp/fig/raster_pic.jpg>
 Package pdftex.def Info: ./chap2-exp/fig/raster_pic.jpg  used on input line 14.
 
-(pdftex.def)             Requested size: 433.62pt x 91.07047pt.
- [17 <./chap2-exp/fig/raster_pic.jpg>]
-
-LaTeX Warning: Citation `rast_current' on page 18 undefined on input line 21.
-
+(pdftex.def)             Requested size: 469.75502pt x 98.65697pt.
 Package epstopdf Info: Source file: <./chap2-exp/fig/ex_rast.eps>
 (epstopdf)                    date: 2019-05-07 21:58:38
 (epstopdf)                    size: 10591 bytes
@@ -374,213 +751,27 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./chap2-exp/fig/ex_rast-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./chap2-exp/fig/ex_rast-eps-converted-to.pdf, id=100, 569.12625pt x 386.44376p
+<./chap2-exp/fig/ex_rast-eps-converted-to.pdf, id=113, 569.12625pt x 386.44376p
 t>
 File: ./chap2-exp/fig/ex_rast-eps-converted-to.pdf Graphic file (type pdf)
 <use ./chap2-exp/fig/ex_rast-eps-converted-to.pdf>
 Package pdftex.def Info: ./chap2-exp/fig/ex_rast-eps-converted-to.pdf  used on 
 input line 24.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-<./chap2-exp/fig/raster_sync.png, id=101, 986.9372pt x 680.5425pt>
+(pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
+<./chap2-exp/fig/raster_sync.png, id=114, 986.9372pt x 680.5425pt>
 File: ./chap2-exp/fig/raster_sync.png Graphic file (type png)
 <use ./chap2-exp/fig/raster_sync.png>
 Package pdftex.def Info: ./chap2-exp/fig/raster_sync.png  used on input line 30
 .
-(pdftex.def)             Requested size: 433.62pt x 299.00348pt.
-) (chap2-exp/target.tex [18] [19 <./chap2-exp/fig/ex_rast-eps-converted-to.pdf>
-] [20 <./chap2-exp/fig/raster_sync.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
- [21])) [22]
-Chapter 5.
+(pdftex.def)             Requested size: 469.75502pt x 323.92563pt.
+[21 <./chap2-exp/fig/raster_pic.jpg>] [22 <./chap2-exp/fig/ex_rast-eps-converte
+d-to.pdf>] [23 <./chap2-exp/fig/raster_sync.png>]) (chap2-exp/target.tex
+[24])) [25]
+CHAPTER 5.
 (chap3-analysis/main.tex (chap3-analysis/calib.tex
-(chap3-analysis/raster_calib.tex [23
+(chap3-analysis/raster_calib2.tex [26
 
-] [24]
-Package epstopdf Info: Source file: <./chap3-analysis/fig/sig_hard.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 33299 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/sig_hard-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:04
-(epstopdf)                    size: 16196 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/sig_ha
-rd-eps-converted-to.pdf ./chap3-analysis/fig/sig_hard.eps>
-(epstopdf)             \includegraphics on input line 23.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/sig_hard-eps-converted-to.p
-df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./chap3-analysis/fig/sig_hard-eps-converted-to.pdf, id=127, 1156.32pt x 650.43
-pt>
-File: ./chap3-analysis/fig/sig_hard-eps-converted-to.pdf Graphic file (type pdf
-)
-<use ./chap3-analysis/fig/sig_hard-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/sig_hard-eps-converted-to.pdf  us
-ed on input line 23.
-(pdftex.def)             Requested size: 433.62pt x 243.91064pt.
-[25 <./chap3-analysis/fig/sig_hard-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./chap3-analysis/fig/final_chole_fit.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 119014 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/final_chole_fit-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:05
-(epstopdf)                    size: 29594 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/final_
-chole_fit-eps-converted-to.pdf ./chap3-analysis/fig/final_chole_fit.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/final_chole_fit-eps-convert
-ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
-llowed
-<./chap3-analysis/fig/final_chole_fit-eps-converted-to.pdf, id=166, 569.12625pt
- x 386.44376pt>
-File: ./chap3-analysis/fig/final_chole_fit-eps-converted-to.pdf Graphic file (t
-ype pdf)
-<use ./chap3-analysis/fig/final_chole_fit-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/final_chole_fit-eps-converted-to.
-pdf  used on input line 53.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-[26] [27 <./chap3-analysis/fig/final_chole_fit-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./chap3-analysis/fig/old1_zvx.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 824845 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/old1_zvx-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:07
-(epstopdf)                    size: 3491531 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/old1_z
-vx-eps-converted-to.pdf ./chap3-analysis/fig/old1_zvx.eps>
-(epstopdf)             \includegraphics on input line 67.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/old1_zvx-eps-converted-to.p
-df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./chap3-analysis/fig/old1_zvx-eps-converted-to.pdf, id=179, 569.12625pt x 386.
-44376pt>
-File: ./chap3-analysis/fig/old1_zvx-eps-converted-to.pdf Graphic file (type pdf
-)
-<use ./chap3-analysis/fig/old1_zvx-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/old1_zvx-eps-converted-to.pdf  us
-ed on input line 67.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-Package epstopdf Info: Source file: <./chap3-analysis/fig/old1_avgz_nofit.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 12941 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/old1_avgz_nofit-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:08
-(epstopdf)                    size: 6009 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/old1_a
-vgz_nofit-eps-converted-to.pdf ./chap3-analysis/fig/old1_avgz_nofit.eps>
-(epstopdf)             \includegraphics on input line 68.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/old1_avgz_nofit-eps-convert
-ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
-llowed
-<./chap3-analysis/fig/old1_avgz_nofit-eps-converted-to.pdf, id=180, 569.12625pt
- x 386.44376pt>
-File: ./chap3-analysis/fig/old1_avgz_nofit-eps-converted-to.pdf Graphic file (t
-ype pdf)
-<use ./chap3-analysis/fig/old1_avgz_nofit-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/old1_avgz_nofit-eps-converted-to.
-pdf  used on input line 68.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-
-LaTeX Warning: Float too large for page by 51.7176pt on input line 70.
-
-Package epstopdf Info: Source file: <./chap3-analysis/fig/old1_avgz.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 17773 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/old1_avgz-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:08
-(epstopdf)                    size: 7107 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/old1_a
-vgz-eps-converted-to.pdf ./chap3-analysis/fig/old1_avgz.eps>
-(epstopdf)             \includegraphics on input line 73.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/old1_avgz-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<./chap3-analysis/fig/old1_avgz-eps-converted-to.pdf, id=181, 569.12625pt x 386
-.44376pt>
-File: ./chap3-analysis/fig/old1_avgz-eps-converted-to.pdf Graphic file (type pd
-f)
-<use ./chap3-analysis/fig/old1_avgz-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/old1_avgz-eps-converted-to.pdf  u
-sed on input line 73.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-Package epstopdf Info: Source file: <./chap3-analysis/fig/old2_avgz.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 18023 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/old2_avgz-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:09
-(epstopdf)                    size: 7203 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/old2_a
-vgz-eps-converted-to.pdf ./chap3-analysis/fig/old2_avgz.eps>
-(epstopdf)             \includegraphics on input line 74.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/old2_avgz-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<./chap3-analysis/fig/old2_avgz-eps-converted-to.pdf, id=182, 569.12625pt x 386
-.44376pt>
-File: ./chap3-analysis/fig/old2_avgz-eps-converted-to.pdf Graphic file (type pd
-f)
-<use ./chap3-analysis/fig/old2_avgz-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/old2_avgz-eps-converted-to.pdf  u
-sed on input line 74.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-
-LaTeX Warning: Float too large for page by 37.8557pt on input line 76.
-
-Package epstopdf Info: Source file: <./chap3-analysis/fig/final_avgz.eps>
-(epstopdf)                    date: 2019-04-25 15:44:15
-(epstopdf)                    size: 17705 bytes
-(epstopdf)             Output file: <./chap3-analysis/fig/final_avgz-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2019-04-25 15:47:09
-(epstopdf)                    size: 7153 bytes
-(epstopdf)             Command: <epstopdf --outfile=./chap3-analysis/fig/final_
-avgz-eps-converted-to.pdf ./chap3-analysis/fig/final_avgz.eps>
-(epstopdf)             \includegraphics on input line 78.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./chap3-analysis/fig/final_avgz-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-<./chap3-analysis/fig/final_avgz-eps-converted-to.pdf, id=183, 569.12625pt x 38
-6.44376pt>
-File: ./chap3-analysis/fig/final_avgz-eps-converted-to.pdf Graphic file (type p
-df)
-<use ./chap3-analysis/fig/final_avgz-eps-converted-to.pdf>
-Package pdftex.def Info: ./chap3-analysis/fig/final_avgz-eps-converted-to.pdf  
-used on input line 78.
-(pdftex.def)             Requested size: 433.62pt x 294.44917pt.
-[28] [29 <./chap3-analysis/fig/old1_zvx-eps-converted-to.pdf> <./chap3-analysis
-/fig/old1_avgz_nofit-eps-converted-to.pdf>] [30 <./chap3-analysis/fig/old1_avgz
--eps-converted-to.pdf> <./chap3-analysis/fig/old2_avgz-eps-converted-to.pdf>]
-[31 <./chap3-analysis/fig/final_avgz-eps-converted-to.pdf>]))
-(chap3-analysis/corrections.tex [32]
+])) (chap3-analysis/corrections.tex
 Package epstopdf Info: Source file: <./chap3-analysis/fig/boil_cor.eps>
 (epstopdf)                    date: 2019-04-23 13:52:46
 (epstopdf)                    size: 34664 bytes
@@ -596,14 +787,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./chap3-analysis/fig/boil_cor-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./chap3-analysis/fig/boil_cor-eps-converted-to.pdf, id=222, 1156.32pt x 650.43
+<./chap3-analysis/fig/boil_cor-eps-converted-to.pdf, id=137, 1156.32pt x 650.43
 pt>
 File: ./chap3-analysis/fig/boil_cor-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./chap3-analysis/fig/boil_cor-eps-converted-to.pdf>
 Package pdftex.def Info: ./chap3-analysis/fig/boil_cor-eps-converted-to.pdf  us
 ed on input line 16.
-(pdftex.def)             Requested size: 433.62pt x 243.91064pt.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
 Package epstopdf Info: Source file: <./chap3-analysis/fig/boil_yield_cor.eps>
 (epstopdf)                    date: 2019-04-23 14:14:07
 (epstopdf)                    size: 36475 bytes
@@ -620,15 +811,15 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./chap3-analysis/fig/boil_yield_cor-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./chap3-analysis/fig/boil_yield_cor-eps-converted-to.pdf, id=223, 1156.32pt x 
+<./chap3-analysis/fig/boil_yield_cor-eps-converted-to.pdf, id=138, 1156.32pt x 
 650.43pt>
 File: ./chap3-analysis/fig/boil_yield_cor-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use ./chap3-analysis/fig/boil_yield_cor-eps-converted-to.pdf>
 Package pdftex.def Info: ./chap3-analysis/fig/boil_yield_cor-eps-converted-to.p
 df  used on input line 22.
-(pdftex.def)             Requested size: 433.62pt x 243.91064pt.
-[33 <./chap3-analysis/fig/boil_cor-eps-converted-to.pdf>] [34 <./chap3-analysis
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[27] [28 <./chap3-analysis/fig/boil_cor-eps-converted-to.pdf> <./chap3-analysis
 /fig/boil_yield_cor-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./chap3-analysis/fig/positrons.eps>
 (epstopdf)                    date: 2019-04-23 13:46:00
@@ -646,15 +837,15 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./chap3-analysis/fig/positrons-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./chap3-analysis/fig/positrons-eps-converted-to.pdf, id=317, 1156.32pt x 650.4
+<./chap3-analysis/fig/positrons-eps-converted-to.pdf, id=232, 1156.32pt x 650.4
 3pt>
 File: ./chap3-analysis/fig/positrons-eps-converted-to.pdf Graphic file (type pd
 f)
 <use ./chap3-analysis/fig/positrons-eps-converted-to.pdf>
 Package pdftex.def Info: ./chap3-analysis/fig/positrons-eps-converted-to.pdf  u
 sed on input line 46.
-(pdftex.def)             Requested size: 433.62pt x 243.91064pt.
-[35]
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[29]
 Package epstopdf Info: Source file: <./chap3-analysis/fig/deadtime.eps>
 (epstopdf)                    date: 2019-04-23 13:49:04
 (epstopdf)                    size: 33272 bytes
@@ -670,55 +861,221 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./chap3-analysis/fig/deadtime-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./chap3-analysis/fig/deadtime-eps-converted-to.pdf, id=321, 1156.32pt x 650.43
+<./chap3-analysis/fig/deadtime-eps-converted-to.pdf, id=236, 1156.32pt x 650.43
 pt>
 File: ./chap3-analysis/fig/deadtime-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./chap3-analysis/fig/deadtime-eps-converted-to.pdf>
 Package pdftex.def Info: ./chap3-analysis/fig/deadtime-eps-converted-to.pdf  us
 ed on input line 68.
-(pdftex.def)             Requested size: 433.62pt x 243.91064pt.
-)) [36 <./chap3-analysis/fig/positrons-eps-converted-to.pdf>] [37 <./chap3-anal
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+)) [30 <./chap3-analysis/fig/positrons-eps-converted-to.pdf>] [31 <./chap3-anal
 ysis/fig/deadtime-eps-converted-to.pdf>]
-Chapter 6.
-(chap4-results/main.tex) [38
+CHAPTER 6.
+(chap4-results/main.tex) [32
 
-]
-Chapter A.
-(app1/sections.tex) [39
+] [33
 
-] (bibliography.tex)
-No file rawdiss.bbl.
-[40
+] [34]
+APPENDIX A.
+(app1/raster.tex [35
 
-] (rawdiss.aux)
+] [36] [37]
+Package epstopdf Info: Source file: <./app1/figures/sig_hard.eps>
+(epstopdf)                    date: 2019-10-14 16:15:48
+(epstopdf)                    size: 34210 bytes
+(epstopdf)             Output file: <./app1/figures/sig_hard-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-14 22:36:37
+(epstopdf)                    size: 16627 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/sig_hard-eps
+-converted-to.pdf ./app1/figures/sig_hard.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: There were undefined references.
+
+pdfTeX warning: pdflatex (file ./app1/figures/sig_hard-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/sig_hard-eps-converted-to.pdf, id=342, 1156.32pt x 650.43pt>
+File: ./app1/figures/sig_hard-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/sig_hard-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/sig_hard-eps-converted-to.pdf  used on 
+input line 62.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[38] [39 <./app1/figures/sig_hard-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./app1/figures/hole_fit.eps>
+(epstopdf)                    date: 2019-07-09 11:15:37
+(epstopdf)                    size: 116394 bytes
+(epstopdf)             Output file: <./app1/figures/hole_fit-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-14 22:36:38
+(epstopdf)                    size: 29435 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/hole_fit-eps
+-converted-to.pdf ./app1/figures/hole_fit.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/hole_fit-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/hole_fit-eps-converted-to.pdf, id=385, 569.12625pt x 386.44376p
+t>
+File: ./app1/figures/hole_fit-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/hole_fit-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/hole_fit-eps-converted-to.pdf  used on 
+input line 105.
+(pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
+[40 <./app1/figures/hole_fit-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./app1/figures/old1_zvx.eps>
+(epstopdf)                    date: 2019-07-09 11:15:38
+(epstopdf)                    size: 778628 bytes
+(epstopdf)             Output file: <./app1/figures/old1_zvx-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-14 22:36:40
+(epstopdf)                    size: 3316803 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_zvx-eps
+-converted-to.pdf ./app1/figures/old1_zvx.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/old1_zvx-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/old1_zvx-eps-converted-to.pdf, id=395, 569.12625pt x 386.44376p
+t>
+File: ./app1/figures/old1_zvx-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/old1_zvx-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/old1_zvx-eps-converted-to.pdf  used on 
+input line 119.
+(pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
+Package epstopdf Info: Source file: <./app1/figures/old1_avgzvx_nofit.eps>
+(epstopdf)                    date: 2019-07-09 11:15:38
+(epstopdf)                    size: 10514 bytes
+(epstopdf)             Output file: <./app1/figures/old1_avgzvx_nofit-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2019-10-14 22:36:41
+(epstopdf)                    size: 5965 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_avgzvx_
+nofit-eps-converted-to.pdf ./app1/figures/old1_avgzvx_nofit.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx_nofit-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf, id=396, 569.12625pt x 3
+86.44376pt>
+File: ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf 
+ used on input line 120.
+(pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
+
+LaTeX Warning: Float too large for page by 55.06946pt on input line 122.
+
+Package epstopdf Info: Source file: <./app1/figures/old1_avgzvx.eps>
+(epstopdf)                    date: 2019-07-09 11:15:38
+(epstopdf)                    size: 15334 bytes
+(epstopdf)             Output file: <./app1/figures/old1_avgzvx-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-10-14 22:36:41
+(epstopdf)                    size: 7044 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_avgzvx-
+eps-converted-to.pdf ./app1/figures/old1_avgzvx.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/old1_avgzvx-eps-converted-to.pdf, id=397, 569.12625pt x 388.451
+25pt>
+File: ./app1/figures/old1_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/old1_avgzvx-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/old1_avgzvx-eps-converted-to.pdf  used 
+on input line 125.
+(pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
+Package epstopdf Info: Source file: <./app1/figures/old2_avgzvx.eps>
+(epstopdf)                    date: 2019-07-09 11:15:38
+(epstopdf)                    size: 15496 bytes
+(epstopdf)             Output file: <./app1/figures/old2_avgzvx-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-10-14 22:36:42
+(epstopdf)                    size: 7149 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/old2_avgzvx-
+eps-converted-to.pdf ./app1/figures/old2_avgzvx.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/old2_avgzvx-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/old2_avgzvx-eps-converted-to.pdf, id=398, 569.12625pt x 388.451
+25pt>
+File: ./app1/figures/old2_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/old2_avgzvx-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/old2_avgzvx-eps-converted-to.pdf  used 
+on input line 126.
+(pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
+
+LaTeX Warning: Float too large for page by 44.78354pt on input line 128.
+
+Package epstopdf Info: Source file: <./app1/figures/avgzvx.eps>
+(epstopdf)                    date: 2019-07-09 11:15:37
+(epstopdf)                    size: 15182 bytes
+(epstopdf)             Output file: <./app1/figures/avgzvx-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-14 22:36:42
+(epstopdf)                    size: 7100 bytes
+(epstopdf)             Command: <epstopdf --outfile=./app1/figures/avgzvx-eps-c
+onverted-to.pdf ./app1/figures/avgzvx.eps>
+(epstopdf)             \includegraphics on input line 130.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./app1/figures/avgzvx-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./app1/figures/avgzvx-eps-converted-to.pdf, id=399, 569.12625pt x 388.45125pt>
+
+File: ./app1/figures/avgzvx-eps-converted-to.pdf Graphic file (type pdf)
+<use ./app1/figures/avgzvx-eps-converted-to.pdf>
+Package pdftex.def Info: ./app1/figures/avgzvx-eps-converted-to.pdf  used on in
+put line 130.
+(pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
+[41] [42 <./app1/figures/old1_zvx-eps-converted-to.pdf> <./app1/figures/old1_av
+gzvx_nofit-eps-converted-to.pdf>] [43 <./app1/figures/old1_avgzvx-eps-converted
+-to.pdf> <./app1/figures/old2_avgzvx-eps-converted-to.pdf>] [44 <./app1/figures
+/avgzvx-eps-converted-to.pdf>]) [45] (rawdiss.aux)
+Package logreq Info: Writing requests to 'rawdiss.run.xml'.
+\openout1 = `rawdiss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 3011 strings out of 492946
- 42610 string characters out of 3135527
- 107594 words of memory out of 3000000
- 6730 multiletter control sequences out of 15000+200000
- 11588 words of font info for 45 fonts, out of 3000000 for 9000
+ 10301 strings out of 492946
+ 185198 string characters out of 3135527
+ 524852 words of memory out of 3000000
+ 13960 multiletter control sequences out of 15000+200000
+ 9239 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,27p,1105b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ 42i,11n,45p,1268b,1333s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on rawdiss.pdf (50 pages, 4300717 bytes).
+.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on rawdiss.pdf (55 pages, 4232242 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
+ 485 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
