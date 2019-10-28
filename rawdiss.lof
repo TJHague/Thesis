@@ -8,38 +8,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2}{\ignorespaces Proton data showing no $Q^2$ dependence of $\nu W_2=F_2$ in the DIS region.\cite {FriedmanKendall}}}{7}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Historical data of $R=\sigma _L/\sigma _T$. This data shows measurements of the difference in $R$ between two nuclei. The data is consistent with no nuclear dependence.\cite {GST}}}{11}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Results from the EMC collaboration showing a clear $x$ dependence of the per-nucleon $F_2$ structure function ratio\cite {emc_FE}}}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Results from SLAC showing an A-dependent EMC effect\cite {Gomez}}}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Helium-3 results from JLab E03-103. The upper red squares are the raw ratio and the lower blue circles have an isoscalar correction applied.\cite {e03103}}}{17}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Layout of the shower block. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces The Hall A raster consists of four dipole magnets on the beamline}}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces The X and Y raster pairs are each synced to produce the maximum kick. The X and Y directions are uncorrelated so that the beam travels uniformly over the target.}}{26}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Beam heating effects are manifested as a multiplicative correction to the target density}}{31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Target density corrections cause a multiplicative enhancement to the yield}}{31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Charge symmetric background correction}}{33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Deadtime per kinematic}}{34}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Layout of the shower block. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{20}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces The Hall A raster consists of four dipole magnets on the beamline}}{21}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{22}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces The X and Y raster pairs are each synced to produce the maximum kick. The X and Y directions are uncorrelated so that the beam travels uniformly over the target.}}{23}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{46}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Beam heating effects are manifested as a multiplicative correction to the target density}}{28}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Target density corrections cause a multiplicative enhancement to the yield}}{28}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Charge symmetric background correction}}{30}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Deadtime per kinematic}}{31}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{39}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{40}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{42}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{43}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{44}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{47}% 
