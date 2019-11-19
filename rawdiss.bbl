@@ -4759,6 +4759,67 @@
     \field{year}{2014}
   \endentry
 
+  \entry{12gevWP}{report}{}
+    \name{author}{7}{}{%
+      {{hash=CL}{%
+         family={Cardman},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Ent},
+         familyi={E\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=IN}{%
+         family={Isgur},
+         familyi={I\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=LJM}{%
+         family={Laget},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leeman},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MZE}{%
+         family={Meziani},
+         familyi={M\bibinitperiod},
+         given={Z.\bibnamedelima E.},
+         giveni={Z\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CL+1}
+    \strng{fullhash}{CLERINLJMLCMCMZE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{The Science Driving the 12 GeV Upgrade OF CEBAF}}
+    \list{institution}{1}{%
+      {Jefferson Lab}%
+    }
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Hardware/12gev{\_}Wh
+    \verb itePaper.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2001}
+  \endentry
+
   \entry{HANIM}{book}{}
     \name{author}{237}{}{%
       {{hash=AJ}{%
@@ -6235,6 +6296,46 @@
     \field{year}{2004}
   \endentry
 
+  \entry{HASEM}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CTHA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={The Hall\bibnamedelima A},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTHA1}
+    \strng{fullhash}{CTHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{2017 Version: Jefferson Lab Hall A Standard Equipment
+  Manual}}
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Hardware/HallA-SEM.p
+    \verb df:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Bob}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={Michaels},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Private Communication}}
+  \endentry
+
   \entry{rast_current}{misc}{}
     \name{author}{1}{}{%
       {{hash=GW}{%
@@ -6254,6 +6355,75 @@
     \verb https://logbooks.jlab.org/entry/3499504
     \endverb
     \field{year}{2017}
+  \endentry
+
+  \entry{cell_design}{report}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Meekins},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MD1}
+    \strng{fullhash}{MD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Jefferson Lab Tritium Target Cell}}
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Target/Cell{\_}Desig
+    \verb n.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+  \endentry
+
+  \entry{targ_meas}{report}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Meekins},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Target}
+    \strng{namehash}{MD2}
+    \strng{fullhash}{MD2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb TGT-RPT-17-007
+    \endverb
+    \field{number}{December 2017}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{Hall A Tritium Target Configuration for December 2017}}
+    \list{institution}{1}{%
+      {JLab}%
+    }
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Target/TGT-RPT-17-00
+    \verb 7.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Rey}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CTR}{%
+         family={Cruz-Torres},
+         familyi={C\bibinithyphendelim T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTR1}
+    \strng{fullhash}{CTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Private Communication}}
   \endentry
 
   \entry{Gen}{report}{}
@@ -6322,22 +6492,6 @@
     }
     \strng{namehash}{MRE1}
     \strng{fullhash}{MRE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{Private Communication}}
-  \endentry
-
-  \entry{Rey}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=CTR}{%
-         family={Cruz-Torres},
-         familyi={C\bibinithyphendelim T\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CTR1}
-    \strng{fullhash}{CTR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{{Private Communication}}
