@@ -1,0 +1,104 @@
+\section{Data Collected}
+
+The MARATHON experiment ran from January through April of 2018 in Hall A at JLab. During the experiment the HRSs were used in ``inclusive'' mode, that is each spectrometer was making an independent measurement. Throughout the discussion of the analysis each measurement by an HRS is referred to as a ``kinematic''. To switch between kinematics the LHRS was rotated around the target to different angles. The RHRS was parked at the highest angle kinematic for the entirety of the experiment since that kinematic had a very slow event rate.
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Kinematic} & \textbf{E$^\prime$} (GeV/$c$) & \textbf{Angle} ($\degree$) & \textbf{Central $x$} &  \textbf{No. of Iterations} \\
+\hline
+\hline
+0 & 3.1 & 16.9$\degree$ & 0.199 & 1 \\ \hline
+1 & 3.1 & 17.577$\degree$ & 0.218 & 1 \\ \hline
+2 & 3.1 & 19.115$\degree$ & 0.257 & 1 \\ \hline
+3 & 3.1 & 20.578$\degree$ & 0.298 & 1 \\ \hline
+4 & 3.1 & 21.93$\degree$ & 0.338 & 1 \\ \hline
+5 & 3.1 & 23.213$\degree$ & 0.378 & 1 \\ \hline
+7 & 3.1 & 25.594$\degree$ & 0.46 & 2 \\ \hline
+9 & 3.1 & 27.778$\degree$ & 0.538 & 2 \\ \hline
+11 & 3.1 & 29.917$\degree$ & 0.62 & 2 \\ \hline
+13 & 3.1 & 31.732$\degree$ & 0.70 & 2 \\ \hline
+15 & 3.1 & 33.562$\degree$ & 0.78 & 3 \\ \hline
+16 & 2.9 & 36.12$\degree$ & 0.82 & 2 \\ \hline
+\end{tabular}
+\caption{This table describes the key variables that define each kinematic.}
+\label{tbl:kins}
+\end{center}
+\end{table}
+
+For all kinematics the LHRS momentum was set to $3.1$ GeV/$c$. The RHRS momentum was set to $2.9$ GeV/$c$ due to limitations of the dipole magnet. The kinematics are numbered based on the originally proposed kinematic settings. Due to time limitations, not every kinematic was measured. During the data taking the $x$ and $Q^2$ values of the data were studied and it was found that there was sufficient overlap between kinematics without the skipped kinematics. Plots showing this overlap can be seen in Figure \ref{fig:kin_plots}. A few kinematics were measured more than once when the run period was extended. Individual iterations of a kinematic are treated as independent measurements for the sake of analysis. Table \ref{tbl:kins} shows the variables that define each kinematic.
+
+\begin{figure}[h]
+\begin{center}
+	\includegraphics[width=\textwidth]{./analysis/fig/kin_plots.png}
+	\caption{These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite{Tong}}
+	\label{fig:kin_plots}
+\end{center}
+\end{figure}
+
+\section{Analysis Outline}
+\label{sec:analysis_outline}
+This chapter will go over the analysis of the data collected in the MARATHON experiment. An outline of the analysis process is as follows:
+\renewcommand{\labelenumii}{\roman{enumii}.}
+\begin{enumerate}
+	\item For each run:
+	\begin{enumerate}
+		\item Apply cuts to data
+		\item Calculate the electron yield and bin data in $x$
+		\item Apply livetime correction
+		\item Apply target boiling correction
+		\item Calculate target boiling uncertainty
+		\item Calculate beam charge and add it to the kinematic charge total
+	\end{enumerate}
+	\item For each kinematic:
+	\begin{enumerate}
+		\item Sum the yields from all runs in the kinematic
+		\item Apply charge normalization
+		\item Sum the target boiling uncertainties and apply them to the data
+		\item Drop the first and last bins as they are near the edge of the acceptance
+	\end{enumerate}
+	\item For production of a ratio, the kinematic yields for two targets are divide ($^3$He and $^2$H in the case of this thesis)
+	\item Combine all kinematics by weighted average, weighted by uncertainty
+	\item Apply remaining corrections:
+	\begin{enumerate}
+		\item Endcap Contamination subtraction
+		\item Charge Symmetric Background subtraction
+		\item Target energy loss correction
+		\item Coulomb correction
+		\item Radiative Corrections
+		\item Bin centering correction
+	\end{enumerate}
+\end{enumerate}
+This analysis procedure will yield the $\nicefrac{F_2^{^3\textrm{He}}}{F_2^{^2\textrm{H}}}$ structure function ratio. From there, the A=3 isoscalar EMC ratio can be extracted by applying an isoscalar correction. Also, the $\nicefrac{F_2^n}{F_2^p}$ nucleon structure function ratio can be extracted using the methodology described in Section \ref{sec:F2ratio}.
+
+\section{Yield and Yield Ratio Calculation}
+
+The MARATHON experiment measured yield ratios. This method allows us to cancel many systematics that would otherwise plague a full cross section analysis. By taking data for each target at the same kinematics, acceptance effects are identical. This data taking technique means that with reasonable acceptance cuts, a ratio of target yields is wholly equivalent to the ratio of cross sections.
+
+Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The yield of each bin is calculated using this simple equation:
+\begin{equation}
+	\text{Yield} = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
+\end{equation}
+Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives us the ``Charge-Normalized Yield'', that is the expected electron count for each unit of charge incident on the target.
+
+As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
+\begin{align}
+	\text{Ratio} = \frac{\text{Yield}_{^3\text{He}}}{\text{Yield}_{^2\text{H}}} \\
+	\sigma_{\text{Ratio}} = \text{Ratio}\sqrt{\left(\frac{\sigma_{\text{Yield}_{^3\text{He}}}}{\text{Yield}_{^3\text{He}}}\right)^2 + \left(\frac{\sigma_{\text{Yield}_{^2\text{H}}}}{\text{Yield}_{^2\text{H}}}\right)^2}
+\end{align}
+
+Once the per-kinematic yield ratios are calculated, each kinematic has its edge bins dropped, that is the lowest and highest $x$ bin. This is because these bins are located at the edge of the acceptance of the spectrometer with low counting rates and large uncertainties. After this is done, all kinematics are combined through a weighted average. The ``weight'' is the uncertainty on the measurement in that bin. The equations for the weighted average are:
+\begin{align}
+	\text{Average} = \frac{\sum\limits_{i} \frac{\text{Ratio}}{\sigma^2_\text{Ratio}}}{\sum\limits_{i} \frac{1}{\sigma^2_\text{Ratio}}} \\
+	\sigma_\text{Average} = \frac{1}{\sum\limits_{i} \frac{1}{\sigma^2_\text{Ratio}}}
+\end{align}
+Once all corrections have been applied, this calculated weighted average is the final result for the yield ratio.
+
+This chapter will explain the cuts and corrections that go into this calculation as well as the calibrations performed to make the measurements accurate.
+
+\section{Calibrations}
+\input{./analysis/calib.tex}
+
+\input{./analysis/corrections.tex}
+\subsection{Particle Identification}

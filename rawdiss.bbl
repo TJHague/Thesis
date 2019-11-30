@@ -6296,6 +6296,145 @@
     \field{year}{2004}
   \endentry
 
+  \entry{harp_schem}{article}{}
+    \name{author}{16}{}{%
+      {{hash=ZP}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Pengjia},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Allada},
+         familyi={A\bibinitperiod},
+         given={Kalyan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Allison},
+         familyi={A\bibinitperiod},
+         given={Trent},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Badman},
+         familyi={B\bibinitperiod},
+         given={Toby},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Camsonne},
+         familyi={C\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJP}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jian\bibnamedelima Ping},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cummings},
+         familyi={C\bibinitperiod},
+         given={Melissa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Musson},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Slifer},
+         familyi={S\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Sulkosky},
+         familyi={S\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Yunxiu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jixie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zielinski},
+         familyi={Z\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{BPM,Beam position,G2p,Raster}
+    \strng{namehash}{ZP+1}
+    \strng{fullhash}{ZPAKATBTCACJPCMGCHMLJMJSKSVYYZJZR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Beam-line equipment was upgraded for experiment E08-027 (g2p) in Hall A at
+  Jefferson Lab. Two beam position monitors (BPMs) were necessary to measure
+  the beam position and angle at the target. A new BPM receiver was designed
+  and built to handle the low beam currents (50-100 nA) used for this
+  experiment. Two new super-harps were installed for calibrating the BPMs. In
+  addition to the existing fast raster system, a slow raster system was
+  installed. Before and during the experiment, these new devices were tested
+  and debugged, and their performance was also evaluated. In order to achieve
+  the required accuracy (1-2 mm in position and 1-2 mrad in angle at the target
+  location), the data of the BPMs and harps were carefully analyzed, as well as
+  reconstructing the beam position and angle event by event at the target
+  location. The calculated beam position will be used in the data analysis to
+  accurately determine the kinematics for each event.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.nima.2015.10.086
+    \endverb
+    \verb{eprint}
+    \verb 1509.03510
+    \endverb
+    \field{issn}{01689002}
+    \field{title}{{Beam position reconstruction for the g2p experiment in Hall
+  A at Jefferson lab}}
+    \field{volume}{808}
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Hardware/harp{\_}sch
+    \verb em.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research,
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{eprinttype}{arXiv}
+    \field{year}{2016}
+  \endentry
+
   \entry{HASEM}{report}{}
     \name{author}{1}{}{%
       {{hash=CTHA}{%
@@ -6410,6 +6549,48 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Leo}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LWR}{%
+         family={Leo},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima R.},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{LWR1}
+    \strng{fullhash}{LWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Second rev. edition. This book treats the experimental techniques and
+  instrumentation most often used in nuclear and particle physics experiments
+  as well as in various other experiments. It provides useful results and
+  formulae, technical know-how and informative details. This second edition has
+  been revised; sections on Cherenkov radiation and radiation protection have
+  been updated and extended. Thanks to the author's long teaching experience,
+  the material is presented in a very practical, hands-on way making the book a
+  useful text and laboratory companion for students and experienced scientists
+  alike.%
+    }
+    \verb{doi}
+    \verb 10.1017/CBO9781107415324.004
+    \endverb
+    \field{edition}{2nd Revise}
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{9788578110796}
+    \field{issn}{1098-6596}
+    \field{title}{{Techniques for nuclear and particle physics experiments A
+  How-to Approach}}
+    \field{eprinttype}{arXiv}
+    \field{year}{1994}
+  \endentry
+
   \entry{Rey}{misc}{}
     \name{author}{1}{}{%
       {{hash=CTR}{%
@@ -6421,6 +6602,22 @@
     }
     \strng{namehash}{CTR1}
     \strng{fullhash}{CTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Private Communication}}
+  \endentry
+
+  \entry{Tong}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Tong},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{{Private Communication}}
