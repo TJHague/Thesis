@@ -79,6 +79,7 @@ The MARATHON experiment measured yield ratios. This method allows us to cancel m
 Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The yield of each bin is calculated using this simple equation:
 \begin{equation}
 	\text{Yield} = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
+	\label{eqn:yield}
 \end{equation}
 Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives us the ``Charge-Normalized Yield'', that is the expected electron count for each unit of charge incident on the target.
 
