@@ -82,68 +82,76 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Beam Current Monitor}{23}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Beam Current Monitor Calibration}{24}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Raster}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Raster Calibration}{26}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Beam Position Monitors}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Tritium Target System}{27}% 
+\contentsline {subsubsection}{Beam Position Monitor Calibration}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Gas Cell Design}{27}% 
+\contentsline {section}{\numberline {4.3}Tritium Target System}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Target Ladder}{28}% 
+\contentsline {subsection}{\numberline {4.3.1}Gas Cell Design}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}The Hall A High Resolution Spectrometer}{30}% 
+\contentsline {subsection}{\numberline {4.3.2}Target Ladder}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Vertical Drift Chambers}{31}% 
+\contentsline {section}{\numberline {4.4}The Hall A High Resolution Spectrometer}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Scintillator Planes}{32}% 
+\contentsline {subsection}{\numberline {4.4.1}Vertical Drift Chambers}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Gas Cherenkov}{34}% 
+\contentsline {subsection}{\numberline {4.4.2}Scintillator Planes}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Leaded Glass Calorimeters}{34}% 
+\contentsline {subsection}{\numberline {4.4.3}Gas Cherenkov}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Trigger}{35}% 
+\contentsline {subsubsection}{Gas Cherenkov Calibration}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\bf {Analysis}}{38}% 
+\contentsline {subsection}{\numberline {4.4.4}Leaded Glass Calorimeters}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Data Collected}{38}% 
+\contentsline {subsection}{\numberline {4.4.5}Trigger}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Analysis Outline}{39}% 
+\contentsline {chapter}{\numberline {5}\bf {Analysis}}{40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Yield and Yield Ratio Calculation}{40}% 
+\contentsline {section}{\numberline {5.1}Data Collected}{40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Calibrations}{42}% 
+\contentsline {section}{\numberline {5.2}Analysis Outline}{41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Raster Calibration}{42}% 
+\contentsline {section}{\numberline {5.3}Yield and Yield Ratio Calculation}{42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Corrections}{42}% 
+\contentsline {section}{\numberline {5.4}Corrections}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Target Boiling}{43}% 
+\contentsline {subsection}{\numberline {5.4.1}Target Boiling}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Target Endcap Contamination}{43}% 
+\contentsline {subsection}{\numberline {5.4.2}Target Endcap Contamination}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Charge Symmetric Background Subtraction}{45}% 
+\contentsline {subsection}{\numberline {5.4.3}Charge Symmetric Background Subtraction}{46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Computer Deadtime Correction}{45}% 
+\contentsline {subsection}{\numberline {5.4.4}Computer Deadtime Correction}{47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.5}Radiative Corrections}{47}% 
+\contentsline {subsection}{\numberline {5.4.5}Radiative Corrections}{48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.6}Isoscalar Corrections}{47}% 
+\contentsline {subsection}{\numberline {5.4.6}Isoscalar Corrections}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.7}Bin Centering Corrections}{47}% 
+\contentsline {subsection}{\numberline {5.4.7}Bin Centering Corrections}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.8}Coulomb Corrections}{48}% 
+\contentsline {subsection}{\numberline {5.4.8}Coulomb Corrections}{49}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.9}Particle Identification}{48}% 
+\contentsline {section}{\numberline {5.5}Cuts}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\bf {Results}}{49}% 
+\contentsline {subsection}{\numberline {5.5.1}Particle Identification}{50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{53}% 
+\contentsline {subsection}{\numberline {5.5.2}Acceptance}{51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{53}% 
+\contentsline {chapter}{\numberline {6}\bf {Results}}{53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{55}% 
+\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{55}% 
+\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{57}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{63}% 
+\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{67}% 

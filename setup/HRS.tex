@@ -49,12 +49,25 @@ S2 consists of 16 paddles with the PMTs on the left and right. Each paddle is ma
 The signals measured in the scintillators form the basis for the HRS trigger. Since S2 has high time resolution, it serves to set the timing of the event. Proper event timing is critical for the VDCs to accurately track a particle.
 
 \subsection{Gas Cherenkov}
+\label{sec:cer}
 
 The Gas Cherenkov is the first PID detector in the HRS. A gas cherenkov detector functions by observing cherenkov radiation from incident particles. Cherenkov radiation is light emitted by a particle that is traveling faster than the phase velocity of light in a medium. The cherenkov radiation is emitted as an ``electromagnetic shock wave'' in the wake of the particle that is then guided to PMTs by mirrors. This property allows a gas cherenkov detector to exclude low momentum particles.\cite{Leo}
 
 The Cherenkov chamber is filled with C02 at atmospheric pressure. This gas gives a 4.8 GeV/\textit{c}  momentum threshold for pion detection. This provides very efficient rejection of pions, as the HRSs have a momentum acceptance set much lower than that. Each chamber has ten spherical mirrors with focal length 80 cm each aimed at a PMT (Burle 8854). The radiator length is 80 cm for the LHRS and 130 cm for the RHRS.
 
 All of these things means that analyzing the sum of all PMT signals allows for very efficient discernment between electrons and pions.
+
+\subsubsection{Gas Cherenkov Calibration}
+
+The Gas Cherenkov is calibrated on a PMT-by-PMT basis. The ADC spectrum for each PMT has a Gaussian peak at low ADC values. This corresponds to a single photon knocking out an electron from the photocathode in the PMT, also known as the ``single photo-electron peak''. To determine this calibration, the peak is first fit with a Gaussian. Calibrating the PMT is done by determining a factor that will align these peaks at the same ADC value for all PMTs. MARATHON aligned the single photo-electron peak at ADC bin 300 as seen in Figure \ref{fig:cer_pmt}.
+
+\begin{figure}
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{./setup/fig/cer_pmt.eps}
+	\caption{The Cherenkov PMTs are calibrated to have the single photo-electron peak centered at ADC bin 300. The peak at 0 is the ADC pedestal.}
+	\label{fig:cer_pmt}
+\end{center}
+\end{figure}
 
 \subsection{Leaded Glass Calorimeters}
 
@@ -89,12 +102,12 @@ These logic signals are finally combined into four different triggers:
 	\item (S0 \textbar\textbar{} S2) \&\& Cherenkov
 	\item (S0 \&\& S2) \&\& Cherenkov
 \end{itemize}
-Ultimately, the final three of these triggers were used in the experiment. A schematic of formation of these signals can be seen in Figure \ref{fig:trig_schem}. In the formation of these triggers, the scintillators are used to set the timing for the TDCs. Particularly, S2 always sets the timing of the trigger since it has the highest timing resolution. In the case of the triggers where S0 and S2 are ``OR'd'', S0 will set the timing in the absence of an S2 signal.
+Ultimately, the final three of these triggers were used in the experiment. These are referred to (sequentially) as Triggers 1-3. A schematic of formation of these signals can be seen in Figure \ref{fig:trig_schem}. In the formation of these triggers, the scintillators are used to set the timing for the TDCs. Particularly, S2 always sets the timing of the trigger since it has the highest timing resolution. In the case of the triggers where S0 and S2 are ``OR'd'', S0 will set the timing in the absence of an S2 signal.
 
 \begin{figure}
 \begin{center}
 	\includegraphics[width=\textwidth]{./setup/fig/trigger_diagram.png}
-	\caption{A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor.\cite{Rey}}
+	\caption{A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor. The drawings on the right show the relative width of each signal to facilitate event timing.\cite{Rey}}
 	\label{fig:trig_schem}
 \end{center}
 \end{figure}

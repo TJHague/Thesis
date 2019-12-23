@@ -32,46 +32,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {12}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking.\cite {harp_schem}}}{26}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking.\cite {harp_schem}}}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces A side-view schematic of Hall A showing the beamline, target, High Resolution Spectrometers, and Beam Dump. The beam will either interact with the target or pass through to the beam dump.\cite {HANIM}}}{27}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces A bullseye scan maps five positions of the beam with the harp, shown as runs 805-809. The BPM calibration is then adjusted to make the reconstructed beam position, shown as gray blocks, match the harp data.}}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces 3D rendering of the target cell. The black circular plate in the front is the upstream window of the cell.\cite {cell_design}}}{28}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces A side-view schematic of Hall A showing the beamline, target, High Resolution Spectrometers, and Beam Dump. The beam will either interact with the target or pass through to the beam dump.\cite {HANIM}}}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces The MARATHON target ladder.}}{30}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces 3D rendering of the target cell. The black circular plate in the front is the upstream window of the cell.\cite {cell_design}}}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces A schematic view of the HRS magnet setup. Particles enter from the left in Q1 and then pass through the magnets exiting Q3 into the first VDC plane.\cite {HANIM}}}{31}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces The MARATHON target ladder.}}{31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces A schematic view of the VDCs. These are the first detectors in an HRS.\cite {HANIM}}}{32}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces A schematic view of the HRS magnet setup. Particles enter from the left in Q1 and then pass through the magnets exiting Q3 into the first VDC plane.\cite {HANIM}}}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces A schematic drawing of the S2 scintillator plane.\cite {HASEM}}}{33}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces A schematic view of the VDCs. These are the first detectors in an HRS.\cite {HANIM}}}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Layout of the shower blocks. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{35}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces A schematic drawing of the S2 scintillator plane.\cite {HASEM}}}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor.\cite {Rey}}}{37}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces The Cherenkov PMTs are calibrated to have the single photo-electron peak centered at ADC bin 300. The peak at 0 is the ADC pedestal.}}{36}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {22}{\ignorespaces Layout of the shower blocks. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite {Tong}}}{39}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Beam heating effects are manifested as a multiplicative correction to the target density}}{44}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Target density corrections cause a multiplicative enhancement to the yield}}{44}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Charge symmetric background correction}}{46}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Deadtime per kinematic}}{47}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor. The drawings on the right show the relative width of each signal to facilitate event timing.\cite {Rey}}}{39}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite {Tong}}}{41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces Beam heating effects are manifested as a multiplicative correction to the target density}}{45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces Charge symmetric background correction}}{47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces Deadtime per kinematic}}{48}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{57}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{58}% 
+\contentsline {figure}{\numberline {28}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{61}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{60}% 
+\contentsline {figure}{\numberline {29}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{61}% 
+\contentsline {figure}{\numberline {30}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{62}% 
+\contentsline {figure}{\numberline {31}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {32}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{66}% 

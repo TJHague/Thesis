@@ -85,8 +85,8 @@ Here ``Counts'' are the number of electrons measured that pass the cuts placed o
 
 As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
 \begin{align}
-	\text{Ratio} = \frac{\text{Yield}_{^3\text{He}}}{\text{Yield}_{^2\text{H}}} \\
-	\sigma_{\text{Ratio}} = \text{Ratio}\sqrt{\left(\frac{\sigma_{\text{Yield}_{^3\text{He}}}}{\text{Yield}_{^3\text{He}}}\right)^2 + \left(\frac{\sigma_{\text{Yield}_{^2\text{H}}}}{\text{Yield}_{^2\text{H}}}\right)^2}
+	\text{Ratio} = \frac{\text{Yield}\left(^3\text{He}\right)}{\text{Yield}\left(^2\text{H}\right)} \\
+	\sigma_{\text{Ratio}} = \text{Ratio}\sqrt{\left(\frac{\sigma_{\text{Yield}\left(^3\text{He}\right)}}{\text{Yield}\left(^3\text{He}\right)}\right)^2 + \left(\frac{\sigma_{\text{Yield}\left(^2\text{H}\right)}}{\text{Yield}\left(^2\text{H}\right)}\right)^2}
 \end{align}
 
 Once the per-kinematic yield ratios are calculated, each kinematic has its edge bins dropped, that is the lowest and highest $x$ bin. This is because these bins are located at the edge of the acceptance of the spectrometer with low counting rates and large uncertainties. After this is done, all kinematics are combined through a weighted average. The ``weight'' is the uncertainty on the measurement in that bin. The equations for the weighted average are:
@@ -98,8 +98,10 @@ Once all corrections have been applied, this calculated weighted average is the 
 
 This chapter will explain the cuts and corrections that go into this calculation as well as the calibrations performed to make the measurements accurate.
 
-\section{Calibrations}
-\input{./analysis/calib.tex}
+%\section{Calibrations}
+%\input{./analysis/calib.tex}
 
 \input{./analysis/corrections.tex}
-\subsection{Particle Identification}
+
+\section{Cuts}
+\input{./analysis/cuts.tex}

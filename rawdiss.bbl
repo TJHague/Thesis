@@ -6623,6 +6623,202 @@
     \field{title}{{Private Communication}}
   \endentry
 
+  \entry{boiling}{article}{}
+    \name{author}{25}{}{%
+      {{hash=SSN}{%
+         family={Santiesteban},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Alsalmi},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Meekins},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GCA}{%
+         family={Gayoso},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima Ayerbe},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bane},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Barcus},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Castellanos},
+         familyi={C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CTR}{%
+         family={Cruz-Torres},
+         familyi={C\bibinithyphendelim T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hague},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hauenstein},
+         familyi={H\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HDW}{%
+         family={Higinbotham},
+         familyi={H\bibinitperiod},
+         given={D.\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HRJ}{%
+         family={Holt},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kutz},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MRE}{%
+         family={McClellan},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nycz},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Pandey},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pandey},
+         familyi={P\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \keyw{Argon,Deuterium,Helium,Hydrogen,Target,Tritium}
+    \strng{namehash}{SSN+1}
+    \strng{fullhash}{SSNASMDGCABJBSCJCJCTRDHHTHFHDWHRJKTLSLHMRENMNDPBPVSASTYZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A system of modular sealed gas target cells has been developed for use in
+  electron scattering experiments at the Thomas Jefferson National Accelerator
+  Facility (Jefferson Lab). This system was initially developed to complete the
+  MARATHON experiment which required, among other species, tritium as a target
+  material. Thus far, the cells have been loaded with the gas species 3H, 3He,
+  2H, 1H and 40Ar and operated in nominal beam currents of up to 22.5 $\mu$A in
+  Jefferson Lab's Hall A. While the gas density of the cells at the time of
+  loading is known, the density of each gas varies uniquely when heated by the
+  electron beam. To extract experimental cross sections using these cells,
+  density dependence on beam current of each target fluid must be determined.
+  In this study, data from measurements with several beam currents within the
+  range of 2.5 to 22.5 $\mu$A on each target fluid are presented. Additionally,
+  expressions for the beam current dependent fluid density of each target are
+  developed.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.nima.2019.06.025
+    \endverb
+    \verb{eprint}
+    \verb 1811.12167
+    \endverb
+    \field{issn}{01689002}
+    \field{number}{December 2017}
+    \field{pages}{351\bibrangedash 358}
+    \field{title}{{Density changes in low pressure gas targets for electron
+  scattering experiments}}
+    \field{volume}{940}
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Target/boiling.pdf:p
+    \verb df
+    \endverb
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research,
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
   \entry{wtsydp}{article}{}
     \name{author}{2}{}{%
       {{hash=LGD}{%
