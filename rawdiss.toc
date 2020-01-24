@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{LIST OF FIGURES}{vii}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF TABLES}{x}% 
+\contentsline {chapter}{LIST OF TABLES}{xi}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ACKNOWLEDGMENTS}{xi}% 
+\contentsline {chapter}{ACKNOWLEDGMENTS}{xii}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\bf {Introduction}}{1}% 
 \defcounter {refsection}{0}\relax 
@@ -120,38 +120,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Yield and Yield Ratio Calculation}{42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Corrections}{44}% 
+\contentsline {section}{\numberline {5.4}Cuts}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Target Boiling}{44}% 
+\contentsline {subsection}{\numberline {5.4.1}Particle Identification}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Target Endcap Contamination}{45}% 
+\contentsline {subsection}{\numberline {5.4.2}Acceptance}{45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Charge Symmetric Background Subtraction}{46}% 
+\contentsline {section}{\numberline {5.5}Corrections}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Computer Deadtime Correction}{47}% 
+\contentsline {subsection}{\numberline {5.5.1}Energy Loss}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Radiative Corrections}{48}% 
+\contentsline {subsection}{\numberline {5.5.2}Computer Deadtime Correction}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.6}Isoscalar Corrections}{49}% 
+\contentsline {subsection}{\numberline {5.5.3}Target Boiling}{53}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.7}Bin Centering Corrections}{49}% 
+\contentsline {subsection}{\numberline {5.5.4}Target Endcap Contamination}{55}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.8}Coulomb Corrections}{49}% 
+\contentsline {subsection}{\numberline {5.5.5}Charge Symmetric Background Subtraction}{56}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Cuts}{50}% 
+\contentsline {subsection}{\numberline {5.5.6}Coulomb Corrections}{58}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Particle Identification}{50}% 
+\contentsline {subsection}{\numberline {5.5.7}Bin Centering Corrections}{59}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Acceptance}{51}% 
+\contentsline {subsection}{\numberline {5.5.8}Radiative Corrections}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\bf {Results}}{53}% 
+\contentsline {subsection}{\numberline {5.5.9}Isoscalar Corrections}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{57}% 
+\contentsline {chapter}{\numberline {6}\bf {Results}}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{57}% 
+\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{59}% 
+\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{59}% 
+\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{69}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{67}% 
+\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{77}% 

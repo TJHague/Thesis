@@ -6623,6 +6623,57 @@
     \field{title}{{Private Communication}}
   \endentry
 
+  \entry{eloss}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=SRM}{%
+         family={Sternheimer},
+         familyi={S\bibinitperiod},
+         given={R.\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Berger},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSM}{%
+         family={Seltzer},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRM+1}
+    \strng{fullhash}{SRMBMJSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The density-effect correction $\delta$($\beta$) for the ionization energy
+  loss of charged particles has been evaluated as a function of the particle
+  velocity for a total of 278 substances, including 98 cases of elements of the
+  periodic table (12 gases and 86 condensed materials, including liquid
+  hydrogen and graphite of three different densities) and 180 chemical
+  compounds and substances of biological interest (13 gases and 167 liquid or
+  solid substances). In the calculations, up-to-date values of the mean
+  excitation potential I and of the atomic absorption edges hvi were employed
+  as input data for the general equations for $\delta$($\beta$) previously
+  derived by Sternheimer. {\textcopyright} 1984.%
+    }
+    \field{booktitle}{Atomic Data and Nuclear Data Tables}
+    \verb{doi}
+    \verb 10.1016/0092-640X(84)90002-0
+    \endverb
+    \field{issn}{10902090}
+    \field{title}{{Density effect for the ionization loss of charged particles
+  in various substances}}
+    \verb{file}
+    \verb :D$\backslash$:/Tresors/Physics/MARATHON{\_}docs/Target/energy{\_}los
+    \verb s.pdf:pdf
+    \endverb
+    \field{year}{1984}
+  \endentry
+
   \entry{boiling}{article}{}
     \name{author}{25}{}{%
       {{hash=SSN}{%
@@ -6817,45 +6868,6 @@
   Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
     \field{eprinttype}{arXiv}
     \field{year}{2019}
-  \endentry
-
-  \entry{wtsydp}{article}{}
-    \name{author}{2}{}{%
-      {{hash=LGD}{%
-         family={Lafferty},
-         familyi={L\bibinitperiod},
-         given={G.\bibnamedelima D.},
-         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WTR}{%
-         family={Wyatt},
-         familyi={W\bibinitperiod},
-         given={T.\bibnamedelima R.},
-         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LGDWTR1}
-    \strng{fullhash}{LGDWTR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    When a data point, measured over a bin of finite width, is to be compared
-  to theoretical or model frequency distributions, neither the central value of
-  the bin nor the weighted mean value (the barycentre) of the abscissa within
-  the bin is the appropriate place to plot the data point. It is shown that
-  such data points ought to appear where the value of the predicted function is
-  equal to its mean value over the wide bin. Some consequences of commonly used
-  but incorrect alternative data presentation methods in particle physics are
-  discussed. {\textcopyright} 1995.%
-    }
-    \verb{doi}
-    \verb 10.1016/0168-9002(94)01112-5
-    \endverb
-    \field{issn}{01689002}
-    \field{title}{{Where to stick your data points: The treatment of
-  measurements within wide bins}}
-    \field{journaltitle}{Nuclear Inst. and Methods in Physics Research, A}
-    \field{year}{1995}
   \endentry
 
   \entry{coulomb}{article}{}
@@ -7310,6 +7322,45 @@
     \field{journaltitle}{Physical Review Letters}
     \field{eprinttype}{arXiv}
     \field{year}{2017}
+  \endentry
+
+  \entry{wtsydp}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LGD}{%
+         family={Lafferty},
+         familyi={L\bibinitperiod},
+         given={G.\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WTR}{%
+         family={Wyatt},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGDWTR1}
+    \strng{fullhash}{LGDWTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    When a data point, measured over a bin of finite width, is to be compared
+  to theoretical or model frequency distributions, neither the central value of
+  the bin nor the weighted mean value (the barycentre) of the abscissa within
+  the bin is the appropriate place to plot the data point. It is shown that
+  such data points ought to appear where the value of the predicted function is
+  equal to its mean value over the wide bin. Some consequences of commonly used
+  but incorrect alternative data presentation methods in particle physics are
+  discussed. {\textcopyright} 1995.%
+    }
+    \verb{doi}
+    \verb 10.1016/0168-9002(94)01112-5
+    \endverb
+    \field{issn}{01689002}
+    \field{title}{{Where to stick your data points: The treatment of
+  measurements within wide bins}}
+    \field{journaltitle}{Nuclear Inst. and Methods in Physics Research, A}
+    \field{year}{1995}
   \endentry
 
   \entry{Gen}{report}{}

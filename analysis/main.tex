@@ -39,7 +39,7 @@ For all kinematics the LHRS momentum was set to $3.1$ GeV/$c$. The RHRS momentum
 
 \section{Analysis Outline}
 \label{sec:analysis_outline}
-This chapter will go over the analysis of the data collected in the MARATHON experiment. An outline of the analysis process is as follows:
+This chapter will go over the analysis of the data collected in the MARATHON experiment. Specifically examined are the cuts and corrections that go into this calculation as well as the calibrations performed to make the measurements accurate. An outline of the analysis process is as follows:
 \renewcommand{\labelenumii}{\roman{enumii}.}
 \begin{enumerate}
 	\item For each run:
@@ -76,32 +76,36 @@ This analysis procedure will yield the $\nicefrac{F_2^{^3\textrm{He}}}{F_2^{^2\t
 
 The MARATHON experiment measured yield ratios. This method allows us to cancel many systematics that would otherwise plague a full cross section analysis. By taking data for each target at the same kinematics, acceptance effects are identical. This data taking technique means that with reasonable acceptance cuts, a ratio of target yields is wholly equivalent to the ratio of cross sections.
 
-Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The yield of each bin is calculated using this simple equation:
+Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The charge-normalized yield, $Y$, of each bin is calculated using this simple equation:
 \begin{equation}
-	\text{Yield} = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
+	Y = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
 	\label{eqn:yield}
 \end{equation}
 Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives us the ``Charge-Normalized Yield'', that is the expected electron count for each unit of charge incident on the target.
 
-As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
-\begin{align}
-	\text{Ratio} = \frac{\text{Yield}\left(^3\text{He}\right)}{\text{Yield}\left(^2\text{H}\right)} \\
-	\sigma_{\text{Ratio}} = \text{Ratio}\sqrt{\left(\frac{\sigma_{\text{Yield}\left(^3\text{He}\right)}}{\text{Yield}\left(^3\text{He}\right)}\right)^2 + \left(\frac{\sigma_{\text{Yield}\left(^2\text{H}\right)}}{\text{Yield}\left(^2\text{H}\right)}\right)^2}
-\end{align}
+As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios, $R$, are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
+\begin{equation}
+	R = \frac{Y_{^3\text{He}}}{Y_{^2\text{H}}}
+\end{equation}
+\begin{equation}
+	\sigma_{R} = R\sqrt{\left(\frac{\sigma_{^3\text{He}}}{Y_{^3\text{He}}}\right)^2 + \left(\frac{\sigma_{^2\text{H}}}{Y_{^2\text{H}}}\right)^2}
+\end{equation}
 
 Once the per-kinematic yield ratios are calculated, each kinematic has its edge bins dropped, that is the lowest and highest $x$ bin. This is because these bins are located at the edge of the acceptance of the spectrometer with low counting rates and large uncertainties. After this is done, all kinematics are combined through a weighted average. The ``weight'' is the uncertainty on the measurement in that bin. The equations for the weighted average are:
-\begin{align}
-	\text{Average} = \frac{\sum\limits_{i} \frac{\text{Ratio}}{\sigma^2_\text{Ratio}}}{\sum\limits_{i} \frac{1}{\sigma^2_\text{Ratio}}} \\
-	\sigma_\text{Average} = \frac{1}{\sum\limits_{i} \frac{1}{\sigma^2_\text{Ratio}}}
-\end{align}
+\begin{equation}
+	\text{Average} = \frac{\sum\limits_{i} \frac{R}{\sigma^2_R}}{\sum\limits_{i} \frac{1}{\sigma^2_R}}
+\end{equation}
+\begin{equation}
+	\sigma_\text{Average} = \frac{1}{\sum\limits_{i} \frac{1}{\sigma^2_R}}
+\end{equation}
 Once all corrections have been applied, this calculated weighted average is the final result for the yield ratio.
-
-This chapter will explain the cuts and corrections that go into this calculation as well as the calibrations performed to make the measurements accurate.
 
 %\section{Calibrations}
 %\input{./analysis/calib.tex}
 
-\input{./analysis/corrections.tex}
-
 \section{Cuts}
 \input{./analysis/cuts.tex}
+
+\input{./analysis/corrections.tex}
+
+
