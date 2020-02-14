@@ -130,7 +130,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.1}Energy Loss}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Computer Deadtime Correction}{52}% 
+\contentsline {subsection}{\numberline {5.5.2}Computer Deadtime Correction}{53}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.3}Target Boiling}{53}% 
 \defcounter {refsection}{0}\relax 
@@ -144,16 +144,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.8}Radiative Corrections}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.9}Isoscalar Corrections}{62}% 
+\contentsline {subsection}{\numberline {5.5.9}Isoscalar Corrections}{61}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}\bf {Results}}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{67}% 
+\contentsline {section}{\numberline {6.1}Helium-3/Deuterium Yield Ratio}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{67}% 
+\contentsline {section}{\numberline {6.2}Helium-3 EMC Yield Ratio}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{69}% 
+\contentsline {section}{\numberline {6.3}Normalizing the data}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{69}% 
+\contentsline {section}{\numberline {6.4}Analyzing the EMC slope}{64}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{77}% 
+\contentsline {chapter}{\numberline {A}\bf {Calibrating the Hall A Raster}}{71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}What is a Raster Calibration}{71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Determining the Sign of the Calibration}{73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{81}% 

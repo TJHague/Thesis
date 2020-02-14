@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ispell rawdiss.tex
+ispell chap1/sections.tex
+ispell chap2/sections.tex
+ispell chap3/sections.tex
+ispell chap4/sections.tex
+ispell chap5/sections.tex
+latex rawdiss.tex
+latex rawdiss.tex
+makeindex -s rawdiss.ist rawdiss.idx
+latex rawdiss.tex
+dvips -t letter rawdiss.dvi
+gzip -f rawdiss.ps
+cp rawdiss.ps.gz ~/public_html

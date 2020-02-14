@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {36}{\ignorespaces This plot shows the Bin Centering Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces This plot shows the Radiative Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the $0.5\%$ uncertainty on each value.}}{61}% 
+\contentsline {figure}{\numberline {37}{\ignorespaces This plot shows the Radiative Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the $0.5\%$ uncertainty on each value.}}{62}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {38}{\ignorespaces This plot shows the Isoscalar Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{62}% 
 \defcounter {refsection}{0}\relax 
@@ -90,12 +90,12 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{71}% 
+\contentsline {figure}{\numberline {39}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {40}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{72}% 
+\contentsline {figure}{\numberline {40}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{76}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {41}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{74}% 
+\contentsline {figure}{\numberline {41}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {42}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{75}% 
+\contentsline {figure}{\numberline {42}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{79}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {43}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{76}% 
+\contentsline {figure}{\numberline {43}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{80}% 

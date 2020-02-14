@@ -1,0 +1,170 @@
+As impressive as the data collection abilities of the STAR detector are, most physics analysis requires a higher level of abstraction than the ``raw'' data provided by the DAQ electronics.  This process of event reconstruction takes the raw event and condenses the raw \Index{ADC} (\Index{Analog to Digital Conversion}) hardware values into information about the particles produced in the collision.
+
+In STAR, this reconstruction software is processed in a sequential arrangement called a Chain.  The Chain consists of several Makers; each Maker is an independent software component which processes the event data.  Subsequent Makers may (and usually do) depend on information added to the event by previous Makers.
+
+We will cover in depth the process for reconstruction within the main tracking detector, the TPC.  Many elements are similar when considering the SVT or FTPC, but some differences exist due to different track density, detector orientations, and readout capability.
+
+\section{\Index{Cluster Finding}}
+
+Cluster finding is the process of grouping the raw event data into groups of adjacent charge deposition.  The module responsible is called \Index{TCL}.  This is done in the TPC local X-Z plane, i.e. in the plane defined by the drift and padrow directions.  Clusters are formed by finding all adjacent non-zero ADC values in the padrow-drift plane.  These clusters of charge induced on the pads may be from the ionization track of one or more charged particles.  See Figure \ref{fig:tcl}.
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/tcl}
+\caption{ADC values in the X-Z plane.  TCL has found 3 separate clusters.}
+\label{fig:tcl}
+\end{figure}
+
+\section{\Index{Hit Finding}}
+
+As mentioned, each X-Z cluster may have contain several ``hits'', where each hit corresponds to the charge from one particle's ionization track crossing that padrow.  Hit finding consists of deconvoluting these clusters into individual hits and then finding the center of the hit based on the charge distribution.
+
+\subsection{Deconvolution}
+
+First, a gross cut is done on the width of the cluster in X and Z.  Even if a narrow cluster contains multiple hits, it is unlikely that the deconvolution algorithm, which is processor intensive, with be able to separate them.  This first cut saves a great deal of CPU time.
+
+Clusters having a sufficient spread in the padrow and time direction are subjected to a mountain-finding search.  Local maxima are identified, and the ``valleys'' between these maxima are examined to determine if there is significant separation between the two peaks.  Figure \ref{fig:tph} shows potential hits identified by the deconvolution routine.
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/tph}
+\caption{The mountain-finding routine has identified 3 candidate hits.}
+\label{fig:tph}
+\end{figure}
+
+After hits are identified, they are fit to a centroid in X to determine their centers.  Recall that the pad geometry is chosen so that the charge from one ionization trail will be directed almost completely onto 3 pads per row.   Assuming a Gaussian distribution, the center can be arrived at analytically using the 3 largest pad ADC values:
+
+\begin{equation}
+x = \frac{\sigma^2}{2w}ln(\frac{h_3}{h_1})
+\label{eqn:centroid}
+\end{equation}
+
+, where $w$ is the pad pitch, $h_{1,2,3}$ are the ADC counts on 3 adjacent pads, and the width of the Gaussian is found by
+
+\begin{equation}
+\sigma^2 = \frac{w^2}{ln(h_2^2/(h_1 h_3))}
+\label{eqn:centroid_sigma}
+\end{equation}
+
+.  The Z coordinate is found in a similar way, but the relationship between Z and drift time (the quantity which the TPC actually records) is very sensitive to drift velocity and the absolute zero of the timing information.  This means that great care must be taken to determine both the correct offset for the time coordinate, as well as the scaling with Z (i.e., drift velocity).  \cite{Anderson:02}
+
+\section{Global Tracking}
+
+Global tracking is the process of combining reconstructed hits into tracks, which represent the path of a charged particle through the detector.  A charged particle that moves through a uniform magnetic field and suffers no energy loss will have a perfectly helical trajectory.  The parameterization of this helix in STAR is defined by the beginning of the helix in the transverse plane ($x_0, y_0$), the phase ($\Phi_0$), the dip angle ($\lambda$), the sense of rotation (h) , and the curvature (k).  The phase, $\Phi_0$, is defined as the angle in the transverse plane of the helix starting point relative to the helix center ($x_c, y_c$).  The dip angle measures the deflection of a track from a purely transverse trajectory and is defined by 
+
+\begin{equation}
+tan(\lambda) = \frac{p_z}{p_{\perp}}
+\label{eqn:lambda}
+\end{equation}
+
+.  The sense of rotation does not affect the shape of the helix, only the direction in which the particle is moving (forward or back).  The curvature (equal to the inverse of the helix radius) is proportional to the ratio of the magnetic field to the track's transverse momentum:
+
+\begin{equation}
+k = K\frac{|qB|}{p_{\perp}} = \frac{1}{R}
+\label{eqn:curvature}
+\end{equation}
+
+, where K is a constant depending on the units used.  For B in Tesla, $p_{/perp}$ in GeV/c, q in integer charge, and c in cm, K = 0.00299.  Using these 6 parameters, the helix is described by these parametric equations in terms of the path length s:
+
+\begin{equation}
+x = x_0 + \frac{1}{k}(cos(\Phi_0 - h \, k \, s \, cos(\lambda)) -
+                      cos(\Phi_0))
+\end{equation}
+\begin{equation}
+y = y_0 + \frac{1}{k}(sin(\Phi_0 - h \, k \, s \, cos(\lambda)) -
+                      sin(\Phi_0))
+\end{equation}
+\begin{equation}
+z = z_0 + s \cdot sin(\lambda)
+\label{eqn:helix}
+\end{equation}
+
+.  Note that the quantity $z_0$ is not a free parameter.  It is specified completely by the 6 independent parameters.
+
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{figures/helix1}
+\includegraphics[width=7cm]{figures/helix2}
+\caption{The independent (and dependent) helix fit parameters.}
+\label{fig:helix}
+\end{figure}
+
+To begin the process of tracking, a seed for the track must be found.  The seed is simply a short series of hits which lie close in solid angle.  The most efficient place to look for seeds is the outer padrows of each sector, where the hit density is lowest.  Track segments are then found starting with these seeds by recursively extending each segment to collect new hits.  After segment finding is done, the tracking software attempts to merge any segments which are so close in phase space that they are probably from the same particle.  This helps eliminate so-called ``split tracks'', which result when 2 tracks are reconstructed for a single physical particle.  The last step in global tracking is to do a Kalman refit.  This does not find tracks, only refines the fit parameters using the Kalman method, which takes into account energy loss and multiple scattering between each hit on the track and updates the track parameters at each step.
+
+\section{Vertex Finding}
+
+%% Spiros' ALICE-STAR talk
+
+The tracks above are found simply by connecting points in the TPC.  Those tracks which originate from the collision vertex may be refined by determining the position of the interaction point.  This primary vertex (as opposed to ``secondary'' vertexes, which are the result of particle decays) is found using the global tracks above.  Each global track is extrapolated to the beam-line (the central axis of the TPC), and the Z bin containing the maximum density of tracks is chosen as a seed for the primary vertex.
+
+Once the seed is found, an iterative process begins.  The \Index{Distance of Closest Approach} (\Index{DCA}) of each global track to the primary vertex candidate is calculated.  Tracks with DCA greater than a certain distance are eliminated, and the vertex candidate is refined by minimizing the DCA of the remaining tracks.  This process converges quickly and is only repeated 3 times.
+
+\section{Primary Tracking}
+
+Once the primary vertex is known, tracks which are assumed to come from the interaction point may be refined by including the vertex in the fit.  Tracks that have a DCA of more than 3 cm to the primary vertex do not go through a refit.  This refit also uses the Kalman method.  Tracks whose quality measure ($\xi^2$) deteriorate with the inclusion of the primary vertex are removed from consideration.  Those which improve its inclusion are kept as primary tracks, and their fit parameters are updated accordingly.
+
+\section{Particle Identification Using dE/dx}
+
+As mentioned earlier, the energy deposited by a particle (as reflected by the number of ionizations it causes) in the TPC is dependent on the particle's velocity.  Since a particle's momentum is known well from tracking, one may plot the dE/dx, which is proportional to the charge induced on the pad planes, as a function of particle momentum.  Low momentum particles with different masses but the same momentum will have different velocity, and so different particle species will show in bands on the dE/dx vs momentum plot.  
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/dEdx}
+\caption{Particle identification through dE/dx.}
+\label{fig:dEdx}
+\end{figure}
+
+%%http://star.physics.yale.edu/papers/loi_rich.ps.gz%%
+Notice how in Figure \ref{fig:dEdx} the lighter particles flatten out at much lower momenta.  The lighter the particle, the faster $\beta$ approaches 1 for a given momentum.  This gives better dE/dx particle identification for heavier particles at higher momentum.  Pions and Kaons may be identified up to momenta of about 600 MeV/c, while Protons may be identified to 1.2 GeV/c .
+
+\section{Charged Kaon Identification Using Kinks}
+
+The relatively low momentum capability of the dE/dx identification of charged Kaons is one of the principle reasons for exploring other PID methods.  The focus of this dissertation is on Kaons identified by their decay topology.  The dominant charged Kaon decays are $K^+ \rightarrow \mu^+ \nu_{\mu}$ (63.5\%) and $K^+ \rightarrow \pi^+ \pi^0$ (21.2\%).  Both of these modes are characterized by a single-pronged decay topology (or ``kink'') in the TPC.  The neutral daughter is not found, and the track appears to instantaneously change direction.  A kink candidate is shown in Figure \ref{fig:kink}.
+
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{figures/kink}
+\caption{A ``kink'' or charged Kaon decay candidate.}
+\label{fig:kink}
+\end{figure}
+
+As kink finding is a secondary vertex search, it must come after track finding in the reconstruction chain.  The kink finding Maker in the chain simply creates pairs of tracks which meet at a vertex, with no physics cuts.  Only the fiducial region 133 cm < R < 179 cm is searched for kinks, because that is in the middle of the densely instrumented outer TPC sub-sectors.  This dense space point information aids in pattern recognition.  First, all global tracks are searched for candidate parent and daughter tracks that end or begin in the kink fiducial volume, respectively.  A number of geometry cuts are chosen to maintain a balance between preserving signal and rejecting background.  To remain a parent candidate, a track must have a (3-dimensional) DCA to the primary vertex of less than 2 cm.  Daughter candidates, conversely, must have a DCA of more than 2 cm.  The charge of a candidate parent and its daughter must be the same, of course.  The parent track must end within 14 cm in the transverse plane and 20 cm in z of the beginning of the daughter.  If these conditions are met, a mathematical intersection (or solution of closest approach) is found between the parent and daughter helices in the transverse plane.  The extrapolated tracks must be no more than 2 cm apart in z at this point.  Next, the full 3D DCA between the tracks is found; this must be no more than 0.5 cm.  If so, the intersection point is considered as a kink vertex candidate.  The last point on the parent and the first point on the daughter must each be within 14 cm in the transverse plane and 20 cm in z of this newly found kink vertex.  Finally, the angle between these two tracks must be greater than $1^{\circ}$.  Tracking resolution below this angle calls into question whether there are really two particles or one track that was split in reconstruction.  For a summary of these cuts, please see Table \ref{tab:recoCuts}.
+
+\begin{table}
+\begin{tabular}{||l|l||}
+\hline
+Fiducial volume              & $\in$ (133 cm, 179 cm) \\
+\hline
+Parent DCA to event vertex   & > 2 cm \\
+\hline
+Daughter DCA to event vertex & < 2 cm \\
+\hline \hline
+Parent p$_{\perp}$   & > 200 MeV/c \\
+\hline
+Daughter p$_{\perp}$ & > 100 MeV/c \\
+\hline
+Daughter charge    & = Parent charge \\
+\hline \hline
+XY distance between last parent and first daughter points        & < 14 cm \\
+\hline
+Z distance between last parent and first daughter points         & < 20 cm \\
+\hline
+Z distance between parent and daughter projections to kink vertex & < 2 cm \\
+\hline
+Decay angle                                                  & > 1$^{\cdot}$ \\
+\hline
+Parent-daughter DCA                                             & < 0.5 cm \\
+\hline \hline
+XY distance between kink vertex and last parent point           & < 14 cm \\
+\hline
+Z distance between kink vertex and last parent point            & < 20 cm \\
+\hline
+XY distance between kink vertex and first daughter point        & < 14 cm \\
+\hline
+Z distance between kink vertex and first daughter point         & < 20 cm \\
+\hline
+\end{tabular}
+\label{tab:recoCuts}
+\caption{Online reconstruction cuts for kink decays.}
+\end{table}

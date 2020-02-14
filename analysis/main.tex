@@ -58,7 +58,7 @@ This chapter will go over the analysis of the data collected in the MARATHON exp
 		\item Sum the target boiling uncertainties and apply them to the data
 		\item Drop the first and last bins as they are near the edge of the acceptance
 	\end{enumerate}
-	\item For production of a ratio, the kinematic yields for two targets are divide ($^3$He and $^2$H in the case of this thesis)
+	\item For production of a ratio, the kinematic yields for two targets are divided ($^3$He and $^2$H in the case of this thesis)
 	\item Combine all kinematics by weighted average, weighted by uncertainty
 	\item Apply remaining corrections:
 	\begin{enumerate}
@@ -81,7 +81,7 @@ Calculating the the yield ratios requires first calculating the yield for each t
 	Y = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
 	\label{eqn:yield}
 \end{equation}
-Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives us the ``Charge-Normalized Yield'', that is the expected electron count for each unit of charge incident on the target.
+Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives the ``Charge-Normalized Yield'', that is the electron count for each unit of charge incident on the target.
 
 As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios, $R$, are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
 \begin{equation}

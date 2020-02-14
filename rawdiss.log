@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  23 JAN 2020 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  13 FEB 2020 16:50
 entering extended mode
 **./rawdiss.tex
 (rawdiss.tex
@@ -515,6 +515,9 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 
 LaTeX Warning: Label `fig:deadtime' multiply defined.
 
+
+LaTeX Warning: Label `sec:F2ratio' multiply defined.
+
 )
 \openout1 = `rawdiss.aux'.
 
@@ -1008,13 +1011,13 @@ File: ./analysis/fig/ECC.pdf Graphic file (type pdf)
 <use ./analysis/fig/ECC.pdf>
 Package pdftex.def Info: ./analysis/fig/ECC.pdf  used on input line 75.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [56]
-<./analysis/fig/positrons.pdf, id=694, 1156.32pt x 650.43pt>
+ [56] [57 <./analysis/fig/ECC.pdf>]
+<./analysis/fig/positrons.pdf, id=739, 1156.32pt x 650.43pt>
 File: ./analysis/fig/positrons.pdf Graphic file (type pdf)
 <use ./analysis/fig/positrons.pdf>
 Package pdftex.def Info: ./analysis/fig/positrons.pdf  used on input line 91.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [57 <./analysis/fig/ECC.pdf>] [58 <./analysis/fig/positrons.pdf>]
+ [58 <./analysis/fig/positrons.pdf>]
 Package epstopdf Info: Source file: <./analysis/fig/cc.eps>
 (epstopdf)                    date: 2020-01-13 21:58:43
 (epstopdf)                    size: 33764 bytes
@@ -1078,7 +1081,6 @@ File: ./analysis/fig/radcor-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./analysis/fig/radcor-eps-converted-to.pdf  used on in
 put line 148.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[61 <./analysis/fig/radcor-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./analysis/fig/isocor.eps>
 (epstopdf)                    date: 2020-01-13 21:58:44
 (epstopdf)                    size: 31983 bytes
@@ -1088,29 +1090,30 @@ Package epstopdf Info: Source file: <./analysis/fig/isocor.eps>
 (epstopdf)                    size: 17322 bytes
 (epstopdf)             Command: <epstopdf --outfile=./analysis/fig/isocor-eps-c
 onverted-to.pdf ./analysis/fig/isocor.eps>
-(epstopdf)             \includegraphics on input line 162.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./analysis/fig/isocor-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/isocor-eps-converted-to.pdf, id=909, 1156.32pt x 650.43pt>
+<./analysis/fig/isocor-eps-converted-to.pdf, id=867, 1156.32pt x 650.43pt>
 File: ./analysis/fig/isocor-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/isocor-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/isocor-eps-converted-to.pdf  used on in
-put line 162.
+put line 163.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-)) [62 <./analysis/fig/isocor-eps-converted-to.pdf>]
+)) [61] [62 <./analysis/fig/radcor-eps-converted-to.pdf> <./analysis/fig/isocor
+-eps-converted-to.pdf>]
 CHAPTER 6.
-(chap4-results/main.tex) [63
+(results/main.tex [63
 
-] [64
+] [64] [65]) [66] [67
 
-] [65] [66]
+] [68] [69] [70]
 APPENDIX A.
-(app1/raster.tex [67
+(app1/raster.tex [71
 
-] [68] [69]
+] [72] [73]
 Package epstopdf Info: Source file: <./app1/figures/sig_hard.eps>
 (epstopdf)                    date: 2019-10-14 16:15:48
 (epstopdf)                    size: 34210 bytes
@@ -1126,13 +1129,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/sig_hard-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/sig_hard-eps-converted-to.pdf, id=972, 1156.32pt x 650.43pt>
+<./app1/figures/sig_hard-eps-converted-to.pdf, id=985, 1156.32pt x 650.43pt>
 File: ./app1/figures/sig_hard-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/sig_hard-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/sig_hard-eps-converted-to.pdf  used on 
 input line 63.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[70] [71 <./app1/figures/sig_hard-eps-converted-to.pdf>]
+[74] [75 <./app1/figures/sig_hard-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./app1/figures/hole_fit.eps>
 (epstopdf)                    date: 2019-07-09 11:15:37
 (epstopdf)                    size: 116394 bytes
@@ -1148,14 +1151,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/hole_fit-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/hole_fit-eps-converted-to.pdf, id=1014, 569.12625pt x 386.44376
+<./app1/figures/hole_fit-eps-converted-to.pdf, id=1027, 569.12625pt x 386.44376
 pt>
 File: ./app1/figures/hole_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/hole_fit-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/hole_fit-eps-converted-to.pdf  used on 
 input line 106.
 (pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
-[72 <./app1/figures/hole_fit-eps-converted-to.pdf>]
+[76 <./app1/figures/hole_fit-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./app1/figures/old1_zvx.eps>
 (epstopdf)                    date: 2019-07-09 11:15:38
 (epstopdf)                    size: 778628 bytes
@@ -1171,7 +1174,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/old1_zvx-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old1_zvx-eps-converted-to.pdf, id=1024, 569.12625pt x 386.44376
+<./app1/figures/old1_zvx-eps-converted-to.pdf, id=1037, 569.12625pt x 386.44376
 pt>
 File: ./app1/figures/old1_zvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old1_zvx-eps-converted-to.pdf>
@@ -1194,7 +1197,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx_nofit-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf, id=1025, 569.12625pt x 
+<./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf, id=1038, 569.12625pt x 
 386.44376pt>
 File: ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1220,7 +1223,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old1_avgzvx-eps-converted-to.pdf, id=1026, 569.12625pt x 388.45
+<./app1/figures/old1_avgzvx-eps-converted-to.pdf, id=1039, 569.12625pt x 388.45
 125pt>
 File: ./app1/figures/old1_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old1_avgzvx-eps-converted-to.pdf>
@@ -1242,7 +1245,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/old2_avgzvx-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old2_avgzvx-eps-converted-to.pdf, id=1027, 569.12625pt x 388.45
+<./app1/figures/old2_avgzvx-eps-converted-to.pdf, id=1040, 569.12625pt x 388.45
 125pt>
 File: ./app1/figures/old2_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old2_avgzvx-eps-converted-to.pdf>
@@ -1267,17 +1270,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./app1/figures/avgzvx-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/avgzvx-eps-converted-to.pdf, id=1028, 569.12625pt x 388.45125pt
+<./app1/figures/avgzvx-eps-converted-to.pdf, id=1041, 569.12625pt x 388.45125pt
 >
 File: ./app1/figures/avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/avgzvx-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/avgzvx-eps-converted-to.pdf  used on in
 put line 131.
 (pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
-[73] [74 <./app1/figures/old1_zvx-eps-converted-to.pdf> <./app1/figures/old1_av
-gzvx_nofit-eps-converted-to.pdf>] [75 <./app1/figures/old1_avgzvx-eps-converted
--to.pdf> <./app1/figures/old2_avgzvx-eps-converted-to.pdf>] [76 <./app1/figures
-/avgzvx-eps-converted-to.pdf>]) [77] (rawdiss.aux)
+[77] [78 <./app1/figures/old1_zvx-eps-converted-to.pdf> <./app1/figures/old1_av
+gzvx_nofit-eps-converted-to.pdf>] [79 <./app1/figures/old1_avgzvx-eps-converted
+-to.pdf> <./app1/figures/old2_avgzvx-eps-converted-to.pdf>] [80 <./app1/figures
+/avgzvx-eps-converted-to.pdf>]) [81] (rawdiss.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1286,10 +1289,10 @@ Package logreq Info: Writing requests to 'rawdiss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10574 strings out of 492946
- 192643 string characters out of 3135527
- 577824 words of memory out of 3000000
- 14202 multiletter control sequences out of 15000+200000
+ 10606 strings out of 492946
+ 193797 string characters out of 3135527
+ 601029 words of memory out of 3000000
+ 14234 multiletter control sequences out of 15000+200000
  9575 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,45p,1415b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1306,9 +1309,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on rawdiss.pdf (89 pages, 9152090 bytes).
+Output written on rawdiss.pdf (93 pages, 9165314 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
+ 1128 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

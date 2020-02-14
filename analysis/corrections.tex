@@ -10,7 +10,7 @@ Incoming and outgoing electrons lose energy due to passing through target materi
 
 Our DAQ is unable to continuously record data. While we can probabilistically determine the mean time spacing between events, in the real world events can deviate greatly from these means. Sometimes events will occur that are too close in time for our DAQ to record as the computer has not completed recording the previous event. Deadtime is a function of event rate; when events happen more rapidly, there is a higher chance that events will occur too closely in time to be recorded.
 
-When deadtime is low and the number of recorded events is high, it is a reasonable assumption that the events recorded will accurately reflect the distribution of events in the ``zero-deadtime limit''. In this case correcting for the deadtime is simply done by scaling the number of events by the ``livetime'' of the experiment.
+When deadtime is low and the number of recorded events is high, it is a reasonable assumption that the events recorded will accurately reflect the distribution of events in the ``zero-deadtime limit''. In this case correcting for the deadtime is simply done by scaling the number of events by the ``livetime'' of the experiment, defined as $\left(1-\text{Deadtime}\right)$.
 
 The computer livetime was measured using the Trigger Supervisor (TS) and scalers in each HRS. The trigger signals generated from detector signals are copied and sent to both the Trigger Supervisor and a scaler unit. The Trigger Supervisor is subject to the computer deadtime event loss discussed here. The scaler unit, on the other hand, simply increments a register when a trigger signal is received. The ratio of these the number of events recorded by these two systems gives a measure of the livetime of the measurement. The livetime is defined on a run-by-run basis as:
 
@@ -79,13 +79,13 @@ The data for the target being studied and the normalized empty target are then b
 
 \subsection{Charge Symmetric Background Subtraction}
 
-As an inclusive scattering experiment, we are particularly susceptible to background from charge symmetric processes from the target. That is events which involved the production of both an electron and a positron, rather than the electron simply scattering. To study this, the polarity of the LHRS was reversed so that positively charge particles are directed into the detectors rather than negatively charged particles. With this setting, a number of runs were taken in kinematics 0 through 5. These runs were taken with all targets, just as the electron data was taken. This allows for a measurement of the positron yield which corresponds to a measure of the charge symmetric background.
+As an inclusive scattering experiment, we are particularly susceptible to background from charge symmetric processes from the target. That is events which involved the production of both an electron and a positron, rather than the electron simply scattering. The primary source of this is $\pi^0$ decay. To study this, the polarity of the LHRS was reversed so that positively charge particles are directed into the detectors rather than negatively charged particles. With this setting, a number of runs were taken in kinematics 0 through 5. These runs were taken with all targets, just as the electron data was taken. This allows for a measurement of the positron yield which corresponds to a measure of the charge symmetric background.
 
 This measurement allows us to determine the proportion of electrons that originated from pair production. Applying the same cuts and as the electron data allows us to determine the charge normalized positron yield. Unlike in the electron analysis, it was noted that there was significant pion contamination in the positron data. This pion contamination had to be subtracted in order to get an accurate calculation of the positron yield. This is achieved by fitting the main pion peak and the subtracting the tail of the fit which survives the cuts applied from the positron data.
 
 The charge normalized positron yields over these kinematics are then combined (using the same methods as the electron yield) and binned in Bjorken $x$. This was then divided by the charge normalized electron yield. This is a fractional measure of the charge normalized background contamination. The ratio is then fit with an exponential of the form $e^{Ax + B}$, where $A$ and $B$ are the fit parameters. These fits are shown in in Figure \ref{fig:positrons}.
 
-This correction is applied to the final yield ratio results. Both the numerator and denominator must have the charge symmetric background subtracted. Each target yield in the ratio is scaled by $\left(1 - Fit\right)$. For each bin, the fit is calculated at the bin center. The covariance matrix of the fit is used to calculate the uncertainty from this correction. The uncertainty varies from approximately $0.06\%$ at low $x$ to $.002\%$ at high $x$.
+This correction is applied to the final yield ratio results. Both the numerator and denominator must have the charge symmetric background subtracted. Each target yield in the ratio is scaled by $\left(1 - e^{Ax + B}\right)$. For each bin, the fit is calculated at the bin center. The covariance matrix of the fit is used to calculate the uncertainty from this correction. The uncertainty varies from approximately $0.06\%$ at low $x$ to $.002\%$ at high $x$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/positrons.pdf}
@@ -106,7 +106,7 @@ Using $x=\frac{Q^2}{2M\nu}$, it is clear that a shift in $Q^2$ will result in a 
 	\sigma_{\textrm{Coulomb Corrected}} = \sigma_{\rm data} \frac{\sigma_{\rm model}\left(x_{\rm eff}\right)}{\sigma_{\rm model}\left(x\right)}.
 \end{equation}
 
-This correction is applied to the final ratio and each target in the ratio must be corrected. The ratio is multiplied by the correction to the numerator and divided by the correction to the denominator. The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. After the uncertainty is propagated, the uncertainty is approximately $0.15$-$0.2\%$.
+This correction is applied to the final ratio and each target in the ratio must be corrected. The ratio is multiplied by the correction to the numerator and divided by the correction to the denominator. The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. The uncertainty from the Coulomb Correction is approximately $0.15$-$0.2\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/cc.eps}
@@ -126,7 +126,7 @@ where $f$ is a function representing the chosen model. In practice, the $x$ valu
 	\sigma_{\textrm{Bin Centered}} = \frac{f\left(x_{\textrm{Bin Center}}\right)}{\langle f_{\rm measured}\rangle} \sigma_{\rm measured}.
 \end{equation}
 
-This correction must be applied to both targets in the ratios. That is, the ratio must be multiplied by the correction to the numerator and divided by the correction to the denominator.\cite{wtsydp} The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. After the uncertainty is propagated, the uncertainty is approximately $0.3\%$.
+This correction must be applied to both targets in the ratios. That is, the ratio must be multiplied by the correction to the numerator and divided by the correction to the denominator.\cite{wtsydp} The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. The uncertainty from the Bin Centering Correction is approximately $0.3\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/bcc.eps}
@@ -135,7 +135,7 @@ This correction must be applied to both targets in the ratios. That is, the rati
 
 \subsection{Radiative Corrections}
 
-The Deep Inelastic Cross Sections being studied are the Born approximation of a single-photon exchange. The Born approximation is the simplest interaction that can occur in which an electron enters, exchanges a photon with the parton, and then subsequently scatters. In this approximation, no other photons are exchanged or radiated. The measurement however, contains contributions from higher order processes that will increase the measured cross section. These processes include Bremsstrahlung, vertex corrections, and vacuum polarization. Bremsstrahlung is when the incoming or outgoing electrons radiate photons due to deceleration. Vertex corrections are the emission and subsequent reabsorbtion of a photon by the incoming and outgoing electron. Vacuum polarization when the virtual photon exchanged between the electron and nucleon annihilates into a particle-antiparticle pair which then reannihilate back into a virtual photon. Using a model, these and higher order contributions can be corrected for and removed from the measurement.
+The Deep Inelastic Cross Sections being studied are the Born approximation of a single-photon exchange. The Born approximation is the simplest interaction that can occur in which an electron enters, exchanges a photon with the parton, and then subsequently scatters. In this approximation, no other photons are exchanged or radiated. The measurement however, contains contributions from higher order processes that will increase the measured cross section. These processes include Bremsstrahlung, vertex corrections, and vacuum polarization. Bremsstrahlung is when the incoming or outgoing electrons radiate photons due to deceleration. Vertex corrections are the emission and subsequent reabsorbtion of a photon by the incoming and outgoing electron. Vacuum polarization is when the virtual photon exchanged between the electron and nucleon annihilates into a particle-antiparticle pair which then reannihilate back into a virtual photon. Using a model, these and higher order contributions can be corrected for and removed from the measurement.
 
 The experiment used a software package called $\texttt{T2\_EXTERNALS}$ that calculates both the Born cross section and the radiated cross section for a given target at a kinematic set $(E,E^{\prime} ,\theta )$. For this analysis, the values used in the calculation correspond to the center of the bin being corrected. After the calculation is complete, the radiative correction is
 \begin{equation}
@@ -150,13 +150,14 @@ The uncertainty was determined by using different models of the radiative correc
 \end{figure}
 
 \subsection{Isoscalar Corrections}
+\label{sec:isocor}
 
-When studying an EMC ratio, the strength of the EMC effect is typically defined using isoscalar nuclei, nuclei where the number of protons and the number of neutrons are equal. Helium-3 is not an isoscalar nucleus. To study the EMC effect, we ``correct'' this to create a fictional $A=3$, $Z=\nicefrac{3}{2}$ isoscalar nucleus. This correction uses $F_2^n/F_2^p$ as extracted from the MARATHON $^3$H/$^3$He ratio to transform the proton excess into equal quantities of protons and neutrons. This correction is defined as
+When studying an EMC ratio, the strength of the EMC effect is typically defined using isoscalar nuclei, nuclei where the number of protons and the number of neutrons are equal. Helium-3 is not an isoscalar nucleus. To study the EMC effect, we ``correct'' this to create a fictional $A=3$, $Z=\nicefrac{3}{2}$ isoscalar nucleus. This correction uses $\nicefrac{F_2^n}{F_2^p}$ as extracted from the MARATHON $^3$H/$^3$He ratio to transform the proton excess into equal quantities of protons and neutrons. This correction is defined as
 \begin{equation}
-	\textrm{Isoscalar Correction} = \frac{\frac{1}{2}\left(1+F_2^n/F_2^p\right)}{\frac{1}{A}\left(Z+\left(A-Z\right)F_2^n/F_2^p\right)}
+	\textrm{Isoscalar Correction} = \frac{\frac{1}{2}\left(1+\nicefrac{F_2^n}{F_2^p}\right)}{\frac{1}{A}\left(Z+\left(A-Z\right)\nicefrac{F_2^n}{F_2^p}\right)}
 \end{equation}
 
-The covariance matrix of the fit to the $F_2^n/F_2^p$ data is used to determine the uncertainty of this correction. After the uncertainty is propagated, the uncertainty is between $0.36\%$ and $0.67\%$.
+The covariance matrix of the fit to the $\nicefrac{F_2^n}{F_2^p}$ data is used to determine the uncertainty of this correction. After the uncertainty is propagated, the uncertainty is between $0.36\%$ and $0.67\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/isocor.eps}
