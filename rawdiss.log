@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  13 FEB 2020 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.11)  17 FEB 2020 22:18
 entering extended mode
 **./rawdiss.tex
 (rawdiss.tex
@@ -248,16 +248,53 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
-Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+("C:\Program Files\MiKTeX 2.9\tex/latex/csvsimple\csvsimple.sty"
+Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen132
+\pgfutil@tempdimb=\dimen133
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box31
+("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks25
+))) ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count108
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+\csv@file=\read1
+\c@csvinputline=\count109
+\c@csvrow=\count110
+\c@csvcol=\count111
+\csv@out=\write3
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count109
+\lrq@indent=\count112
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -266,47 +303,47 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count110
-\c@listtotal=\count111
-\c@listcount=\count112
-\c@liststart=\count113
-\c@liststop=\count114
-\c@citecount=\count115
-\c@citetotal=\count116
-\c@multicitecount=\count117
-\c@multicitetotal=\count118
-\c@instcount=\count119
-\c@maxnames=\count120
-\c@minnames=\count121
-\c@maxitems=\count122
-\c@minitems=\count123
-\c@citecounter=\count124
-\c@maxcitecounter=\count125
-\c@savedcitecounter=\count126
-\c@uniquelist=\count127
-\c@uniquename=\count128
-\c@refsection=\count129
-\c@refsegment=\count130
-\c@maxextratitle=\count131
-\c@maxextratitleyear=\count132
-\c@maxextraname=\count133
-\c@maxextradate=\count134
-\c@maxextraalpha=\count135
-\c@abbrvpenalty=\count136
-\c@highnamepenalty=\count137
-\c@lownamepenalty=\count138
-\c@maxparens=\count139
-\c@parenlevel=\count140
-\blx@tempcnta=\count141
-\blx@tempcntb=\count142
-\blx@tempcntc=\count143
-\blx@maxsection=\count144
-\blx@maxsegment@0=\count145
-\blx@notetype=\count146
-\blx@parenlevel@text=\count147
-\blx@parenlevel@foot=\count148
-\blx@sectionciteorder@0=\count149
-\blx@entrysetcounter=\count150
+\c@tabx@nest=\count113
+\c@listtotal=\count114
+\c@listcount=\count115
+\c@liststart=\count116
+\c@liststop=\count117
+\c@citecount=\count118
+\c@citetotal=\count119
+\c@multicitecount=\count120
+\c@multicitetotal=\count121
+\c@instcount=\count122
+\c@maxnames=\count123
+\c@minnames=\count124
+\c@maxitems=\count125
+\c@minitems=\count126
+\c@citecounter=\count127
+\c@maxcitecounter=\count128
+\c@savedcitecounter=\count129
+\c@uniquelist=\count130
+\c@uniquename=\count131
+\c@refsection=\count132
+\c@refsegment=\count133
+\c@maxextratitle=\count134
+\c@maxextratitleyear=\count135
+\c@maxextraname=\count136
+\c@maxextradate=\count137
+\c@maxextraalpha=\count138
+\c@abbrvpenalty=\count139
+\c@highnamepenalty=\count140
+\c@lownamepenalty=\count141
+\c@maxparens=\count142
+\c@parenlevel=\count143
+\blx@tempcnta=\count144
+\blx@tempcntb=\count145
+\blx@tempcntc=\count146
+\blx@maxsection=\count147
+\blx@maxsegment@0=\count148
+\blx@notetype=\count149
+\blx@parenlevel@text=\count150
+\blx@parenlevel@foot=\count151
+\blx@sectionciteorder@0=\count152
+\blx@entrysetcounter=\count153
 \labelnumberwidth=\skip62
 \labelalphawidth=\skip63
 \biblabelsep=\skip64
@@ -315,12 +352,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip67
 \bibparsep=\skip68
 \bibhang=\skip69
-\blx@bcfin=\read1
-\blx@bcfout=\write3
+\blx@bcfin=\read2
+\blx@bcfout=\write4
 \blx@langwohyphens=\language76
-\c@mincomprange=\count151
-\c@maxcomprange=\count152
-\c@mincompwidth=\count153
+\c@mincomprange=\count154
+\c@maxcomprange=\count155
+\c@mincompwidth=\count156
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -331,74 +368,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'chem-angew.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count154
-\c@savedafterword=\count155
-\c@annotator=\count156
-\c@savedannotator=\count157
-\c@author=\count158
-\c@savedauthor=\count159
-\c@bookauthor=\count160
-\c@savedbookauthor=\count161
-\c@commentator=\count162
-\c@savedcommentator=\count163
-\c@editor=\count164
-\c@savededitor=\count165
-\c@editora=\count166
-\c@savededitora=\count167
-\c@editorb=\count168
-\c@savededitorb=\count169
-\c@editorc=\count170
-\c@savededitorc=\count171
-\c@foreword=\count172
-\c@savedforeword=\count173
-\c@holder=\count174
-\c@savedholder=\count175
-\c@introduction=\count176
-\c@savedintroduction=\count177
-\c@namea=\count178
-\c@savednamea=\count179
-\c@nameb=\count180
-\c@savednameb=\count181
-\c@namec=\count182
-\c@savednamec=\count183
-\c@translator=\count184
-\c@savedtranslator=\count185
-\c@shortauthor=\count186
-\c@savedshortauthor=\count187
-\c@shorteditor=\count188
-\c@savedshorteditor=\count189
-\c@labelname=\count190
-\c@savedlabelname=\count191
-\c@institution=\count192
-\c@savedinstitution=\count193
-\c@lista=\count194
-\c@savedlista=\count195
-\c@listb=\count196
-\c@savedlistb=\count197
-\c@listc=\count198
-\c@savedlistc=\count199
-\c@listd=\count266
-\c@savedlistd=\count267
-\c@liste=\count268
-\c@savedliste=\count269
-\c@listf=\count270
-\c@savedlistf=\count271
-\c@location=\count272
-\c@savedlocation=\count273
-\c@organization=\count274
-\c@savedorganization=\count275
-\c@origlocation=\count276
-\c@savedoriglocation=\count277
-\c@origpublisher=\count278
-\c@savedorigpublisher=\count279
-\c@publisher=\count280
-\c@savedpublisher=\count281
-\c@language=\count282
-\c@savedlanguage=\count283
-\c@origlanguage=\count284
-\c@savedoriglanguage=\count285
-\c@pageref=\count286
-\c@savedpageref=\count287
+\c@afterword=\count157
+\c@savedafterword=\count158
+\c@annotator=\count159
+\c@savedannotator=\count160
+\c@author=\count161
+\c@savedauthor=\count162
+\c@bookauthor=\count163
+\c@savedbookauthor=\count164
+\c@commentator=\count165
+\c@savedcommentator=\count166
+\c@editor=\count167
+\c@savededitor=\count168
+\c@editora=\count169
+\c@savededitora=\count170
+\c@editorb=\count171
+\c@savededitorb=\count172
+\c@editorc=\count173
+\c@savededitorc=\count174
+\c@foreword=\count175
+\c@savedforeword=\count176
+\c@holder=\count177
+\c@savedholder=\count178
+\c@introduction=\count179
+\c@savedintroduction=\count180
+\c@namea=\count181
+\c@savednamea=\count182
+\c@nameb=\count183
+\c@savednameb=\count184
+\c@namec=\count185
+\c@savednamec=\count186
+\c@translator=\count187
+\c@savedtranslator=\count188
+\c@shortauthor=\count189
+\c@savedshortauthor=\count190
+\c@shorteditor=\count191
+\c@savedshorteditor=\count192
+\c@labelname=\count193
+\c@savedlabelname=\count194
+\c@institution=\count195
+\c@savedinstitution=\count196
+\c@lista=\count197
+\c@savedlista=\count198
+\c@listb=\count199
+\c@savedlistb=\count266
+\c@listc=\count267
+\c@savedlistc=\count268
+\c@listd=\count269
+\c@savedlistd=\count270
+\c@liste=\count271
+\c@savedliste=\count272
+\c@listf=\count273
+\c@savedlistf=\count274
+\c@location=\count275
+\c@savedlocation=\count276
+\c@organization=\count277
+\c@savedorganization=\count278
+\c@origlocation=\count279
+\c@savedoriglocation=\count280
+\c@origpublisher=\count281
+\c@savedorigpublisher=\count282
+\c@publisher=\count283
+\c@savedpublisher=\count284
+\c@language=\count285
+\c@savedlanguage=\count286
+\c@origlanguage=\count287
+\c@savedoriglanguage=\count288
+\c@pageref=\count289
+\c@savedpageref=\count290
 \shorthandwidth=\skip70
 \shortjournalwidth=\skip71
 \shortserieswidth=\skip72
@@ -434,19 +471,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count288
-\c@textcitetotal=\count289
-\c@textcitemaxnames=\count290
-\c@biburlbigbreakpenalty=\count291
-\c@biburlbreakpenalty=\count292
-\c@biburlnumpenalty=\count293
-\c@biburlucpenalty=\count294
-\c@biburllcpenalty=\count295
+\c@textcitecount=\count291
+\c@textcitetotal=\count292
+\c@textcitemaxnames=\count293
+\c@biburlbigbreakpenalty=\count294
+\c@biburlbreakpenalty=\count295
+\c@biburlnumpenalty=\count296
+\c@biburlucpenalty=\count297
+\c@biburllcpenalty=\count298
 \biburlbigskip=\muskip12
 \biburlnumskip=\muskip13
 \biburlucskip=\muskip14
 \biburllcskip=\muskip15
-\c@smartand=\count296
+\c@smartand=\count299
 )
 Package biblatex Info: Trying to load bibliography style 'chem-angew'...
 Package biblatex Info: ... file 'chem-angew.bbx' found.
@@ -468,8 +505,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count297
-\c@bbx:relatedtotal=\count298
+\c@bbx:relatedcount=\count300
+\c@bbx:relatedtotal=\count301
 ))))
 Package biblatex Info: Trying to load citation style 'chem-angew'...
 Package biblatex Info: ... file 'chem-angew.cbx' found.
@@ -481,8 +518,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx"
 File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count299
-\c@cbx@tempcntb=\count300
+\c@cbx@tempcnta=\count302
+\c@cbx@tempcntb=\count303
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -509,16 +546,9 @@ Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
 File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
-\@quotelevel=\count301
-\@quotereset=\count302
- (rawdiss.aux
-
-LaTeX Warning: Label `fig:deadtime' multiply defined.
-
-
-LaTeX Warning: Label `sec:F2ratio' multiply defined.
-
-)
+\@quotelevel=\count304
+\@quotereset=\count305
+ (rawdiss.aux)
 \openout1 = `rawdiss.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
@@ -570,17 +600,17 @@ LaTeX Font Info:    ... okay on input line 139.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen132
-\scratchbox=\box31
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen133
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count306
+\scratchdimen=\dimen134
+\scratchbox=\box32
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen135
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks27
 )
 LaTeX Info: Redefining \celsius on input line 139.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 139
@@ -594,17 +624,18 @@ Package gensymb Info: Using \Omega for \ohm on input line 139.
 
 Package gensymb Warning: Not defining \micro.
 
+ABD: EveryShipout initializing macros
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `rawdiss-blx.bib'.
+\openout4 = `rawdiss-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rawdiss.bbl' found.
-(rawdiss.bbl)
+ (rawdiss.bbl)
 Package biblatex Info: Reference section=0 on input line 139.
 Package biblatex Info: Reference segment=0 on input line 139.
  (abstract.tex
@@ -670,67 +701,72 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 
 ] [5])
-\tf@toc=\write4
-\openout4 = `rawdiss.toc'.
+\tf@toc=\write5
+\openout5 = `rawdiss.toc'.
 
  [6] (rawdiss.lof [7
 
-] [8] [9])
-\tf@lof=\write5
-\openout5 = `rawdiss.lof'.
+] [8] [9] [10]
+Overfull \hbox (1.29724pt too wide) in paragraph at lines 109--109
+ \OT1/cmr/m/n/10.95 MES. The MARATHON isoscalar cor-rec-tion is ap-plied to all
+ data. The MARATHON 
+ []
 
- [10] (rawdiss.lot)
-\tf@lot=\write6
-\openout6 = `rawdiss.lot'.
+)
+\tf@lof=\write6
+\openout6 = `rawdiss.lof'.
 
- [11
+ [11] (rawdiss.lot)
+\tf@lot=\write7
+\openout7 = `rawdiss.lot'.
 
-]
-(acknowledgements.tex) [12
+ [12
+
+] (acknowledgements.tex) [13
 
 ]
 CHAPTER 1.
 (Intro/main.tex) [1
 
 
-]
+] [2]
 CHAPTER 2.
-(scattering/main.tex (scattering/history.tex) (scattering/e_scat.tex [2
+(scattering/main.tex (scattering/history.tex) (scattering/e_scat.tex [3
 
 ]
-[3]
-<./scattering/fig/feyn_dis.png, id=56, 649.67719pt x 596.98032pt>
+[4]
+<./scattering/fig/feyn_dis.png, id=63, 649.67719pt x 596.98032pt>
 File: ./scattering/fig/feyn_dis.png Graphic file (type png)
 <use ./scattering/fig/feyn_dis.png>
 Package pdftex.def Info: ./scattering/fig/feyn_dis.png  used on input line 29.
 (pdftex.def)             Requested size: 234.8775pt x 215.82365pt.
- [4 <./scattering/fig/feyn_dis.png>] [5]) (scattering/bj_scale.tex [6]
-<./scattering/fig/no_q2_dep.png, id=70, 400.49625pt x 248.42813pt>
+ [5 <./scattering/fig/feyn_dis.png>] [6]) (scattering/bj_scale.tex [7]
+<./scattering/fig/no_q2_dep.png, id=78, 400.49625pt x 248.42813pt>
 File: ./scattering/fig/no_q2_dep.png Graphic file (type png)
 <use ./scattering/fig/no_q2_dep.png>
 Package pdftex.def Info: ./scattering/fig/no_q2_dep.png  used on input line 40.
 
 (pdftex.def)             Requested size: 352.31625pt x 218.55298pt.
 )
-(scattering/f2.tex [7 <./scattering/fig/no_q2_dep.png>] [8]) (scattering/r.tex
-[9] [10]
-<./scattering/fig/R_LT.png, id=84, 294.34969pt x 317.68687pt>
+(scattering/f2.tex [8 <./scattering/fig/no_q2_dep.png>] [9]) (scattering/r.tex
+[10] [11]
+<./scattering/fig/R_LT.png, id=91, 294.34969pt x 317.68687pt>
 File: ./scattering/fig/R_LT.png Graphic file (type png)
 <use ./scattering/fig/R_LT.png>
 Package pdftex.def Info: ./scattering/fig/R_LT.png  used on input line 50.
 (pdftex.def)             Requested size: 294.34895pt x 317.68608pt.
-) (scattering/f2r.tex [11 <./scattering/fig/R_LT.png>])) [12]
+) (scattering/f2r.tex [12 <./scattering/fig/R_LT.png>])) [13]
 CHAPTER 3.
 (EMC/main.tex (EMC/history.tex
-<./EMC/fig/original_EMC.png, id=92, 409.53pt x 454.69875pt>
+<./EMC/fig/original_EMC.png, id=99, 409.53pt x 454.69875pt>
 File: ./EMC/fig/original_EMC.png Graphic file (type png)
 <use ./EMC/fig/original_EMC.png>
 Package pdftex.def Info: ./EMC/fig/original_EMC.png  used on input line 5.
 (pdftex.def)             Requested size: 234.8775pt x 260.79062pt.
- [13
+ [14
 
 ]
-<./EMC/fig/gomez.png, id=97, 447.17062pt x 499.11469pt>
+<./EMC/fig/gomez.png, id=103, 447.17062pt x 499.11469pt>
 File: ./EMC/fig/gomez.png Graphic file (type png)
 <use ./EMC/fig/gomez.png>
 Package pdftex.def Info: ./EMC/fig/gomez.png  used on input line 32.
@@ -739,7 +775,7 @@ Package pdftex.def Info: ./EMC/fig/gomez.png  used on input line 32.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./EMC/fig/original_EMC.png>] [15 <./EMC/fig/gomez.png>] [16]
+[15 <./EMC/fig/original_EMC.png>] [16 <./EMC/fig/gomez.png>] [17]
 Package epstopdf Info: Source file: <./EMC/fig/seely.eps>
 (epstopdf)                    date: 2019-10-25 19:45:44
 (epstopdf)                    size: 30691 bytes
@@ -754,48 +790,48 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./EMC/fig/seely-eps-converted-to.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<./EMC/fig/seely-eps-converted-to.pdf, id=107, 2890.8pt x 2168.1pt>
+<./EMC/fig/seely-eps-converted-to.pdf, id=113, 2890.8pt x 2168.1pt>
 File: ./EMC/fig/seely-eps-converted-to.pdf Graphic file (type pdf)
 <use ./EMC/fig/seely-eps-converted-to.pdf>
 Package pdftex.def Info: ./EMC/fig/seely-eps-converted-to.pdf  used on input li
 ne 69.
 (pdftex.def)             Requested size: 328.82707pt x 246.59695pt.
-) (EMC/regions.tex [17 <./EMC/fig/seely-eps-converted-to.pdf>])
-(EMC/theories.tex [18] [19])) [20]
+) (EMC/regions.tex [18 <./EMC/fig/seely-eps-converted-to.pdf>])
+(EMC/theories.tex [19] [20])) [21]
 CHAPTER 4.
 (setup/main.tex (setup/cebaf.tex
-<./setup/fig/cebaf.png, id=152, 873.2625pt x 678.28406pt>
+<./setup/fig/cebaf.png, id=158, 873.2625pt x 678.28406pt>
 File: ./setup/fig/cebaf.png Graphic file (type png)
 <use ./setup/fig/cebaf.png>
 Package pdftex.def Info: ./setup/fig/cebaf.png  used on input line 7.
 (pdftex.def)             Requested size: 328.82707pt x 255.40121pt.
-) (setup/beamline.tex [21
+) (setup/beamline.tex [22
 
  <./setup/fig/cebaf.png>]
-<./setup/fig/HallA_overhead.png, id=156, 642.14906pt x 379.4175pt>
+<./setup/fig/HallA_overhead.png, id=162, 642.14906pt x 379.4175pt>
 File: ./setup/fig/HallA_overhead.png Graphic file (type png)
 <use ./setup/fig/HallA_overhead.png>
 Package pdftex.def Info: ./setup/fig/HallA_overhead.png  used on input line 15.
 
 (pdftex.def)             Requested size: 328.82707pt x 194.2935pt.
- [22 <./setup/fig/HallA_overhead.png>]
-<./setup/fig/harp.png, id=160, 938.75719pt x 196.48407pt>
+ [23 <./setup/fig/HallA_overhead.png>]
+<./setup/fig/harp.png, id=166, 938.75719pt x 196.48407pt>
 File: ./setup/fig/harp.png Graphic file (type png)
 <use ./setup/fig/harp.png>
 Package pdftex.def Info: ./setup/fig/harp.png  used on input line 29.
 (pdftex.def)             Requested size: 469.75502pt x 98.31973pt.
- [23 <./setup/fig/harp.png>]
-<./setup/fig/raster_pic.jpg, id=164, 2021.5525pt x 424.58624pt>
+ [24 <./setup/fig/harp.png>]
+<./setup/fig/raster_pic.jpg, id=171, 2021.5525pt x 424.58624pt>
 File: ./setup/fig/raster_pic.jpg Graphic file (type jpg)
 <use ./setup/fig/raster_pic.jpg>
 Package pdftex.def Info: ./setup/fig/raster_pic.jpg  used on input line 54.
 (pdftex.def)             Requested size: 469.75502pt x 98.65697pt.
-<./setup/fig/raster_sync.png, id=165, 986.9372pt x 680.5425pt>
+<./setup/fig/raster_sync.png, id=172, 986.9372pt x 680.5425pt>
 File: ./setup/fig/raster_sync.png Graphic file (type png)
 <use ./setup/fig/raster_sync.png>
 Package pdftex.def Info: ./setup/fig/raster_sync.png  used on input line 64.
 (pdftex.def)             Requested size: 328.82707pt x 226.73964pt.
- [24 <./setup/fig/raster_pic.jpg>]
+ [25 <./setup/fig/raster_pic.jpg>]
 Package epstopdf Info: Source file: <./setup/fig/ex_rast.eps>
 (epstopdf)                    date: 2019-05-07 21:58:38
 (epstopdf)                    size: 10591 bytes
@@ -810,43 +846,43 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./setup/fig/ex_rast-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./setup/fig/ex_rast-eps-converted-to.pdf, id=169, 569.12625pt x 386.44376pt>
+<./setup/fig/ex_rast-eps-converted-to.pdf, id=176, 569.12625pt x 386.44376pt>
 File: ./setup/fig/ex_rast-eps-converted-to.pdf Graphic file (type pdf)
 <use ./setup/fig/ex_rast-eps-converted-to.pdf>
 Package pdftex.def Info: ./setup/fig/ex_rast-eps-converted-to.pdf  used on inpu
 t line 72.
 (pdftex.def)             Requested size: 328.82707pt x 223.2884pt.
-[25 <./setup/fig/raster_sync.png> <./setup/fig/ex_rast-eps-converted-to.pdf>]
-[26]
-<./setup/fig/bpm.png, id=180, 388.45125pt x 338.76563pt>
+[26 <./setup/fig/raster_sync.png> <./setup/fig/ex_rast-eps-converted-to.pdf>]
+[27]
+<./setup/fig/bpm.png, id=186, 388.45125pt x 338.76563pt>
 File: ./setup/fig/bpm.png Graphic file (type png)
 <use ./setup/fig/bpm.png>
 Package pdftex.def Info: ./setup/fig/bpm.png  used on input line 96.
 (pdftex.def)             Requested size: 234.8775pt x 204.83752pt.
-<./setup/fig/bullseye_scan.png, id=181, 904.88063pt x 541.27219pt>
+<./setup/fig/bullseye_scan.png, id=187, 904.88063pt x 541.27219pt>
 File: ./setup/fig/bullseye_scan.png Graphic file (type png)
 <use ./setup/fig/bullseye_scan.png>
 Package pdftex.def Info: ./setup/fig/bullseye_scan.png  used on input line 110.
 
 (pdftex.def)             Requested size: 328.82707pt x 196.69136pt.
-) (setup/target.tex [27 <./setup/fig/bpm.png>]
-<./setup/fig/HallA_side.png, id=185, 631.60968pt x 285.31593pt>
+) (setup/target.tex [28 <./setup/fig/bpm.png>]
+<./setup/fig/HallA_side.png, id=191, 631.60968pt x 285.31593pt>
 File: ./setup/fig/HallA_side.png Graphic file (type png)
 <use ./setup/fig/HallA_side.png>
 Package pdftex.def Info: ./setup/fig/HallA_side.png  used on input line 8.
 (pdftex.def)             Requested size: 375.80544pt x 169.76291pt.
-<./setup/fig/targ_cell.png, id=186, 1061.46562pt x 542.025pt>
+<./setup/fig/targ_cell.png, id=192, 1061.46562pt x 542.025pt>
 File: ./setup/fig/targ_cell.png Graphic file (type png)
 <use ./setup/fig/targ_cell.png>
 Package pdftex.def Info: ./setup/fig/targ_cell.png  used on input line 22.
 (pdftex.def)             Requested size: 328.82707pt x 167.91022pt.
- [28 <./setup/fig/bullseye_scan.png>] [29 <./setup/fig/HallA_side.png> <./setup
+ [29 <./setup/fig/bullseye_scan.png>] [30 <./setup/fig/HallA_side.png> <./setup
 /fig/targ_cell.png>]
 Overfull \hbox (39.72864pt too wide) in paragraph at lines 43--54
 [][] 
  []
 
-<./setup/fig/target.png, id=193, 313.17pt x 475.0548pt>
+<./setup/fig/target.png, id=200, 313.17pt x 475.0548pt>
 File: ./setup/fig/target.png Graphic file (type png)
 <use ./setup/fig/target.png>
 Package pdftex.def Info: ./setup/fig/target.png  used on input line 72.
@@ -854,25 +890,25 @@ Package pdftex.def Info: ./setup/fig/target.png  used on input line 72.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30]) (setup/HRS.tex [31 <./setup/fig/target.png>]
-<./setup/fig/HRS_mags.png, id=202, 674.52pt x 399.74344pt>
+[31]) (setup/HRS.tex [32 <./setup/fig/target.png>]
+<./setup/fig/HRS_mags.png, id=208, 674.52pt x 399.74344pt>
 File: ./setup/fig/HRS_mags.png Graphic file (type png)
 <use ./setup/fig/HRS_mags.png>
 Package pdftex.def Info: ./setup/fig/HRS_mags.png  used on input line 9.
 (pdftex.def)             Requested size: 375.80544pt x 222.72026pt.
- [32 <./setup/fig/HRS_mags.png>]
-<./setup/fig/vdc.png, id=206, 749.04843pt x 540.51938pt>
+ [33 <./setup/fig/HRS_mags.png>]
+<./setup/fig/vdc.png, id=212, 749.04843pt x 540.51938pt>
 File: ./setup/fig/vdc.png Graphic file (type png)
 <use ./setup/fig/vdc.png>
 Package pdftex.def Info: ./setup/fig/vdc.png  used on input line 27.
 (pdftex.def)             Requested size: 375.80544pt x 271.18275pt.
- [33]
-<./setup/fig/s2.png, id=210, 439.6425pt x 698.61pt>
+ [34]
+<./setup/fig/s2.png, id=216, 439.6425pt x 698.61pt>
 File: ./setup/fig/s2.png Graphic file (type png)
 <use ./setup/fig/s2.png>
 Package pdftex.def Info: ./setup/fig/s2.png  used on input line 43.
 (pdftex.def)             Requested size: 140.92793pt x 223.93286pt.
- [34 <./setup/fig/vdc.png>] [35 <./setup/fig/s2.png>]
+ [35 <./setup/fig/vdc.png>] [36 <./setup/fig/s2.png>]
 Package epstopdf Info: Source file: <./setup/fig/cer_pmt.eps>
 (epstopdf)                    date: 2019-12-18 20:33:44
 (epstopdf)                    size: 16903 bytes
@@ -887,97 +923,97 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./setup/fig/cer_pmt-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./setup/fig/cer_pmt-eps-converted-to.pdf, id=217, 569.12625pt x 306.14375pt>
+<./setup/fig/cer_pmt-eps-converted-to.pdf, id=224, 569.12625pt x 306.14375pt>
 File: ./setup/fig/cer_pmt-eps-converted-to.pdf Graphic file (type pdf)
 <use ./setup/fig/cer_pmt-eps-converted-to.pdf>
 Package pdftex.def Info: ./setup/fig/cer_pmt-eps-converted-to.pdf  used on inpu
 t line 66.
 (pdftex.def)             Requested size: 328.82707pt x 176.89081pt.
-[36 <./setup/fig/cer_pmt-eps-converted-to.pdf>]
-<./setup/fig/shower_layout.png, id=224, 901.86937pt x 562.35094pt>
+[37 <./setup/fig/cer_pmt-eps-converted-to.pdf>]
+<./setup/fig/shower_layout.png, id=231, 901.86937pt x 562.35094pt>
 File: ./setup/fig/shower_layout.png Graphic file (type png)
 <use ./setup/fig/shower_layout.png>
 Package pdftex.def Info: ./setup/fig/shower_layout.png  used on input line 84.
 (pdftex.def)             Requested size: 375.80544pt x 234.33234pt.
- [37 <./setup/fig/shower_layout.png>]
-<./setup/fig/trigger_diagram.png, id=229, 806.26219pt x 491.58656pt>
+ [38 <./setup/fig/shower_layout.png>]
+<./setup/fig/trigger_diagram.png, id=235, 806.26219pt x 491.58656pt>
 File: ./setup/fig/trigger_diagram.png Graphic file (type png)
 <use ./setup/fig/trigger_diagram.png>
 Package pdftex.def Info: ./setup/fig/trigger_diagram.png  used on input line 10
 9.
 (pdftex.def)             Requested size: 469.75502pt x 286.41808pt.
-)) [38] [39 <./setup/fig/trigger_diagram.png>]
+)) [39] [40 <./setup/fig/trigger_diagram.png>]
 CHAPTER 5.
-(analysis/main.tex [40
+(analysis/main.tex [41
 
 ]
-<./analysis/fig/kin_plots.png, id=240, 1506.3778pt x 587.19376pt>
+<./analysis/fig/kin_plots.png, id=246, 1506.3778pt x 587.19376pt>
 File: ./analysis/fig/kin_plots.png Graphic file (type png)
 <use ./analysis/fig/kin_plots.png>
 Package pdftex.def Info: ./analysis/fig/kin_plots.png  used on input line 34.
 (pdftex.def)             Requested size: 469.75502pt x 183.11232pt.
- [41 <./analysis/fig/kin_plots.png>] [42] [43]
-(analysis/cuts.tex [44]
-<./analysis/fig/LCer_pid.pdf, id=254, 1156.32pt x 650.43pt>
+ [42 <./analysis/fig/kin_plots.png>] [43] [44]
+(analysis/cuts.tex [45]
+<./analysis/fig/LCer_pid.pdf, id=260, 1156.32pt x 650.43pt>
 File: ./analysis/fig/LCer_pid.pdf Graphic file (type pdf)
 <use ./analysis/fig/LCer_pid.pdf>
 Package pdftex.def Info: ./analysis/fig/LCer_pid.pdf  used on input line 19.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/RCer_pid.pdf, id=255, 1156.32pt x 650.43pt>
+<./analysis/fig/RCer_pid.pdf, id=261, 1156.32pt x 650.43pt>
 File: ./analysis/fig/RCer_pid.pdf Graphic file (type pdf)
 <use ./analysis/fig/RCer_pid.pdf>
 Package pdftex.def Info: ./analysis/fig/RCer_pid.pdf  used on input line 20.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/LCal_pid.pdf, id=256, 1156.32pt x 650.43pt>
+<./analysis/fig/LCal_pid.pdf, id=262, 1156.32pt x 650.43pt>
 File: ./analysis/fig/LCal_pid.pdf Graphic file (type pdf)
 <use ./analysis/fig/LCal_pid.pdf>
 Package pdftex.def Info: ./analysis/fig/LCal_pid.pdf  used on input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/LCervCal_pid.pdf, id=257, 1156.32pt x 650.43pt>
+<./analysis/fig/LCervCal_pid.pdf, id=263, 1156.32pt x 650.43pt>
 File: ./analysis/fig/LCervCal_pid.pdf Graphic file (type pdf)
 <use ./analysis/fig/LCervCal_pid.pdf>
 Package pdftex.def Info: ./analysis/fig/LCervCal_pid.pdf  used on input line 36
 .
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/LHRS_ACC.pdf, id=258, 1156.32pt x 650.43pt>
+<./analysis/fig/LHRS_ACC.pdf, id=264, 1156.32pt x 650.43pt>
 File: ./analysis/fig/LHRS_ACC.pdf Graphic file (type pdf)
 <use ./analysis/fig/LHRS_ACC.pdf>
 Package pdftex.def Info: ./analysis/fig/LHRS_ACC.pdf  used on input line 48.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/RHRS_ACC.pdf, id=259, 1156.32pt x 650.43pt>
+<./analysis/fig/RHRS_ACC.pdf, id=265, 1156.32pt x 650.43pt>
 File: ./analysis/fig/RHRS_ACC.pdf Graphic file (type pdf)
 <use ./analysis/fig/RHRS_ACC.pdf>
 Package pdftex.def Info: ./analysis/fig/RHRS_ACC.pdf  used on input line 49.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/LHRS_dp.pdf, id=260, 1156.32pt x 650.43pt>
+<./analysis/fig/LHRS_dp.pdf, id=266, 1156.32pt x 650.43pt>
 File: ./analysis/fig/LHRS_dp.pdf Graphic file (type pdf)
 <use ./analysis/fig/LHRS_dp.pdf>
 Package pdftex.def Info: ./analysis/fig/LHRS_dp.pdf  used on input line 57.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/RHRS_dp.pdf, id=261, 1156.32pt x 650.43pt>
+<./analysis/fig/RHRS_dp.pdf, id=267, 1156.32pt x 650.43pt>
 File: ./analysis/fig/RHRS_dp.pdf Graphic file (type pdf)
 <use ./analysis/fig/RHRS_dp.pdf>
 Package pdftex.def Info: ./analysis/fig/RHRS_dp.pdf  used on input line 58.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-<./analysis/fig/RHRS_fp.pdf, id=262, 1156.32pt x 650.43pt>
+<./analysis/fig/RHRS_fp.pdf, id=268, 1156.32pt x 650.43pt>
 File: ./analysis/fig/RHRS_fp.pdf Graphic file (type pdf)
 <use ./analysis/fig/RHRS_fp.pdf>
 Package pdftex.def Info: ./analysis/fig/RHRS_fp.pdf  used on input line 66.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [45] [46 <./analysis/fig/LCer_pid.pdf> <./analysis/fig/RCer_pid.pdf
+ [46] [47 <./analysis/fig/LCer_pid.pdf> <./analysis/fig/RCer_pid.pdf
 
 pdfTeX warning: pdflatex (file ./analysis/fig/RCer_pid.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [47 <./analysis/fig/LCal_pid.pdf>] [48 <./analysis/fig/LCervCal_pid.pdf>]
-[49 <./analysis/fig/LHRS_ACC.pdf> <./analysis/fig/RHRS_ACC.pdf
+>] [48 <./analysis/fig/LCal_pid.pdf>] [49 <./analysis/fig/LCervCal_pid.pdf>]
+[50 <./analysis/fig/LHRS_ACC.pdf> <./analysis/fig/RHRS_ACC.pdf
 
 pdfTeX warning: pdflatex (file ./analysis/fig/RHRS_ACC.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [50 <./analysis/fig/LHRS_dp.pdf> <./analysis/fig/RHRS_dp.pdf
+>] [51 <./analysis/fig/LHRS_dp.pdf> <./analysis/fig/RHRS_dp.pdf
 
 pdfTeX warning: pdflatex (file ./analysis/fig/RHRS_dp.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] [51 <./analysis/fig/RHRS_fp.pdf>]) (analysis/corrections.tex [52]
+>] [52 <./analysis/fig/RHRS_fp.pdf>]) (analysis/corrections.tex [53]
 Package epstopdf Info: Source file: <./analysis/fig/deadtime.eps>
 (epstopdf)                    date: 2019-04-23 13:49:04
 (epstopdf)                    size: 33272 bytes
@@ -993,31 +1029,31 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./analysis/fig/deadtime-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/deadtime-eps-converted-to.pdf, id=595, 1156.32pt x 650.43pt>
+<./analysis/fig/deadtime-eps-converted-to.pdf, id=601, 1156.32pt x 650.43pt>
 File: ./analysis/fig/deadtime-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/deadtime-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/deadtime-eps-converted-to.pdf  used on 
 input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[53] [54 <./analysis/fig/deadtime-eps-converted-to.pdf>]
-<./analysis/fig/boil_cor.pdf, id=642, 1156.32pt x 650.43pt>
+[54] [55 <./analysis/fig/deadtime-eps-converted-to.pdf>]
+<./analysis/fig/boil_cor.pdf, id=649, 1156.32pt x 650.43pt>
 File: ./analysis/fig/boil_cor.pdf Graphic file (type pdf)
 <use ./analysis/fig/boil_cor.pdf>
 Package pdftex.def Info: ./analysis/fig/boil_cor.pdf  used on input line 50.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [55 <./analysis/fig/boil_cor.pdf>]
-<./analysis/fig/ECC.pdf, id=690, 1156.32pt x 650.43pt>
+ [56 <./analysis/fig/boil_cor.pdf>]
+<./analysis/fig/ECC.pdf, id=696, 1156.32pt x 650.43pt>
 File: ./analysis/fig/ECC.pdf Graphic file (type pdf)
 <use ./analysis/fig/ECC.pdf>
 Package pdftex.def Info: ./analysis/fig/ECC.pdf  used on input line 75.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [56] [57 <./analysis/fig/ECC.pdf>]
-<./analysis/fig/positrons.pdf, id=739, 1156.32pt x 650.43pt>
+ [57] [58 <./analysis/fig/ECC.pdf>]
+<./analysis/fig/positrons.pdf, id=745, 1156.32pt x 650.43pt>
 File: ./analysis/fig/positrons.pdf Graphic file (type pdf)
 <use ./analysis/fig/positrons.pdf>
 Package pdftex.def Info: ./analysis/fig/positrons.pdf  used on input line 91.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
- [58 <./analysis/fig/positrons.pdf>]
+ [59 <./analysis/fig/positrons.pdf>]
 Package epstopdf Info: Source file: <./analysis/fig/cc.eps>
 (epstopdf)                    date: 2020-01-13 21:58:43
 (epstopdf)                    size: 33764 bytes
@@ -1032,13 +1068,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./analysis/fig/cc-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/cc-eps-converted-to.pdf, id=785, 1156.32pt x 650.43pt>
+<./analysis/fig/cc-eps-converted-to.pdf, id=791, 1156.32pt x 650.43pt>
 File: ./analysis/fig/cc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/cc-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/cc-eps-converted-to.pdf  used on input 
 line 112.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[59 <./analysis/fig/cc-eps-converted-to.pdf>]
+[60 <./analysis/fig/cc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./analysis/fig/bcc.eps>
 (epstopdf)                    date: 2020-01-13 21:58:43
 (epstopdf)                    size: 33350 bytes
@@ -1047,19 +1083,19 @@ Package epstopdf Info: Source file: <./analysis/fig/bcc.eps>
 (epstopdf)                    size: 16956 bytes
 (epstopdf)             Command: <epstopdf --outfile=./analysis/fig/bcc-eps-conv
 erted-to.pdf ./analysis/fig/bcc.eps>
-(epstopdf)             \includegraphics on input line 132.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./analysis/fig/bcc-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/bcc-eps-converted-to.pdf, id=827, 1156.32pt x 650.43pt>
+<./analysis/fig/bcc-eps-converted-to.pdf, id=834, 1156.32pt x 650.43pt>
 File: ./analysis/fig/bcc-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/bcc-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/bcc-eps-converted-to.pdf  used on input
- line 132.
+ line 133.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[60 <./analysis/fig/bcc-eps-converted-to.pdf>]
+[61 <./analysis/fig/bcc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./analysis/fig/radcor.eps>
 (epstopdf)                    date: 2020-01-13 21:58:43
 (epstopdf)                    size: 33469 bytes
@@ -1069,18 +1105,19 @@ Package epstopdf Info: Source file: <./analysis/fig/radcor.eps>
 (epstopdf)                    size: 17494 bytes
 (epstopdf)             Command: <epstopdf --outfile=./analysis/fig/radcor-eps-c
 onverted-to.pdf ./analysis/fig/radcor.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./analysis/fig/radcor-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/radcor-eps-converted-to.pdf, id=866, 1156.32pt x 650.43pt>
+<./analysis/fig/radcor-eps-converted-to.pdf, id=873, 1156.32pt x 650.43pt>
 File: ./analysis/fig/radcor-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/radcor-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/radcor-eps-converted-to.pdf  used on in
-put line 148.
+put line 150.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[62]
 Package epstopdf Info: Source file: <./analysis/fig/isocor.eps>
 (epstopdf)                    date: 2020-01-13 21:58:44
 (epstopdf)                    size: 31983 bytes
@@ -1090,30 +1127,410 @@ Package epstopdf Info: Source file: <./analysis/fig/isocor.eps>
 (epstopdf)                    size: 17322 bytes
 (epstopdf)             Command: <epstopdf --outfile=./analysis/fig/isocor-eps-c
 onverted-to.pdf ./analysis/fig/isocor.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./analysis/fig/isocor-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./analysis/fig/isocor-eps-converted-to.pdf, id=867, 1156.32pt x 650.43pt>
+<./analysis/fig/isocor-eps-converted-to.pdf, id=878, 1156.32pt x 650.43pt>
 File: ./analysis/fig/isocor-eps-converted-to.pdf Graphic file (type pdf)
 <use ./analysis/fig/isocor-eps-converted-to.pdf>
 Package pdftex.def Info: ./analysis/fig/isocor-eps-converted-to.pdf  used on in
-put line 163.
+put line 166.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-)) [61] [62 <./analysis/fig/radcor-eps-converted-to.pdf> <./analysis/fig/isocor
+)) [63 <./analysis/fig/radcor-eps-converted-to.pdf>] [64 <./analysis/fig/isocor
 -eps-converted-to.pdf>]
 CHAPTER 6.
-(results/main.tex [63
+(results/main.tex
+Package epstopdf Info: Source file: <./results/fig/yield_ratio.eps>
+(epstopdf)                    date: 2020-02-16 00:34:25
+(epstopdf)                    size: 31595 bytes
+(epstopdf)             Output file: <./results/fig/yield_ratio-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-02-16 00:37:08
+(epstopdf)                    size: 18607 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/yield_ratio-e
+ps-converted-to.pdf ./results/fig/yield_ratio.eps>
+(epstopdf)             \includegraphics on input line 6.
+Package epstopdf Info: Output file is already uptodate.
 
-] [64] [65]) [66] [67
 
-] [68] [69] [70]
+pdfTeX warning: pdflatex (file ./results/fig/yield_ratio-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/yield_ratio-eps-converted-to.pdf, id=959, 1156.32pt x 650.43pt>
+File: ./results/fig/yield_ratio-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/yield_ratio-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/yield_ratio-eps-converted-to.pdf  used o
+n input line 6.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/emc_ratio.eps>
+(epstopdf)                    date: 2020-02-16 00:34:25
+(epstopdf)                    size: 33425 bytes
+(epstopdf)             Output file: <./results/fig/emc_ratio-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-02-16 00:37:08
+(epstopdf)                    size: 21309 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/emc_ratio-eps
+-converted-to.pdf ./results/fig/emc_ratio.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/emc_ratio-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/emc_ratio-eps-converted-to.pdf, id=960, 1156.32pt x 650.43pt>
+File: ./results/fig/emc_ratio-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/emc_ratio-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/emc_ratio-eps-converted-to.pdf  used on 
+input line 26.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[65
+
+] [66 <./results/fig/yield_ratio-eps-converted-to.pdf> <./results/fig/emc_ratio
+-eps-converted-to.pdf>] [67] [68]
+Package epstopdf Info: Source file: <./results/fig/f2r.eps>
+(epstopdf)                    date: 2020-02-16 23:33:12
+(epstopdf)                    size: 32768 bytes
+(epstopdf)             Output file: <./results/fig/f2r-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-02-16 23:33:54
+(epstopdf)                    size: 16944 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/f2r-eps-conve
+rted-to.pdf ./results/fig/f2r.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/f2r-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/f2r-eps-converted-to.pdf, id=1066, 1156.32pt x 650.43pt>
+File: ./results/fig/f2r-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/f2r-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/f2r-eps-converted-to.pdf  used on input 
+line 48.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/KPcomp.eps>
+(epstopdf)                    date: 2020-02-16 00:34:26
+(epstopdf)                    size: 37544 bytes
+(epstopdf)             Output file: <./results/fig/KPcomp-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2020-02-16 00:37:45
+(epstopdf)                    size: 21882 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/KPcomp-eps-co
+nverted-to.pdf ./results/fig/KPcomp.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/KPcomp-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/KPcomp-eps-converted-to.pdf, id=1067, 1156.32pt x 650.43pt>
+File: ./results/fig/KPcomp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/KPcomp-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/KPcomp-eps-converted-to.pdf  used on inp
+ut line 56.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/f2r_norm.eps>
+(epstopdf)                    date: 2020-02-16 23:33:17
+(epstopdf)                    size: 36768 bytes
+(epstopdf)             Output file: <./results/fig/f2r_norm-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-02-16 23:33:54
+(epstopdf)                    size: 18285 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/f2r_norm-eps-
+converted-to.pdf ./results/fig/f2r_norm.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/f2r_norm-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/f2r_norm-eps-converted-to.pdf, id=1068, 1156.32pt x 650.43pt>
+File: ./results/fig/f2r_norm-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/f2r_norm-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/f2r_norm-eps-converted-to.pdf  used on i
+nput line 64.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/ratio_norm.eps>
+(epstopdf)                    date: 2020-02-16 23:35:45
+(epstopdf)                    size: 44194 bytes
+(epstopdf)             Output file: <./results/fig/ratio_norm-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-02-16 23:36:11
+(epstopdf)                    size: 27053 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/ratio_norm-ep
+s-converted-to.pdf ./results/fig/ratio_norm.eps>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/ratio_norm-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/ratio_norm-eps-converted-to.pdf, id=1069, 1156.32pt x 650.43pt>
+File: ./results/fig/ratio_norm-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/ratio_norm-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/ratio_norm-eps-converted-to.pdf  used on
+ input line 70.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/rawcomp.eps>
+(epstopdf)                    date: 2020-02-16 17:26:19
+(epstopdf)                    size: 40646 bytes
+(epstopdf)             Output file: <./results/fig/rawcomp-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-02-16 17:27:41
+(epstopdf)                    size: 21455 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/rawcomp-eps-c
+onverted-to.pdf ./results/fig/rawcomp.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/rawcomp-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/rawcomp-eps-converted-to.pdf, id=1070, 1156.32pt x 650.43pt>
+File: ./results/fig/rawcomp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/rawcomp-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/rawcomp-eps-converted-to.pdf  used on in
+put line 90.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/iso_comp.eps>
+(epstopdf)                    date: 2020-02-16 17:26:20
+(epstopdf)                    size: 44260 bytes
+(epstopdf)             Output file: <./results/fig/iso_comp-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-02-16 17:27:42
+(epstopdf)                    size: 24254 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/iso_comp-eps-
+converted-to.pdf ./results/fig/iso_comp.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/iso_comp-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/iso_comp-eps-converted-to.pdf, id=1071, 1156.32pt x 650.43pt>
+File: ./results/fig/iso_comp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/iso_comp-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/iso_comp-eps-converted-to.pdf  used on i
+nput line 98.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[69] [70 <./results/fig/f2r-eps-converted-to.pdf> <./results/fig/KPcomp-eps-con
+verted-to.pdf>] [71 <./results/fig/f2r_norm-eps-converted-to.pdf> <./results/fi
+g/ratio_norm-eps-converted-to.pdf>] [72] [73 <./results/fig/rawcomp-eps-convert
+ed-to.pdf> <./results/fig/iso_comp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./results/fig/maraiso_comp.eps>
+(epstopdf)                    date: 2020-02-16 17:26:20
+(epstopdf)                    size: 45303 bytes
+(epstopdf)             Output file: <./results/fig/maraiso_comp-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-02-16 17:27:42
+(epstopdf)                    size: 24880 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/maraiso_comp-
+eps-converted-to.pdf ./results/fig/maraiso_comp.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/maraiso_comp-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/maraiso_comp-eps-converted-to.pdf, id=1381, 1156.32pt x 650.43pt
+>
+File: ./results/fig/maraiso_comp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/maraiso_comp-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/maraiso_comp-eps-converted-to.pdf  used 
+on input line 106.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/maraisonorm_comp.eps>
+(epstopdf)                    date: 2020-02-16 17:27:00
+(epstopdf)                    size: 46598 bytes
+(epstopdf)             Output file: <./results/fig/maraisonorm_comp-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-02-16 17:28:31
+(epstopdf)                    size: 25381 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/maraisonorm_c
+omp-eps-converted-to.pdf ./results/fig/maraisonorm_comp.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/maraisonorm_comp-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<./results/fig/maraisonorm_comp-eps-converted-to.pdf, id=1382, 1156.32pt x 650.
+43pt>
+File: ./results/fig/maraisonorm_comp-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./results/fig/maraisonorm_comp-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/maraisonorm_comp-eps-converted-to.pdf  u
+sed on input line 112.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/slope_fit.eps>
+(epstopdf)                    date: 2020-02-16 20:59:00
+(epstopdf)                    size: 33653 bytes
+(epstopdf)             Output file: <./results/fig/slope_fit-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-02-16 21:00:02
+(epstopdf)                    size: 22009 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/slope_fit-eps
+-converted-to.pdf ./results/fig/slope_fit.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/slope_fit-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/slope_fit-eps-converted-to.pdf, id=1383, 1156.32pt x 650.43pt>
+File: ./results/fig/slope_fit-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/slope_fit-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/slope_fit-eps-converted-to.pdf  used on 
+input line 122.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[74] [75 <./results/fig/maraiso_comp-eps-converted-to.pdf> <./results/fig/marai
+sonorm_comp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_A.eps>
+(epstopdf)                    date: 2020-02-16 20:59:01
+(epstopdf)                    size: 39523 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_A-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-02-16 21:00:02
+(epstopdf)                    size: 20246 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_A-eps-
+converted-to.pdf ./results/fig/EMC_vs_A.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_A-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_A-eps-converted-to.pdf, id=1507, 1156.32pt x 650.43pt>
+File: ./results/fig/EMC_vs_A-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_A-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_A-eps-converted-to.pdf  used on i
+nput line 134.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_SND.eps>
+(epstopdf)                    date: 2020-02-16 20:59:01
+(epstopdf)                    size: 43448 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_SND-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-02-16 21:00:03
+(epstopdf)                    size: 24601 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_SND-ep
+s-converted-to.pdf ./results/fig/EMC_vs_SND.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_SND-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_SND-eps-converted-to.pdf, id=1508, 1156.32pt x 650.43pt>
+File: ./results/fig/EMC_vs_SND-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_SND-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_SND-eps-converted-to.pdf  used on
+ input line 140.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_BE.eps>
+(epstopdf)                    date: 2020-02-16 20:59:01
+(epstopdf)                    size: 41702 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_BE-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-02-16 21:00:03
+(epstopdf)                    size: 24223 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_BE-eps
+-converted-to.pdf ./results/fig/EMC_vs_BE.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_BE-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_BE-eps-converted-to.pdf, id=1509, 1156.32pt x 650.43pt>
+File: ./results/fig/EMC_vs_BE-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_BE-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_BE-eps-converted-to.pdf  used on 
+input line 148.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+[76] [77 <./results/fig/slope_fit-eps-converted-to.pdf> <./results/fig/EMC_vs_A
+-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_RSIE.eps>
+(epstopdf)                    date: 2020-02-16 20:59:02
+(epstopdf)                    size: 42494 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_RSIE-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-02-16 21:00:03
+(epstopdf)                    size: 24623 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_RSIE-e
+ps-converted-to.pdf ./results/fig/EMC_vs_RSIE.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_RSIE-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_RSIE-eps-converted-to.pdf, id=1621, 1156.32pt x 650.43pt>
+
+File: ./results/fig/EMC_vs_RSIE-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_RSIE-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_RSIE-eps-converted-to.pdf  used o
+n input line 154.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_NSep.eps>
+(epstopdf)                    date: 2020-02-16 20:59:02
+(epstopdf)                    size: 40565 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_NSep-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2020-02-16 21:00:04
+(epstopdf)                    size: 23467 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_NSep-e
+ps-converted-to.pdf ./results/fig/EMC_vs_NSep.eps>
+(epstopdf)             \includegraphics on input line 162.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_NSep-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_NSep-eps-converted-to.pdf, id=1622, 1156.32pt x 650.43pt>
+
+File: ./results/fig/EMC_vs_NSep-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_NSep-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_NSep-eps-converted-to.pdf  used o
+n input line 162.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+Package epstopdf Info: Source file: <./results/fig/EMC_vs_a2.eps>
+(epstopdf)                    date: 2020-02-16 20:59:02
+(epstopdf)                    size: 41887 bytes
+(epstopdf)             Output file: <./results/fig/EMC_vs_a2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2020-02-16 21:00:04
+(epstopdf)                    size: 20932 bytes
+(epstopdf)             Command: <epstopdf --outfile=./results/fig/EMC_vs_a2-eps
+-converted-to.pdf ./results/fig/EMC_vs_a2.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./results/fig/EMC_vs_a2-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./results/fig/EMC_vs_a2-eps-converted-to.pdf, id=1623, 1156.32pt x 650.43pt>
+File: ./results/fig/EMC_vs_a2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./results/fig/EMC_vs_a2-eps-converted-to.pdf>
+Package pdftex.def Info: ./results/fig/EMC_vs_a2-eps-converted-to.pdf  used on 
+input line 170.
+(pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
+) [78] [79 <./results/fig/EMC_vs_SND-eps-converted-to.pdf> <./results/fig/EMC_v
+s_BE-eps-converted-to.pdf>] [80 <./results/fig/EMC_vs_RSIE-eps-converted-to.pdf
+> <./results/fig/EMC_vs_NSep-eps-converted-to.pdf>] [81 <./results/fig/EMC_vs_a
+2-eps-converted-to.pdf>]
+CHAPTER 7.
+(summary/main.tex) [82
+
+] [83] [84
+
+] [85] [86] [87]
 APPENDIX A.
-(app1/raster.tex [71
+(app1/raster.tex [88
 
-] [72] [73]
+] [89] [90]
 Package epstopdf Info: Source file: <./app1/figures/sig_hard.eps>
 (epstopdf)                    date: 2019-10-14 16:15:48
 (epstopdf)                    size: 34210 bytes
@@ -1123,19 +1540,19 @@ df>
 (epstopdf)                    size: 16627 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/sig_hard-eps
 -converted-to.pdf ./app1/figures/sig_hard.eps>
-(epstopdf)             \includegraphics on input line 63.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/sig_hard-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/sig_hard-eps-converted-to.pdf, id=985, 1156.32pt x 650.43pt>
+<./app1/figures/sig_hard-eps-converted-to.pdf, id=1982, 1156.32pt x 650.43pt>
 File: ./app1/figures/sig_hard-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/sig_hard-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/sig_hard-eps-converted-to.pdf  used on 
-input line 63.
+input line 65.
 (pdftex.def)             Requested size: 469.75502pt x 264.23653pt.
-[74] [75 <./app1/figures/sig_hard-eps-converted-to.pdf>]
+[91] [92 <./app1/figures/sig_hard-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./app1/figures/hole_fit.eps>
 (epstopdf)                    date: 2019-07-09 11:15:37
 (epstopdf)                    size: 116394 bytes
@@ -1145,20 +1562,20 @@ df>
 (epstopdf)                    size: 29435 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/hole_fit-eps
 -converted-to.pdf ./app1/figures/hole_fit.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/hole_fit-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/hole_fit-eps-converted-to.pdf, id=1027, 569.12625pt x 386.44376
+<./app1/figures/hole_fit-eps-converted-to.pdf, id=2024, 569.12625pt x 386.44376
 pt>
 File: ./app1/figures/hole_fit-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/hole_fit-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/hole_fit-eps-converted-to.pdf  used on 
-input line 106.
+input line 108.
 (pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
-[76 <./app1/figures/hole_fit-eps-converted-to.pdf>]
+[93] [94 <./app1/figures/hole_fit-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./app1/figures/old1_zvx.eps>
 (epstopdf)                    date: 2019-07-09 11:15:38
 (epstopdf)                    size: 778628 bytes
@@ -1168,18 +1585,18 @@ df>
 (epstopdf)                    size: 3316803 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_zvx-eps
 -converted-to.pdf ./app1/figures/old1_zvx.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/old1_zvx-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old1_zvx-eps-converted-to.pdf, id=1037, 569.12625pt x 386.44376
+<./app1/figures/old1_zvx-eps-converted-to.pdf, id=2037, 569.12625pt x 386.44376
 pt>
 File: ./app1/figures/old1_zvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old1_zvx-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/old1_zvx-eps-converted-to.pdf  used on 
-input line 120.
+input line 122.
 (pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
 Package epstopdf Info: Source file: <./app1/figures/old1_avgzvx_nofit.eps>
 (epstopdf)                    date: 2019-07-09 11:15:38
@@ -1190,23 +1607,23 @@ rted-to.pdf>
 (epstopdf)                    size: 5965 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_avgzvx_
 nofit-eps-converted-to.pdf ./app1/figures/old1_avgzvx_nofit.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx_nofit-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf, id=1038, 569.12625pt x 
+<./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf, id=2038, 569.12625pt x 
 386.44376pt>
 File: ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/old1_avgzvx_nofit-eps-converted-to.pdf 
- used on input line 121.
+ used on input line 123.
 (pdftex.def)             Requested size: 469.75502pt x 318.98514pt.
 
-LaTeX Warning: Float too large for page by 55.06946pt on input line 123.
+LaTeX Warning: Float too large for page by 55.06946pt on input line 125.
 
 Package epstopdf Info: Source file: <./app1/figures/old1_avgzvx.eps>
 (epstopdf)                    date: 2019-07-09 11:15:38
@@ -1217,18 +1634,18 @@ o.pdf>
 (epstopdf)                    size: 7044 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/old1_avgzvx-
 eps-converted-to.pdf ./app1/figures/old1_avgzvx.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/old1_avgzvx-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old1_avgzvx-eps-converted-to.pdf, id=1039, 569.12625pt x 388.45
+<./app1/figures/old1_avgzvx-eps-converted-to.pdf, id=2039, 569.12625pt x 388.45
 125pt>
 File: ./app1/figures/old1_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old1_avgzvx-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/old1_avgzvx-eps-converted-to.pdf  used 
-on input line 126.
+on input line 128.
 (pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
 Package epstopdf Info: Source file: <./app1/figures/old2_avgzvx.eps>
 (epstopdf)                    date: 2019-07-09 11:15:38
@@ -1239,21 +1656,21 @@ o.pdf>
 (epstopdf)                    size: 7149 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/old2_avgzvx-
 eps-converted-to.pdf ./app1/figures/old2_avgzvx.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/old2_avgzvx-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/old2_avgzvx-eps-converted-to.pdf, id=1040, 569.12625pt x 388.45
+<./app1/figures/old2_avgzvx-eps-converted-to.pdf, id=2040, 569.12625pt x 388.45
 125pt>
 File: ./app1/figures/old2_avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/old2_avgzvx-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/old2_avgzvx-eps-converted-to.pdf  used 
-on input line 127.
+on input line 129.
 (pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
 
-LaTeX Warning: Float too large for page by 44.78354pt on input line 129.
+LaTeX Warning: Float too large for page by 44.78354pt on input line 131.
 
 Package epstopdf Info: Source file: <./app1/figures/avgzvx.eps>
 (epstopdf)                    date: 2019-07-09 11:15:37
@@ -1264,38 +1681,35 @@ Package epstopdf Info: Source file: <./app1/figures/avgzvx.eps>
 (epstopdf)                    size: 7100 bytes
 (epstopdf)             Command: <epstopdf --outfile=./app1/figures/avgzvx-eps-c
 onverted-to.pdf ./app1/figures/avgzvx.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./app1/figures/avgzvx-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./app1/figures/avgzvx-eps-converted-to.pdf, id=1041, 569.12625pt x 388.45125pt
+<./app1/figures/avgzvx-eps-converted-to.pdf, id=2041, 569.12625pt x 388.45125pt
 >
 File: ./app1/figures/avgzvx-eps-converted-to.pdf Graphic file (type pdf)
 <use ./app1/figures/avgzvx-eps-converted-to.pdf>
 Package pdftex.def Info: ./app1/figures/avgzvx-eps-converted-to.pdf  used on in
-put line 131.
+put line 133.
 (pdftex.def)             Requested size: 469.75502pt x 320.64218pt.
-[77] [78 <./app1/figures/old1_zvx-eps-converted-to.pdf> <./app1/figures/old1_av
-gzvx_nofit-eps-converted-to.pdf>] [79 <./app1/figures/old1_avgzvx-eps-converted
--to.pdf> <./app1/figures/old2_avgzvx-eps-converted-to.pdf>] [80 <./app1/figures
-/avgzvx-eps-converted-to.pdf>]) [81] (rawdiss.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+[95] [96 <./app1/figures/old1_zvx-eps-converted-to.pdf> <./app1/figures/old1_av
+gzvx_nofit-eps-converted-to.pdf>] [97 <./app1/figures/old1_avgzvx-eps-converted
+-to.pdf> <./app1/figures/old2_avgzvx-eps-converted-to.pdf>] [98 <./app1/figures
+/avgzvx-eps-converted-to.pdf>]) [99] (rawdiss.aux)
 Package logreq Info: Writing requests to 'rawdiss.run.xml'.
 \openout1 = `rawdiss.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10606 strings out of 492946
- 193797 string characters out of 3135527
- 601029 words of memory out of 3000000
- 14234 multiletter control sequences out of 15000+200000
+ 11949 strings out of 492946
+ 229389 string characters out of 3135527
+ 661563 words of memory out of 3000000
+ 15512 multiletter control sequences out of 15000+200000
  9575 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,45p,1415b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,46p,1442b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -1309,9 +1723,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on rawdiss.pdf (93 pages, 9165314 bytes).
+Output written on rawdiss.pdf (112 pages, 9550547 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
+ 2129 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

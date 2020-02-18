@@ -69,12 +69,12 @@ To determine this contribution, the empty cell is used. The empty cell, being an
 
 The normalization to the endcaps for each target must be done in two parts. This is because each endcap is not the same thickness. When calculating the yield for a target, it is assumed that any contamination upstream (downstream) of the center of the target must originate from the upstream (downstream) endcap. The two halves are then combined to arrive at the endcap thickness normalized yield. This yield calculation only has livetime corrections applied. All cuts are applied except for target length, which is adjusted to only include events upstream (downstream) of the center of the target.
 
-The data for the target being studied and the normalized empty target are then binned in Bjorken $x$. Dividing the empty cell data by the gas target data then gives an approximation of the fractional contribution of the cell walls to the electron data. As this correction is applied to the final results, the contamination corrections for the targets are divided by each other to create the correction to the target ratios. These results are then fit with the functional form $1\pm e^{Ax+B}$. The choice of adding or subtracting the exponential is done by determining if the correction is greater or smaller than 1. The fit function and the covariance matrix of the fit are used to apply the correction to the final results as well as determine the uncertainty contribution of this correction. The uncertainty from this correction varies from $0.05$-$0.075\%$.
+The data for the target being studied and the normalized empty target are then binned in Bjorken $x$. Dividing the empty cell data by the gas target data then gives an approximation of the fractional contribution of the cell walls to the electron data. As this correction is applied to the final results, the contamination corrections for the targets are divided by each other to create the correction to the target ratios. These results are then fit with the functional form $1\pm e^{Ax+B}$. The choice of adding or subtracting the exponential is done by determining if the correction is greater or smaller than 1. The fit function and the covariance matrix of the fit are used to apply the correction to the final results as well as determine the uncertainty contribution of this correction. Figure \ref{fig:ECC} shows the correction factors for each target ratio. The uncertainty from this correction varies from $0.05$-$0.075\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/ECC.pdf}
 	\caption{This plot shows the Endcap Contamination factor applied to each ratio studied MARATHON. The uncertainty band is plotted around each curve.}
-	\label{fig:deadtime}
+	\label{fig:ECC}
 \end{figure}
 
 \subsection{Charge Symmetric Background Subtraction}
@@ -106,11 +106,12 @@ Using $x=\frac{Q^2}{2M\nu}$, it is clear that a shift in $Q^2$ will result in a 
 	\sigma_{\textrm{Coulomb Corrected}} = \sigma_{\rm data} \frac{\sigma_{\rm model}\left(x_{\rm eff}\right)}{\sigma_{\rm model}\left(x\right)}.
 \end{equation}
 
-This correction is applied to the final ratio and each target in the ratio must be corrected. The ratio is multiplied by the correction to the numerator and divided by the correction to the denominator. The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. The uncertainty from the Coulomb Correction is approximately $0.15$-$0.2\%$.
+This correction is applied to the final ratio and each target in the ratio must be corrected. The ratio is multiplied by the correction to the numerator and divided by the correction to the denominator. The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. Figure \ref{fig:CC} shows the correction factors for the Helium-3 EMC Ratio. The uncertainty from the Coulomb Correction is approximately $0.15$-$0.2\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/cc.eps}
 	\caption{This plot shows the Coulomb Correction values to the \nicefrac{$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}
+	\label{fig:CC}
 \end{figure}
 
 \subsection{Bin Centering Corrections}
@@ -126,11 +127,12 @@ where $f$ is a function representing the chosen model. In practice, the $x$ valu
 	\sigma_{\textrm{Bin Centered}} = \frac{f\left(x_{\textrm{Bin Center}}\right)}{\langle f_{\rm measured}\rangle} \sigma_{\rm measured}.
 \end{equation}
 
-This correction must be applied to both targets in the ratios. That is, the ratio must be multiplied by the correction to the numerator and divided by the correction to the denominator.\cite{wtsydp} The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. The uncertainty from the Bin Centering Correction is approximately $0.3\%$.
+This correction must be applied to both targets in the ratios. That is, the ratio must be multiplied by the correction to the numerator and divided by the correction to the denominator.\cite{wtsydp} The covariance matrix of the fit to the model is used to determine the uncertainty of this correction. Figure \ref{fig:bcc} shows the correction factors for the Helium-3 EMC Ratio. The uncertainty from the Bin Centering Correction is approximately $0.3\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/bcc.eps}
 	\caption{This plot shows the Bin Centering Correction values to the \nicefrac{$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}
+	\label{fig:bcc}
 \end{figure}
 
 \subsection{Radiative Corrections}
@@ -142,11 +144,12 @@ The experiment used a software package called $\texttt{T2\_EXTERNALS}$ that calc
 	\textrm{RC} = \frac{\sigma^{\textrm{radiated}}_{\textrm{model}}}{\sigma^{\textrm{Born}}_{\textrm{model}}}.
 \end{equation}
 
-The uncertainty was determined by using different models of the radiative corrections. There was little difference between the models. Ultimately, the uncertainty due to radiative corrections was determined to be $0.5\%$ for all data points.
+The uncertainty was determined by using different models of the radiative corrections. There was little difference between the models. Figure \ref{fig:radcor} shows the correction factors for the Helium-3 EMC Ratio. Ultimately, the uncertainty due to radiative corrections was determined to be $0.5\%$ for all data points.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/radcor.eps}
 	\caption{This plot shows the Radiative Correction values to the \nicefrac{$^3$He}{$^2$H} ratio by bin with the $0.5\%$ uncertainty on each value.}
+	\label{fig:radcor}
 \end{figure}
 
 \subsection{Isoscalar Corrections}
@@ -157,11 +160,12 @@ When studying an EMC ratio, the strength of the EMC effect is typically defined 
 	\textrm{Isoscalar Correction} = \frac{\frac{1}{2}\left(1+\nicefrac{F_2^n}{F_2^p}\right)}{\frac{1}{A}\left(Z+\left(A-Z\right)\nicefrac{F_2^n}{F_2^p}\right)}
 \end{equation}
 
-The covariance matrix of the fit to the $\nicefrac{F_2^n}{F_2^p}$ data is used to determine the uncertainty of this correction. After the uncertainty is propagated, the uncertainty is between $0.36\%$ and $0.67\%$.
+The covariance matrix of the fit to the $\nicefrac{F_2^n}{F_2^p}$ data is used to determine the uncertainty of this correction. Figure \ref{fig:isocor} shows the correction factors for the Helium-3 EMC Ratio. After the uncertainty is propagated, the uncertainty is between $0.36\%$ and $0.67\%$.
 
 \begin{figure}
 	\includegraphics[width=\textwidth]{./analysis/fig/isocor.eps}
 	\caption{This plot shows the Isoscalar Correction values to the \nicefrac{$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}
+	\label{fig:isocor}
 \end{figure}
 
 

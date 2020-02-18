@@ -4,98 +4,134 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Feynman Diagram of Deep Inelastic Scattering}}{4}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Feynman Diagram of Deep Inelastic Scattering}}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Proton data showing no $Q^2$ dependence of $\nu W_2=F_2$ in the DIS region.\cite {FriedmanKendall}}}{7}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Proton data showing no $Q^2$ dependence of $\nu W_2=F_2$ in the DIS region.\cite {FriedmanKendall}}}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Historical data of $R=\sigma _L/\sigma _T$. This data shows measurements of the difference in $R$ between two nuclei. The data is consistent with no nuclear dependence.\cite {GST}}}{11}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Results from the EMC collaboration showing a clear $x$ dependence of the per-nucleon $F_2$ structure function ratio\cite {emc_FE}}}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Results from SLAC showing an A-dependent EMC effect\cite {Gomez}}}{15}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Helium-3 results from JLab E03-103. The upper red squares are the raw ratio and the lower blue circles have an isoscalar correction applied.\cite {e03103}}}{17}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Historical data of $R=\sigma _L/\sigma _T$. This data shows measurements of the difference in $R$ between two nuclei. The data is consistent with no nuclear dependence.\cite {GST}}}{12}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces The current 12-GeV configuration of the CEBAF accelerator with the upgrades that were made from the 6-GeV configuration.\cite {12gevWP}}}{21}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Results from the EMC collaboration showing a clear $x$ dependence of the per-nucleon $F_2$ structure function ratio\cite {emc_FE}}}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces An overhead schematic of Hall A.\cite {HANIM}}}{22}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Results from SLAC showing an A-dependent EMC effect\cite {Gomez}}}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces A schematic drawing of a harp scanner. The harp is introduced into the beamline with a stepper motor. The three wires create a signal when they interact with the beam, allowing for highly accurate beam position determination. The wires touching the beam is a destructive measurement.\cite {harp_schem}}}{23}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces The Hall A raster consists of four dipole magnets on the beamline}}{24}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces The X and Y raster pairs are each synced to produce the maximum kick. The X and Y directions are uncorrelated so that the beam travels uniformly over the target.}}{25}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{25}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking.\cite {harp_schem}}}{27}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces A bullseye scan maps five positions of the beam with the harp, shown as runs 805-809. The BPM calibration is then adjusted to make the reconstructed beam position, shown as gray blocks, match the harp data.}}{28}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces A side-view schematic of Hall A showing the beamline, target, High Resolution Spectrometers, and Beam Dump. The beam will either interact with the target or pass through to the beam dump.\cite {HANIM}}}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces 3D rendering of the target cell. The black circular plate in the front is the upstream window of the cell.\cite {cell_design}}}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces The MARATHON target ladder.}}{31}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces A schematic view of the HRS magnet setup. Particles enter from the left in Q1 and then pass through the magnets exiting Q3 into the first VDC plane.\cite {HANIM}}}{32}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces A schematic view of the VDCs. These are the first detectors in an HRS.\cite {HANIM}}}{34}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces A schematic drawing of the S2 scintillator plane.\cite {HASEM}}}{35}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces The Cherenkov PMTs are calibrated to have the single photo-electron peak centered at ADC bin 300. The peak at 0 is the ADC pedestal.}}{36}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Layout of the shower blocks. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{37}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor. The drawings on the right show the relative width of each signal to facilitate event timing.\cite {Rey}}}{39}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Helium-3 results from JLab E03-103. The upper red squares are the raw ratio and the lower blue circles have an isoscalar correction applied.\cite {e03103}}}{18}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite {Tong}}}{41}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces The current 12-GeV configuration of the CEBAF accelerator with the upgrades that were made from the 6-GeV configuration.\cite {12gevWP}}}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces These plots show the Cherenkov Sum for both the LHRS and RHRS. All cuts are applied except for the PID cut on the Cherenkov Sum. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{46}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces An overhead schematic of Hall A.\cite {HANIM}}}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces This plot show the Calorimeter spectrum from the LHRS. All cuts are applied except for the PID cut on the Calorimeter. This plot shows events from kinematic 0. The black lines show the where the cuts are applied.}}{47}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces A schematic drawing of a harp scanner. The harp is introduced into the beamline with a stepper motor. The three wires create a signal when they interact with the beam, allowing for highly accurate beam position determination. The wires touching the beam is a destructive measurement.\cite {harp_schem}}}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces This plot show the Calorimeter versus Cherenkov Sum spectra for the LHRS. All cuts are applied except for the PID cuts on the Cherenkov Sum and the Calorimeter. This plot shows events from kinematic 0. The black lines show the where the cuts are applied. The events in the upper-right corner pass the cuts and are considered to be good electrons.}}{48}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces The Hall A raster consists of four dipole magnets on the beamline}}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces These plots show the Target $\phi $ and Target $\theta $ acceptance variables of the spectrometer. All cuts are applied except for the Target $\phi $, Target $\theta $, and $\delta p$ cuts. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{49}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces The X and Y raster pairs are each synced to produce the maximum kick. The X and Y directions are uncorrelated so that the beam travels uniformly over the target.}}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces These plots show the $\delta p$ acceptance variable of the spectrometer. All cuts are applied except for the Target $\phi $, Target $\theta $, and $\delta p$ cuts. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{50}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces An example of a raster current spectrum. The range and size will change with ADCs used, beam energy, and raster size. The shape should always stay the same. The ``bedposts'' on the edges are due to rounding of the triangular waveform by a low-pass filter.}}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces This plot shows the Focal Plane variables for RHRS kinematic 16. All cuts are applied. It was noted that after acceptance cuts were applied to RHRS data, there were still a few events that were not in the main region of the focal plane. A loose cut is applied to remove these events.}}{51}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking.\cite {harp_schem}}}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces This plot shows the average computer deadtime in each kinematic (plotted at the central $x$ of the kinematic).}}{54}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces A bullseye scan maps five positions of the beam with the harp, shown as runs 805-809. The BPM calibration is then adjusted to make the reconstructed beam position, shown as gray blocks, match the harp data.}}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {32}{\ignorespaces This plot shows the multiplicative correction to the target density due to beam heating. The correction is dependent on the beam current. The uncertainty band is plotted around each curve.}}{55}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces A side-view schematic of Hall A showing the beamline, target, High Resolution Spectrometers, and Beam Dump. The beam will either interact with the target or pass through to the beam dump.\cite {HANIM}}}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {33}{\ignorespaces This plot shows the Endcap Contamination factor applied to each ratio studied MARATHON. The uncertainty band is plotted around each curve.}}{57}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces 3D rendering of the target cell. The black circular plate in the front is the upstream window of the cell.\cite {cell_design}}}{30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces This plot shows the charge symmetric background correction to each target studied in MARATHON. The uncertainty band is plotted around each curve.}}{58}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces The MARATHON target ladder.}}{32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces This plot shows the Coulomb Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{59}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces A schematic view of the HRS magnet setup. Particles enter from the left in Q1 and then pass through the magnets exiting Q3 into the first VDC plane.\cite {HANIM}}}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces This plot shows the Bin Centering Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{60}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces A schematic view of the VDCs. These are the first detectors in an HRS.\cite {HANIM}}}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces This plot shows the Radiative Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the $0.5\%$ uncertainty on each value.}}{62}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces A schematic drawing of the S2 scintillator plane.\cite {HASEM}}}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {38}{\ignorespaces This plot shows the Isoscalar Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{62}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces The Cherenkov PMTs are calibrated to have the single photo-electron peak centered at ADC bin 300. The peak at 0 is the ADC pedestal.}}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces Layout of the shower blocks. Particles enter from the bottom of the page. Left is top-view. Right is side-view. \cite {HANIM}}}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {23}{\ignorespaces A schematic diagram of the trigger setup for MARATHON. In this diagram ``disc.'' stands for discriminator. ``FIFO'' stands for ``Fan in fan out'', which is a unit that takes a signal and then outputs it to multiple channels. ``NIM=$>$ECL'' denotes the conversion from NIM to ECL logic standards which is necessary to interface with the Trigger Supervisor. The drawings on the right show the relative width of each signal to facilitate event timing.\cite {Rey}}}{40}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite {Tong}}}{42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces These plots show the Cherenkov Sum for both the LHRS and RHRS. All cuts are applied except for the PID cut on the Cherenkov Sum. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces This plot show the Calorimeter spectrum from the LHRS. All cuts are applied except for the PID cut on the Calorimeter. This plot shows events from kinematic 0. The black lines show the where the cuts are applied.}}{48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces This plot show the Calorimeter versus Cherenkov Sum spectra for the LHRS. All cuts are applied except for the PID cuts on the Cherenkov Sum and the Calorimeter. This plot shows events from kinematic 0. The black lines show the where the cuts are applied. The events in the upper-right corner pass the cuts and are considered to be good electrons.}}{49}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {28}{\ignorespaces These plots show the Target $\phi $ and Target $\theta $ acceptance variables of the spectrometer. All cuts are applied except for the Target $\phi $, Target $\theta $, and $\delta p$ cuts. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {29}{\ignorespaces These plots show the $\delta p$ acceptance variable of the spectrometer. All cuts are applied except for the Target $\phi $, Target $\theta $, and $\delta p$ cuts. The LHRS plot shows events from kinematic 0 while the RHRS plot shows events from kinematic 16. The black lines show the where the cuts are applied.}}{51}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces This plot shows the Focal Plane variables for RHRS kinematic 16. All cuts are applied. It was noted that after acceptance cuts were applied to RHRS data, there were still a few events that were not in the main region of the focal plane. A loose cut is applied to remove these events.}}{52}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {31}{\ignorespaces This plot shows the average computer deadtime in each kinematic (plotted at the central $x$ of the kinematic).}}{55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {32}{\ignorespaces This plot shows the multiplicative correction to the target density due to beam heating. The correction is dependent on the beam current. The uncertainty band is plotted around each curve.}}{56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {33}{\ignorespaces This plot shows the Endcap Contamination factor applied to each ratio studied MARATHON. The uncertainty band is plotted around each curve.}}{58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {34}{\ignorespaces This plot shows the charge symmetric background correction to each target studied in MARATHON. The uncertainty band is plotted around each curve.}}{59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {35}{\ignorespaces This plot shows the Coulomb Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {36}{\ignorespaces This plot shows the Bin Centering Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {37}{\ignorespaces This plot shows the Radiative Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the $0.5\%$ uncertainty on each value.}}{63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {38}{\ignorespaces This plot shows the Isoscalar Correction values to the \nicefrac {$^3$He}{$^2$H} ratio by bin with the uncertainty on the correction.}}{64}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {39}{\ignorespaces This plot shows the yield ratio of Helium-3/Deuterium.}}{66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {40}{\ignorespaces This plot shows the isoscalar EMC yield ratio of Helium-3.}}{66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {41}{\ignorespaces $\nicefrac {F_2^n}{F_2^p}$ extracted from the Helium-3/Deuterium Yield Ratio compared to the extraction from the MARATHON Deuterium/Hydrogen data.}}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {42}{\ignorespaces Helium-3/Deuterium Yield Ratio compared to the KP model. While the data does not match in value, it does match in shape.}}{70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {43}{\ignorespaces $\nicefrac {F_2^n}{F_2^p}$ extracted from the Helium-3/Deuterium Yield Ratio, with a $2.8\%$ normalization, compared to the extraction from the MARATHON Deuterium/Hydrogen data.}}{71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {44}{\ignorespaces This plot shows the yield ratio of Helium-3/Deuterium adn the isoscalar EMC yield ratio of Helium-3 with a $2.8\%$ normalization applied.}}{71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {45}{\ignorespaces A comparison of non-isoscalar, unnormalized data from MARATHON, E03-103, and HERMES.}}{73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {46}{\ignorespaces A comparison of isoscalar, unnormalized data from MARATHON, E03-103, and HERMES. The isoscalar corrections applied are the corrections determined by each experiment.}}{73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {47}{\ignorespaces A comparison of isoscalar, unnormalized data from MARATHON, E03-103, and HERMES. The MARATHON isoscalar correction is applied to all data.}}{75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {48}{\ignorespaces A comparison of isoscalar, normalized data from MARATHON, E03-103, and HERMES. The MARATHON isoscalar correction is applied to all data. The MARATHON and E03-103 are normalized by $2.8\%$ and the HERMES data is normalized by $0.9\%$.}}{75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {49}{\ignorespaces A fit of the EMC slope of the MARATHON Helium-3 EMC data.}}{77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {50}{\ignorespaces This plot shows EMC slope versus mass number $A$ for a selection of nuclei.}}{77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {51}{\ignorespaces This plot shows EMC slope versus scaled nuclear density for a selection of nuclei.}}{79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {52}{\ignorespaces This plot shows EMC slope versus binding energy per nucleon for a selection of nuclei.}}{79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {53}{\ignorespaces This plot shows EMC slope versus residual strong interaction per nucleon energy for a selection of nuclei.}}{80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {54}{\ignorespaces This plot shows EMC slope versus nuclear separation energy for a selection of nuclei.}}{80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {55}{\ignorespaces This plot shows EMC slope versus Short-Range Correlation Scaling Coefficient $a_2$ for a selection of nuclei.}}{81}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{75}% 
+\contentsline {figure}{\numberline {56}{\ignorespaces A 1 Dimensional Sigmoid Function with Varying Hardness Parameter}}{92}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {40}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{76}% 
+\contentsline {figure}{\numberline {57}{\ignorespaces Using the radial sigmoid function to fit the hole in the Carbon Hole target. In this plot, the density of red rings is directly correlated to the slope of the function at that point. Where the rings are densest is the 50\% position, corresponding to where the fit locates the edge of the hole.}}{94}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {41}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{78}% 
+\contentsline {figure}{\numberline {58}{\ignorespaces Slices in horizontal raster current of the reconstructed z versus raster current plot are fit with a Gaussian. The peaks of the Gaussian are then plotted to see the correlation. In the plot of average z, it can be seen that the peak position shifts by over 2mm over the movement of the raster. The carbon foil is only 0.25mm thick.}}{96}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {42}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{79}% 
+\contentsline {figure}{\numberline {59}{\ignorespaces Two ``bad'' calibrations are fit to find the correlation between horizontal raster current and the average x position. Both of these calibrations show a displacement larger than the thickness of the target.}}{97}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {43}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{80}% 
+\contentsline {figure}{\numberline {60}{\ignorespaces Using a linear fit of the correlation between average z and horizontal raster current for two ``bad'' calibrations, we can interpolate to the correct calibration. Here we can see that the shift is approximately 0.1mm.}}{98}% 

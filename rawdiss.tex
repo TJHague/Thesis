@@ -58,7 +58,7 @@
 %% Bugs: please communicate any bugs or suggestions to
 %%       Chuck Gartland (gartland@math.kent.edu)
 \documentclass[11pt]{ksudiss}                          % 11pt looks best to me
-\usepackage{epsfig,amsmath,epstopdf,gensymb,tabulary,nicefrac}
+\usepackage{epsfig,amsmath,epstopdf,gensymb,tabulary,nicefrac,csvsimple}
 \usepackage[backend=bibtex,maxbibnames=2,minbibnames=2,citestyle=numeric,sorting=none,style=chem-angew]{biblatex}
 %\usepackage{feynman}
 
@@ -178,6 +178,7 @@
 \input{Intro/main.tex}
 
 \chapter{\bf{Electron Scattering and Nuclear Structure}}             % Chapter  1
+\label{chap:scattering}
 %\setcounter{figure}{0}
 %\setcounter{table}{0}
 %\setcounter{equation}{0}
@@ -191,22 +192,31 @@
 \input{EMC/main.tex}
 
 \chapter{\bf{The Experimental Setup}}    % Chapter  2
+\label{chap:setup}
 %\setcounter{figure}{0}
 %\setcounter{table}{0}
 %\setcounter{equation}{0}
 \input{setup/main.tex}
 
 \chapter{\bf{Analysis}}    % Chapter  3
+\label{chap:analysis}
 %\setcounter{figure}{0}
 %\setcounter{table}{0}
 %\setcounter{equation}{0}
 \input{analysis/main.tex}
 
 \chapter{\bf{Results}}    % Chapter  4
+\label{chap:results}
 %\setcounter{figure}{0}
 %\setcounter{table}{0}
 %\setcounter{equation}{0}
 \input{results/main.tex}
+
+\chapter{\bf{Summary and Outlook}}    % Chapter  4
+%\setcounter{figure}{0}
+%\setcounter{table}{0}
+%\setcounter{equation}{0}
+\input{summary/main.tex}
 
 %% If using BibTeX, then comment out the environment below, and
 %% provide a \bibliographystyle{} (the 4 standard options are in the
@@ -234,7 +244,8 @@
 
 \appendix
 
-\chapter{\bf{Calibrating the Hall A Raster}}\label{raster_appendix}
+\chapter{\bf{Calibrating the Hall A Raster}}
+\label{raster_appendix}
 %\setcounter{figure}{0}
 %\setcounter{table}{0}
 %\setcounter{equation}{0}
