@@ -16,13 +16,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Electron Scattering}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Deep Inelastic Scattering Cross Section}{4}% 
+\contentsline {subsection}{\numberline {2.2.1}Deep Inelastic Scattering Cross Section}{5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Bjorken Scaling}{7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Nuclear Structure Functions and The Quark Parton Model}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}$R=\sigma _L/\sigma _T$}{10}% 
+\contentsline {section}{\numberline {2.5}$R=\sigma _L/\sigma _T$}{11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}$F_2^n/F_2^p$}{13}% 
 \defcounter {refsection}{0}\relax 
@@ -44,7 +44,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.6}JLab}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Structure Regions}{18}% 
+\contentsline {subsubsection}{E03-103}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CLAS}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Structure Regions}{19}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Shadowing}{19}% 
 \defcounter {refsection}{0}\relax 
@@ -54,7 +58,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.4}Fermi Motion}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Theories}{19}% 
+\contentsline {section}{\numberline {3.4}Theories}{20}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Nuclear Structure}{20}% 
 \defcounter {refsection}{0}\relax 
@@ -66,7 +70,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Quark Bags}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mean Field Enhancement}{20}% 
+\contentsline {subsubsection}{Mean Field Enhancement}{21}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Short Range Correlations}{21}% 
 \defcounter {refsection}{0}\relax 
@@ -168,4 +172,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.3}Calibrating the Beam Position on Target}{91}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{99}% 
+\contentsline {section}{\numberline {A.4}Calibrating the Beam Position at the BPMs}{98}% 

@@ -13,7 +13,7 @@ When the electrons from the CEBAF Accelerator have circulated the desired number
 \begin{figure}[h]
 \begin{center}
 	\includegraphics[width=0.7\textwidth]{./setup/fig/HallA_overhead.png}
-	\caption{An overhead schematic of Hall A.\cite{HANIM}}
+	\caption{An overhead schematic of Hall A \cite{HANIM}.}
 	\label{fig:ha_overhead}
 \end{center}
 \end{figure}
@@ -27,17 +27,17 @@ The wire scanners are ``harps'' in the beamline, two before and two after the ar
 \begin{figure}[h]
 \begin{center}
 	\includegraphics[width=\textwidth]{./setup/fig/harp.png}
-	\caption{A schematic drawing of a harp scanner. The harp is introduced into the beamline with a stepper motor. The three wires create a signal when they interact with the beam, allowing for highly accurate beam position determination. The wires touching the beam is a destructive measurement.\cite{harp_schem}}
+	\caption{A schematic drawing of a harp scanner. The harp is introduced into the beamline with a stepper motor. The three wires create a signal when they interact with the beam, allowing for highly accurate beam position determination. The wires touching the beam is a destructive measurement \cite{harp_schem}.}
 \end{center}
 \end{figure}
 
-The field integral is measured on a ninth reference dipole that is not in the beamline. This ninth dipole is identical to the eight dipoles in the arc and is powered in series with the other dipoles. Measuring the field integral of the dipole requires a probe to be within the magnet, necessitating the use of this reference magnet.\cite{HASEM}
+The field integral is measured on a ninth reference dipole that is not in the beamline. This ninth dipole is identical to the eight dipoles in the arc and is powered in series with the other dipoles. Measuring the field integral of the dipole requires a probe to be within the magnet, necessitating the use of this reference magnet \cite{HASEM}.
 
 After measuring the field integral $\int\vec{B}\cdot\vec{d}l$ (in Tm) and angle $\theta$ (in radians), the momentum (in GeV/$c$) can be calculated with
 \begin{equation}
 	p = k\frac{\int\vec{B}\cdot\vec{d}l}{\theta}
 \end{equation}
-where $k=0.299792$ GeV rad/$\left(\textrm{Tm}c\right)$.
+where $k=0.299792$ GeV$\cdot$rad/$\left(\text{Tm}c\right)$.
 
 \subsection{Beam Current Monitor}
 
@@ -57,7 +57,7 @@ The Unser is calibrated by putting a current on a wire that is inside of the Uns
 \end{center}
 \end{figure}
 
-When the beam enters Hall A it has very little spread, all of the electrons will strike the target in one small location (typically 80-200$\mu m$). This poses an issue for the targets in use. Depending on the beam current in use, a localized beam spot can significantly heat up the target. In the case of solid targets, this risks melting the target. For gas targets, there is a potential for cell rupture. The raster, shown in Figure \ref{fig:rasterpic}, exists in the beamline to mitigate this risk by spreading the beam over a larger area on the target. The larger beam spread helps to reduce localized heating of the target due to the incident beam. The raster is a set of four dipole magnets: two for steering horizontally (x) and two for steering vertically (y).\cite{Bob}
+When the beam enters Hall A, it has very little spread, meaning that all of the electrons will strike the target in one small location (typically 80-200 $\mu$m). This poses an issue for the targets in use. Depending on the beam current in use, a localized beam spot can significantly heat up the target. In the case of solid targets, this risks melting the target. For gas targets, there is a potential for cell rupture. The raster, shown in Figure \ref{fig:rasterpic}, exists in the beamline to mitigate this risk by spreading the beam over a larger area on the target. The larger beam spread helps to reduce localized heating of the target due to the incident beam. The raster is a set of four dipole magnets: two for steering horizontally (x) and two for steering vertically (y) \cite{Bob}.
 
 \begin{figure}[h]
 \begin{center}
@@ -83,7 +83,7 @@ The raster is calibrated by defining a line that maps the raster current to posi
 
 For the horizontal raster, this was done by optimizing the reconstructed z-vertex on the target. When properly calibrated, there should be no correlation between the horizontal raster and the z-vertex. Linear interpolation between two ``bad'' calibrations is a simple way to determine the correct calibration slope.
 
-The veritcal raster could be calibrated in a similar way by minimizing the correlation between the vertical raster and a known momentum phenomena (i.e. a $W^2$ peak). Unfortunately, such a feature does not exist within the kinematics of MARATHON data. The vertical calibration was determined using the carbon hole target. The hole is known to be $2mm$ diameter. By using the raster data, the hole can be fit in order to determine the vertical calibration slope.
+The veritcal raster could be calibrated in a similar way by minimizing the correlation between the vertical raster and a known momentum phenomena (i.e. a $W^2$ peak). Unfortunately, such a feature does not exist within the kinematics of MARATHON data. The vertical calibration was determined using the carbon hole target. The hole is known to be $2$mm diameter. By using the raster data, the hole can be fit in order to determine the vertical calibration slope.
 
 The intercepts are determined by looking at the mean BPM position readings and projecting these to the target. This position will correspond to the mean value of the rasters as well. Using the beam position, raster current, and calibration slope the calibration intercept can easily be determined.
 
@@ -94,12 +94,12 @@ The Beam Position Monitors (BPMs) are a pair of measurement devices that consist
 \begin{figure}[h]
 \begin{center}
 	\includegraphics[width=0.5\textwidth]{./setup/fig/bpm.png}
-	\caption{The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking.\cite{harp_schem}}
+	\caption{The BPM uses four sensing wires to determine the beam position. Since the wires do not actually touch the beam, this measurement can be done during data taking \cite{harp_schem}.}
 	\label{fig:bpm}
 \end{center}
 \end{figure}
 
-The BPM electronics have a phase lag between the BPM measurement and the actual beam position. This means that the BPMs cannot provide position information on an event-by-event basis. However, they do provide a measure of the average position of the beam with a record of beam spread. This information, rather, is a critical component to calibrating the raster to provide accurate event-by-event position information.
+The BPM electronics have a phase lag between the BPM measurement and the actual beam position. This means that the BPMs cannot provide position information on an event-by-event basis. However, they do provide a measure of the average position of the beam with a record of beam spread. This information is a critical component to calibrating the raster to provide accurate event-by-event position information.
 
 \subsubsection{Beam Position Monitor Calibration}
 

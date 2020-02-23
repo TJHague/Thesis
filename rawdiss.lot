@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2}{\ignorespaces Gas target thicknesses and cell wall thicknesses.\cite {targ_meas}}}{31}% 
+\contentsline {table}{\numberline {2}{\ignorespaces Gas target thicknesses and cell wall thicknesses \cite {targ_meas}.}}{31}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -20,11 +20,11 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5}{\ignorespaces Helium-3/Deuterium Yield Ratio. The listed uncertainties include all statistical and systematic uncertainties.}}{67}% 
+\contentsline {table}{\numberline {5}{\ignorespaces Helium-3/Deuterium yield ratio. All systematic uncertainties discussed in Chapter 5\hbox {}, except for that associated with the isoscalar correction, are included here.}}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6}{\ignorespaces Isoscalar Helium-3 EMC Yield Ratio. The listed uncertainties include all statistical and systematic uncertainties.}}{68}% 
+\contentsline {table}{\numberline {6}{\ignorespaces Isoscalar Helium-3 EMC yield ratio. The listed uncertainty includes all systematic errors discussed in Chapter 5\hbox {}, including the isoscalar correction uncertainty. The fractional contribution of the statistical uncertainty to this ratio is equivalent to the fractional contribution of the statistical uncertainty listed in Table 5\hbox {}.}}{68}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7}{\ignorespaces Helium-3/Deuterium Yield Ratio and Isoscalar Helium-3 EMC Yield Ratio with $2.8\%$ normalization appliedd. The listed uncertainties include all statistical and systematic uncertainties.}}{72}% 
+\contentsline {table}{\numberline {7}{\ignorespaces Helium-3/Deuterium yield ratio and Isoscalar Helium-3 EMC yield ratio with $2.8\%$ normalization applied. The listed uncertainties include all statistical and systematic uncertainties.}}{72}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

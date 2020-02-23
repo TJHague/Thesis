@@ -1,6 +1,6 @@
 \section{Data Collected}
 
-The MARATHON experiment ran from January through April of 2018 in Hall A at JLab. During the experiment the HRSs were used in ``inclusive'' mode, that is each spectrometer was making an independent measurement. Throughout the discussion of the analysis each measurement by an HRS is referred to as a ``kinematic''. To switch between kinematics the LHRS was rotated around the target to different angles. The RHRS was parked at the highest angle kinematic for the entirety of the experiment since that kinematic had a very slow event rate.
+The MARATHON experiment ran from January through April of 2018 in Hall A at JLab. During the experiment, the HRSs were used in ``inclusive'' mode, that is each spectrometer was making an independent measurement. Throughout the discussion of the analysis, each measurement by an HRS is referred to as a ``kinematic''. To switch between kinematics, the LHRS was rotated around the target to different angles. The RHRS was parked at the highest angle kinematic for the entirety of the experiment since that kinematic had a very slow event rate.
 
 \begin{table}[h]
 \begin{center}
@@ -27,12 +27,12 @@ The MARATHON experiment ran from January through April of 2018 in Hall A at JLab
 \end{center}
 \end{table}
 
-For all kinematics the LHRS momentum was set to $3.1$ GeV/$c$. The RHRS momentum was set to $2.9$ GeV/$c$ due to limitations of the dipole magnet. The kinematics are numbered based on the originally proposed kinematic settings. Due to time limitations, not every kinematic was measured. During the data taking the $x$ and $Q^2$ values of the data were studied and it was found that there was sufficient overlap between kinematics without the skipped kinematics. Plots showing this overlap can be seen in Figure \ref{fig:kin_plots}. A few kinematics were measured more than once when the run period was extended. Individual iterations of a kinematic are treated as independent measurements for the sake of analysis. Table \ref{tbl:kins} shows the variables that define each kinematic.
+For all kinematics, the LHRS momentum was set to $3.1$ GeV/$c$. The RHRS momentum was set to $2.9$ GeV/$c$ due to limitations of the dipole magnet. The kinematics are numbered based on the originally proposed kinematic settings. Due to time limitations, not every kinematic was measured. During the data taking, the $x$ and $Q^2$ values of the data were studied and it was found that there was sufficient overlap between kinematics without the skipped kinematics. Plots showing this overlap can be seen in Figure \ref{fig:kin_plots}. A few kinematics were measured more than once when the run period was extended. Individual iterations of a kinematic are treated as independent measurements for the sake of analysis. Table \ref{tbl:kins} shows the variables that define each kinematic.
 
 \begin{figure}[h]
 \begin{center}
 	\includegraphics[width=\textwidth]{./analysis/fig/kin_plots.png}
-	\caption{These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment.\cite{Tong}}
+	\caption{These plots show the $x$, $Q^2$, and $W^2$ coverage of all of the MARATHON kinematics. Each kinematic overlaps with the previous and successive kinematic, giving complete coverage of the proposed range of the experiment \cite{Tong}.}
 	\label{fig:kin_plots}
 \end{center}
 \end{figure}
@@ -70,18 +70,18 @@ This chapter will go over the analysis of the data collected in the MARATHON exp
 		\item Bin centering correction
 	\end{enumerate}
 \end{enumerate}
-This analysis procedure will yield the $\nicefrac{F_2^{^3\textrm{He}}}{F_2^{^2\textrm{H}}}$ structure function ratio. From there, the A=3 isoscalar EMC ratio can be extracted by applying an isoscalar correction. Also, the $\nicefrac{F_2^n}{F_2^p}$ nucleon structure function ratio can be extracted using the methodology described in Section \ref{sec:F2ratio}.
+This analysis procedure will yield the $F_2^{^3\text{He}} / F_2^{^2\text{H}}$ structure function ratio. From there, the A=3 isoscalar EMC ratio can be extracted by applying an isoscalar correction. Also, the $F_2^n / F_2^p$ nucleon structure function ratio can be extracted using the methodology described in Section \ref{sec:F2ratio}.
 
 \section{Yield and Yield Ratio Calculation}
 
 The MARATHON experiment measured yield ratios. This method allows us to cancel many systematics that would otherwise plague a full cross section analysis. By taking data for each target at the same kinematics, acceptance effects are identical. This data taking technique means that with reasonable acceptance cuts, a ratio of target yields is wholly equivalent to the ratio of cross sections.
 
-Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The charge-normalized yield, $Y$, of each bin is calculated using this simple equation:
+Calculating the the yield ratios requires first calculating the yield for each target. The yields calculated are binned in Bjorken $x$. The bins are 0.03 wide. The bin centers are defined by segmenting the range of 0 to 0.99 by 0.03 (i.e. the bins are centered at 0.015, 0.045, 0.075, etc.). The charge-normalized yield, $Y$, of each bin is calculated using the simple equation
 \begin{equation}
-	Y = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}
+	Y = \frac{\text{Counts}}{\text{Scattering Centers} \cdot \text{Charge}} \cdot \text{Corrections}.
 	\label{eqn:yield}
 \end{equation}
-Here ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic, gives the ``Charge-Normalized Yield'', that is the electron count for each unit of charge incident on the target.
+Here, ``Counts'' are the number of electrons measured that pass the cuts placed on the data and fall into that bin, ``Scattering Centers'' are the number of nucleons in the target (calculated from the target thickness, mass, and mass number $A$), and ``Corrections'' are physics or systematic effects that are otherwise unaccounted for in the data. Dividing by the ``Charge'' in each kinematic gives the ``Charge-Normalized Yield'', that is the electron count for each unit of charge incident on the target.
 
 As described in Section \ref{sec:analysis_outline}, the charge-normalized yield is calculated for each target on a per-kinematic basis. For each kinematic, the target ratios, $R$, are then calculated. This is done simply by dividing the two yields and propagating the associated uncertainties. The equations for taking the ratio are:
 \begin{equation}
